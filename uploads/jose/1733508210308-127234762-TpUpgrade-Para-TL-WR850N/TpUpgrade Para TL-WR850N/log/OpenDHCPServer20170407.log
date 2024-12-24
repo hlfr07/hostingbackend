@@ -1,0 +1,21 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[07-Apr-17 00:12:04] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 01:12:06] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 02:12:08] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 03:12:10] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 04:12:12] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 05:12:14] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 06:12:16] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 07:12:18] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 08:12:21] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 09:12:23] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 10:12:25] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 11:12:27] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 12:12:29] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 13:12:31] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 14:12:33] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 15:12:35] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 16:12:38] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Apr-17 17:12:40] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170408.log

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú Principal</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 40px;
+    }
+    .welcome {
+      background-color: #e9ecef;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .logout {
+      color: white;
+      background-color: #dc3545;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .message {
+      background-color: #d4edda;
+      color: #155724;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 20px 0;
+    }
+    .button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0 10px 20px 0;
+    }
+    .state-section {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome">
+    <h1>¡Bienvenido al Menú!</h1>
+    <p>Estás logueado como: <strong><%= user.username %></strong></p>
+  </div>
+
+  <!-- Ejemplo 1: Estado Original -->
+  <div class="state-section">
+    <h3>Ejemplo Original</h3>
+    <form action="/menu/toggle-state" method="POST" style="display: inline;">
+      <button type="submit" class="button">
+        <%= showMessage ? 'Ocultar Mensaje' : 'Mostrar Mensaje' %>
+      </button>
+    </form>
+
+    <% if (showMessage) { %>
+      <div class="message">
+        <h3>¡Hola Estado!</h3>
+        <p>Este mensaje aparece con el primer botón</p>
+      </div>
+    <% } %>
+  </div>
+
+  <!-- Ejemplo 2: Estado Simplificado -->
+  <div class="state-section">
+    <h3>Ejemplo Simplificado</h3>
+    <form action="/menu/toggle-simple" method="POST" style="display: inline;">
+      <button type="submit" class="button">
+        <%= showSimpleMessage ? 'Ocultar' : 'Mostrar' %>
+      </button>
+    </form>
+
+    <% if (showSimpleMessage) { %>
+      <div class="message">
+        <p>¡Este es un mensaje más simple!</p>
+      </div>
+    <% } %>
+  </div>
+
+  <a href="/auth/logout" class="logout">Cerrar Sesión</a>
+</body>
+</html>

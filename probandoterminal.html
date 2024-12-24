@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceso a la Terminal Web</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Terminal Web</h1>
+    <textarea id="output" rows="20" cols="80" readonly></textarea><br>
+    <input type="text" id="command" placeholder="Escribe un comando">
+    <button onclick="sendCommand()">Ejecutar</button>
+
+    <script>
+        const socket = io.connect('https://mouse.theinnovatesoft.xyz');
+        const outputArea = document.getElementById('output');
+        const commandInput = document.getElementById('command');
+
+        socket.on('output', function(data) {
+            outputArea.value += data.output + '\n';
+            outputArea.scrollTop = outputArea.scrollHeight;  // Auto-scroll
+        });
+
+        function sendCommand() {
+            const command = commandInput.value;
+            if (command) {
+                socket.emit('input', { command: command });
+                commandInput.value = '';  // Limpiar el input después de enviar
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[25-May-17 08:41:28] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 09:41:29] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[25-May-17 09:41:29] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 10:41:59] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[25-May-17 11:42:00] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[25-May-17 12:42:00] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[25-May-17 13:42:00] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[25-May-17 14:37:16] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[25-May-17 14:37:16] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[25-May-17 14:37:16] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[25-May-17 14:37:16] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[25-May-17 14:37:16] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[25-May-17 14:37:16] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[25-May-17 14:37:17] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.21 for 300 seconds
+[25-May-17 14:39:48] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 14:42:01] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[25-May-17 14:42:19] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 14:44:50] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 14:47:21] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 14:49:52] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 14:52:22] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 14:54:53] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 14:57:24] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 14:59:55] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:02:26] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:04:57] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:07:28] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:11:09] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[25-May-17 15:11:09] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[25-May-17 15:11:09] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[25-May-17 15:11:09] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[25-May-17 15:11:09] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[25-May-17 15:11:09] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[25-May-17 15:11:09] Host 40:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.21 for 300 seconds
+[25-May-17 15:13:40] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:16:11] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:18:42] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:21:13] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:23:44] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:26:15] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:28:46] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:31:17] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:33:48] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:36:25] Network changed, re-detecting Static Interfaces..
+[25-May-17 15:36:45] Lease Status URL: http://127.0.0.1:6789
+[25-May-17 15:36:45] Listening On: 192.168.0.3
+[25-May-17 15:36:45] Listening On: 192.168.1.10
+[25-May-17 15:36:45] Listening On: 192.168.2.20
+[25-May-17 15:36:45] Listening On: 192.168.8.10
+[25-May-17 15:36:45] Listening On: 192.168.10.10
+[25-May-17 15:36:45] Listening On: 192.168.55.55
+[25-May-17 15:36:45] Listening On: 192.168.100.66
+[25-May-17 15:36:45] Listening On: 192.168.202.20
+[25-May-17 15:36:45] Listening On: 172.29.85.40
+[25-May-17 15:39:15] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[25-May-17 15:39:15] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[25-May-17 15:39:15] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[25-May-17 15:39:15] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[25-May-17 15:39:15] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[25-May-17 15:39:15] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[25-May-17 15:39:15] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[25-May-17 15:39:15] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[25-May-17 15:39:15] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.202.20
+[25-May-17 15:39:15] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.10.10
+[25-May-17 15:39:15] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.100.66
+[25-May-17 15:39:15] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.1.10
+[25-May-17 15:39:15] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.2.20
+[25-May-17 15:39:15] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.8.10
+[25-May-17 15:39:15] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.55.55
+[25-May-17 15:39:15] Host f8:ca:b8:4e:37:89 (proware007-PC) allotted 192.168.0.23 for 300 seconds
+[25-May-17 15:40:29] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[25-May-17 15:40:29] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[25-May-17 15:40:29] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[25-May-17 15:40:29] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[25-May-17 15:40:29] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[25-May-17 15:40:29] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[25-May-17 15:40:29] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.55.55
+[25-May-17 15:40:29] Host 40:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.21 for 300 seconds
+[25-May-17 15:42:01] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[25-May-17 15:42:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:42:05] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:42:13] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:42:29] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:43:00] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:43:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:43:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:43:42] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:43:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:44:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:44:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:44:43] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:45:00] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:45:31] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:46:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:46:04] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:46:13] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:46:30] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:47:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:47:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:47:44] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:47:59] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:48:02] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:48:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:48:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:48:42] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:48:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:50:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:50:05] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:50:13] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:50:28] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:50:33] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:51:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:51:06] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:51:14] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:51:30] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:52:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:52:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:52:43] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:52:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:53:04] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:54:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:54:05] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:54:13] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:54:30] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:55:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:55:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:55:35] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 15:55:41] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:55:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:56:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:56:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:56:43] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:56:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:57:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:57:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:57:41] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:57:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:58:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:58:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:58:45] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 15:59:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:00:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:00:05] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:00:14] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:00:30] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:01:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:01:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:01:42] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:01:57] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:02:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:02:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:02:44] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:03:00] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:04:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:04:05] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:04:12] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:04:29] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:05:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:05:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:05:41] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:05:56] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:06:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:06:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:06:42] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:06:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:07:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:07:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:07:42] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:07:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:08:15] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[25-May-17 16:08:15] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[25-May-17 16:08:15] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[25-May-17 16:08:15] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[25-May-17 16:08:15] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[25-May-17 16:08:15] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[25-May-17 16:08:15] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.55.55
+[25-May-17 16:08:16] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.21 for 300 seconds
+[25-May-17 16:09:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:09:05] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:09:12] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:09:29] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:10:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:10:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:10:43] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:10:47] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:10:59] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:11:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:11:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:11:44] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:11:59] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:13:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:13:04] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:13:12] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:13:18] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:13:28] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:14:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:14:06] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:14:13] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:14:28] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:15:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:15:04] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:15:12] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:15:29] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:15:49] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:16:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:16:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:16:43] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:16:59] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:17:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:17:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:17:42] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:17:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 16:18:20] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:20:51] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:23:22] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:25:53] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:28:24] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:30:55] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:33:26] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[25-May-17 16:50:29] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.202.20
+[25-May-17 16:50:29] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.10.10
+[25-May-17 16:50:29] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.100.66
+[25-May-17 16:50:29] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.1.10
+[25-May-17 16:50:29] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.2.20
+[25-May-17 16:50:29] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.8.10
+[25-May-17 16:50:29] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.55.55
+[25-May-17 16:50:29] Host 60:31:97:28:dd:12 (Host60319728dd12) allotted 192.168.0.22 for 300 seconds
+[25-May-17 16:52:59] Host 60:31:97:28:dd:12 (Host60319728dd12) renewed 192.168.0.22 for 300 seconds
+[25-May-17 16:55:29] Host 60:31:97:28:dd:12 (Host60319728dd12) renewed 192.168.0.22 for 300 seconds
+[25-May-17 16:57:59] Host 60:31:97:28:dd:12 (Host60319728dd12) renewed 192.168.0.22 for 300 seconds
+[25-May-17 17:00:29] Host 60:31:97:28:dd:12 (Host60319728dd12) renewed 192.168.0.22 for 300 seconds
+[25-May-17 17:04:37] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.202.20
+[25-May-17 17:04:37] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.10.10
+[25-May-17 17:04:37] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.100.66
+[25-May-17 17:04:37] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.1.10
+[25-May-17 17:04:37] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.2.20
+[25-May-17 17:04:37] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.8.10
+[25-May-17 17:04:37] No Matching DHCP Range for DHCPDISCOVER for 60:31:97:28:dd:12 () from interface 192.168.55.55
+[25-May-17 17:04:37] Host 60:31:97:28:dd:12 (Host60319728dd12) allotted 192.168.0.22 for 300 seconds
+[25-May-17 17:07:07] Host 60:31:97:28:dd:12 (Host60319728dd12) renewed 192.168.0.22 for 300 seconds
+[25-May-17 17:09:37] Host 60:31:97:28:dd:12 (Host60319728dd12) renewed 192.168.0.22 for 300 seconds
+[25-May-17 17:12:07] Host 60:31:97:28:dd:12 (Host60319728dd12) renewed 192.168.0.22 for 300 seconds
+[25-May-17 17:18:01] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[25-May-17 17:18:01] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[25-May-17 18:18:31] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[25-May-17 18:18:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170526.log

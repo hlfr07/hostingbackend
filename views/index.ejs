@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>HOLA MUNDO</h1>
+    <p>¡Bienvenido a NestJS con EJS y archivos estáticos!</p>
+    <h1><%= title %></h1>
+    <p><%= message %></p>   
+    <ul>
+        <% datos.forEach(function(item) { %>
+            <li><%= item.nombre %></li>
+        <% }); %>
+    </ul>
+    <p><%= nombre %></p>
+    <p><%= apellido %></p>
+    <p>Clave: <%= cifrado.claveCifrada %></p>
+    <p>Mensaje: <%= cifrado.mensajeCifrado %></p>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="/js/script.js"></script>
+    
+</body>
+</html>

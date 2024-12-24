@@ -1,0 +1,1179 @@
+[08-May-17 10:07:14] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[08-May-17 10:07:14] Logging: Normal
+[08-May-17 10:07:14] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[08-May-17 10:07:14] DHCP Range: 192.168.2.2-192.168.2.254/255.255.255.0
+[08-May-17 10:07:14] Server Name: wangyang
+[08-May-17 10:07:14] Detecting Static Interfaces..
+[08-May-17 10:07:14] Lease Status URL: http://127.0.0.1:6789
+[08-May-17 10:07:14] Listening On: 192.168.0.3
+[08-May-17 10:07:14] Listening On: 192.168.1.10
+[08-May-17 10:07:14] Listening On: 192.168.2.20
+[08-May-17 10:07:14] Listening On: 192.168.8.10
+[08-May-17 10:07:14] Listening On: 192.168.10.10
+[08-May-17 10:07:14] Listening On: 192.168.100.66
+[08-May-17 10:07:14] Listening On: 192.168.202.20
+[08-May-17 10:07:14] Listening On: 172.29.85.40
+[08-May-17 10:07:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.0.3
+[08-May-17 10:07:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[08-May-17 10:07:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[08-May-17 10:07:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[08-May-17 10:07:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[08-May-17 10:07:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[08-May-17 10:08:00] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.2.3 for 300 seconds
+[08-May-17 10:11:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:11:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:11:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:11:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:12:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:12:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:12:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:12:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:12:24] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:12:24] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:12:24] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:12:24] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:12:24] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:12:24] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:12:24] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:12:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:12:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:13:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:13:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:13:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:13:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:13:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:13:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:13:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:13:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:16:48] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:16:48] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:16:48] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:16:48] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:16:48] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:16:48] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:16:48] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:17:46] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.0.3
+[08-May-17 10:17:46] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[08-May-17 10:17:46] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[08-May-17 10:17:46] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[08-May-17 10:17:46] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[08-May-17 10:17:46] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[08-May-17 10:17:47] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.2.3 for 300 seconds
+[08-May-17 10:18:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:18:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:18:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:18:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:18:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:18:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:18:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:18:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:19:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:19:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:19:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:19:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:19:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:19:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:20:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:20:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:20:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:20:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:22:10] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:22:10] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:22:10] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:22:10] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:22:10] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:22:10] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:22:10] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:25:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:25:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:25:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:25:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:25:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:25:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:26:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:26:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:26:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:26:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:26:34] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:26:34] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:26:34] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:26:34] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:26:34] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:26:34] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:26:34] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:26:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:26:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:26:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:26:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:27:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:27:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:27:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:27:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:30:58] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:30:58] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:30:58] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:30:58] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:30:58] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:30:58] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:30:58] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.2.3 for 300 seconds
+[08-May-17 10:33:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:33:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:33:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:33:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:33:09] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:33:09] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:33:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:33:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:33:29] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[08-May-17 10:33:29] Logging: Normal
+[08-May-17 10:33:29] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[08-May-17 10:33:29] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[08-May-17 10:33:29] Server Name: wangyang
+[08-May-17 10:33:29] Detecting Static Interfaces..
+[08-May-17 10:33:29] Lease Status URL: http://127.0.0.1:6789
+[08-May-17 10:33:29] Listening On: 192.168.0.3
+[08-May-17 10:33:29] Listening On: 192.168.1.10
+[08-May-17 10:33:29] Listening On: 192.168.2.20
+[08-May-17 10:33:29] Listening On: 192.168.8.10
+[08-May-17 10:33:29] Listening On: 192.168.10.10
+[08-May-17 10:33:29] Listening On: 192.168.100.66
+[08-May-17 10:33:29] Listening On: 192.168.202.20
+[08-May-17 10:33:29] Listening On: 172.29.85.40
+[08-May-17 10:33:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:33:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:34:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:34:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:34:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:34:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:34:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:34:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:34:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:34:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:35:22] DHCPREQUEST from Host 40:16:9f:51:e3:23 (Archer_VR600) without Discover, NAKed
+[08-May-17 10:35:22] DHCPREQUEST from Host 40:16:9f:51:e3:23 (Archer_VR600) without Discover, NAKed
+[08-May-17 10:35:22] DHCPREQUEST from Host 40:16:9f:51:e3:23 (Archer_VR600) without Discover, NAKed
+[08-May-17 10:35:22] DHCPREQUEST from Host 40:16:9f:51:e3:23 (Archer_VR600) without Discover, NAKed
+[08-May-17 10:35:22] DHCPREQUEST from Host 40:16:9f:51:e3:23 (Archer_VR600) without Discover, NAKed
+[08-May-17 10:35:22] DHCPREQUEST from Host 40:16:9f:51:e3:23 (Archer_VR600) without Discover, NAKed
+[08-May-17 10:35:22] DHCPREQUEST from Host 40:16:9f:51:e3:23 (Archer_VR600) without Discover, NAKed
+[08-May-17 10:35:47] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[08-May-17 10:35:47] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[08-May-17 10:35:47] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[08-May-17 10:35:47] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[08-May-17 10:35:47] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[08-May-17 10:35:47] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[08-May-17 10:35:47] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 10:37:13] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[08-May-17 10:37:13] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[08-May-17 10:37:13] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[08-May-17 10:37:13] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[08-May-17 10:37:13] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[08-May-17 10:37:13] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[08-May-17 10:37:13] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 10:39:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:39:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:39:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:39:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:39:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:39:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:40:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:40:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:40:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:40:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:40:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:40:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:40:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:40:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:41:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:41:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:41:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:41:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:41:37] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:41:37] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:41:37] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:41:37] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:41:37] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:41:37] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:41:37] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:46:01] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:46:01] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:46:01] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:46:01] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:46:01] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:46:01] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:46:01] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 10:46:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:46:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:46:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:46:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:46:37] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:46:37] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:46:46] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:46:46] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:47:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:47:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:47:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:47:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:47:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:47:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:47:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:47:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:48:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:48:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:53:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:53:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:53:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:53:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:53:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:53:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:53:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:53:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:54:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:54:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:54:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:54:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:54:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:54:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:55:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:55:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:55:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 10:55:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:00:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:00:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:01:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:01:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:01:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:01:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:01:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:01:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:01:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:01:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:02:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:02:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:02:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:02:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:02:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:02:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:02:32] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:02:32] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:02:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[08-May-17 11:02:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[08-May-17 11:02:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[08-May-17 11:02:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[08-May-17 11:02:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[08-May-17 11:02:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[08-May-17 11:02:42] Host 40:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 11:05:13] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:07:44] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:08:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:08:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:08:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:08:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:08:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:08:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:08:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:08:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:08:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:08:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:09:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:09:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:09:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:09:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:09:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:09:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:09:46] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:09:46] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:10:15] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:12:46] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:15:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:15:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:15:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:15:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:15:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:15:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:15:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:15:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:15:17] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:15:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:15:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:16:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:16:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:16:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:16:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:16:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:16:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:16:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:16:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:17:48] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:20:19] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:22:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:22:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:22:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:22:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:22:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:22:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:22:37] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:22:37] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:22:50] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:22:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:22:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:23:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:23:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:23:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:23:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:23:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:23:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:23:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:23:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:25:21] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:27:52] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:29:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:29:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:29:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:29:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:29:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:29:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:29:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:29:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:29:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:29:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:30:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:30:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:30:23] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:30:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:30:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:30:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:30:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:30:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:30:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:32:53] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:35:24] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:36:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:36:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:36:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:36:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:36:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:36:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:36:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:36:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:37:13] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:37:13] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:37:45] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:37:45] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:37:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:37:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:37:55] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:37:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:37:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:38:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:38:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:40:26] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:42:57] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:43:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:43:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:43:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:43:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:43:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:43:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:44:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:44:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:44:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:44:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:44:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:44:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:44:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:44:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:45:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:45:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:45:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:45:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:45:28] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:47:59] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:50:30] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:50:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:50:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:50:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:50:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:50:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:50:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:51:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:51:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:51:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:51:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:51:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:51:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:51:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:51:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:52:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:52:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:52:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:52:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:53:01] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:55:32] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:57:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:57:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:57:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:57:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:57:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:57:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:58:03] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 11:58:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:58:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:58:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:58:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:58:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:58:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:59:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:59:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:59:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:59:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:59:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 11:59:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:00:34] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:03:05] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:04:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:04:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:04:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:04:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:04:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:04:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:05:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:05:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:05:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:05:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:05:36] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:05:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:05:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:05:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:05:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:06:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:06:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:06:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:06:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:08:07] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:10:38] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:11:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:11:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:11:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:11:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:11:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:11:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:11:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:11:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:12:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:12:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:12:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:12:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:12:46] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:12:46] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:12:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:12:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:13:09] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:13:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:13:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:15:40] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:18:11] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:18:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:18:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:18:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:18:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:18:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:18:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:18:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:18:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:18:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:18:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:19:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:19:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:19:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:19:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:19:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:19:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:19:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:19:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:20:42] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:23:13] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:25:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:25:44] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:26:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:26:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:26:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:26:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:26:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:26:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:26:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:26:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:28:15] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:30:46] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:32:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:32:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:32:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:32:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:32:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:32:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:32:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:32:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:32:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:32:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:33:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:33:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:33:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:33:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:33:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:33:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:33:17] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:33:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:33:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:35:48] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:38:19] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:38:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:38:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:38:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:38:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:38:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:38:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:38:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:38:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:39:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:39:06] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:39:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:39:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:39:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:39:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:39:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:39:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:40:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:40:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:40:50] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:43:21] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:45:52] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:45:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:45:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:46:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:46:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:46:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:46:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:46:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:46:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:46:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:46:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:47:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:47:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:47:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:47:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:47:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:47:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:47:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:47:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:48:23] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:50:54] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:53:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:53:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:53:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:53:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:53:25] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:53:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:53:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:53:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:53:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:53:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:53:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:54:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:54:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:54:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:54:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:54:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:54:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:54:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:54:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 12:55:56] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 12:58:27] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:00:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:00:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:00:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:00:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:00:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:00:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:00:58] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:01:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:01:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:01:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:01:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:01:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:01:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:01:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:01:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:02:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:02:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:02:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:02:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:03:29] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:06:00] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:07:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:07:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:07:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:07:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:07:32] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:07:32] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:07:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:07:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:07:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:07:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:08:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:08:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:08:31] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:08:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:08:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:08:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:08:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:08:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:08:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:11:02] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:13:33] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:14:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:14:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:14:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:14:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:14:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:14:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:14:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:14:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:14:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:14:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:15:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:15:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:15:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:15:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:15:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:15:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:15:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:15:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:16:04] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:18:35] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:21:05] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:21:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:21:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:21:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:21:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:21:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:21:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:21:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:21:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:21:58] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:21:58] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:22:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:22:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:22:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:22:35] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:22:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:22:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:22:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:22:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:23:36] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:26:07] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:28:38] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:28:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:28:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:28:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:28:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:28:58] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:28:58] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:29:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:29:07] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:29:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:29:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:29:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:29:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:30:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:30:00] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:30:09] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:30:09] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:30:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:30:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:31:09] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:33:40] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:36:11] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:36:13] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:36:13] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:36:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:36:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:36:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:36:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:36:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:36:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:36:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:36:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:37:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:37:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:37:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:37:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:37:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:37:31] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:37:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:37:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:38:42] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:41:13] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:43:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:43:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:43:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:43:28] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:43:32] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:43:32] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:43:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:43:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:43:44] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:43:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:43:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:44:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:44:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:44:32] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:44:32] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:44:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:44:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:44:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:44:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:46:15] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:48:46] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:50:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:50:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:50:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:50:38] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:50:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:50:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:50:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:50:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:51:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:51:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:51:17] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:51:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:51:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:51:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:51:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:51:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:51:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:52:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:52:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:55:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[08-May-17 13:55:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[08-May-17 13:55:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[08-May-17 13:55:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[08-May-17 13:55:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[08-May-17 13:55:59] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[08-May-17 13:56:00] Host 40:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 13:57:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:57:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:58:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:58:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:58:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:58:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:58:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:58:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:58:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:58:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:58:31] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 13:59:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:59:02] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:59:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:59:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:59:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:59:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:59:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 13:59:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:01:02] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:03:33] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:05:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:05:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:05:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:05:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:05:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:05:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:05:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:05:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:05:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:05:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:06:04] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:06:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:06:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:06:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:06:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:06:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:06:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:06:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:06:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:08:35] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:11:05] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:12:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:12:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:12:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:12:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:12:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:12:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:12:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:12:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:13:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:13:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:13:36] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:13:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:13:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:13:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:13:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:13:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:13:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:14:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:14:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:10] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:23] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:20:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:21:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:21:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:21:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:21:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:21:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:21:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:21:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:21:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:26:08] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[08-May-17 14:26:08] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[08-May-17 14:26:08] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[08-May-17 14:26:08] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[08-May-17 14:26:08] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[08-May-17 14:26:08] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[08-May-17 14:26:09] Host 40:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 14:27:13] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:27:13] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:27:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:27:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:27:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:27:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:27:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:27:30] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:27:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:27:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:28:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:28:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:28:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:28:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:28:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:28:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:28:40] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:28:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:28:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:31:11] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:33:42] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:34:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:34:08] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:34:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:34:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:34:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:34:15] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:34:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:34:22] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:34:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:34:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:35:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:35:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:35:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:35:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:35:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:35:24] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:35:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:35:40] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:36:13] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:38:44] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:40:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:40:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:40:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:40:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:40:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:40:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:41:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:41:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:41:15] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:41:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:41:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:41:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:41:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:41:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:41:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:42:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:42:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:42:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:42:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:43:46] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:46:17] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:47:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:47:36] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:47:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:47:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:47:45] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:47:45] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:47:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:47:54] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:48:09] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:48:09] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:48:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:48:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:48:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:48:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:48:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:48:53] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:49:09] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:49:09] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:52:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[08-May-17 14:52:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[08-May-17 14:52:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[08-May-17 14:52:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[08-May-17 14:52:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[08-May-17 14:52:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[08-May-17 14:52:21] Host 40:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 14:54:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:54:43] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:54:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:54:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:54:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:54:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:54:52] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:54:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:54:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:55:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:55:16] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:55:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:55:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:55:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:55:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:56:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:56:01] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:56:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:56:18] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 14:57:23] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 14:59:54] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:01:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:01:39] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:01:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:01:44] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:01:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:01:48] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:01:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:01:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:02:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:02:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:02:25] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:02:46] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:02:46] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:02:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:02:50] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:02:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:02:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:03:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:03:14] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:08:00] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[08-May-17 15:08:00] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[08-May-17 15:08:00] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[08-May-17 15:08:00] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[08-May-17 15:08:00] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[08-May-17 15:08:00] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[08-May-17 15:08:01] Host 40:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 15:08:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:08:47] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:08:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:08:52] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:08:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:08:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:09:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:09:04] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:09:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:09:19] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:09:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:09:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:09:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:09:56] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:10:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:10:05] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:10:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:10:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:10:32] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:13:03] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:15:34] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:15:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:15:55] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:15:58] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:15:58] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:16:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:16:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:16:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:16:11] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:16:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:16:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:16:58] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:16:58] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:17:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:17:03] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:17:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:17:12] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:17:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:17:27] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:18:05] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:20:36] Host 40:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:21:28] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[08-May-17 15:21:28] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[08-May-17 15:21:28] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[08-May-17 15:21:28] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[08-May-17 15:21:28] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[08-May-17 15:21:28] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[08-May-17 15:21:28] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 15:23:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:26] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:26] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:49] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:23:59] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:24:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:24:21] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:24:26] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:24:26] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:24:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:24:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:24:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:24:51] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:26:30] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:28:37] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[08-May-17 15:28:37] Logging: Normal
+[08-May-17 15:28:37] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[08-May-17 15:28:37] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[08-May-17 15:28:37] Server Name: wangyang
+[08-May-17 15:28:37] Detecting Static Interfaces..
+[08-May-17 15:28:37] Lease Status URL: http://127.0.0.1:6789
+[08-May-17 15:28:37] Listening On: 192.168.0.3
+[08-May-17 15:28:37] Listening On: 192.168.1.10
+[08-May-17 15:28:37] Listening On: 192.168.2.20
+[08-May-17 15:28:37] Listening On: 192.168.8.10
+[08-May-17 15:28:37] Listening On: 192.168.10.10
+[08-May-17 15:28:37] Listening On: 192.168.100.66
+[08-May-17 15:28:37] Listening On: 192.168.202.20
+[08-May-17 15:28:37] Listening On: 172.29.85.40
+[08-May-17 15:28:49] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[08-May-17 15:28:49] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[08-May-17 15:28:49] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[08-May-17 15:28:49] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[08-May-17 15:28:49] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[08-May-17 15:28:49] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[08-May-17 15:28:49] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 15:30:15] IP Address 192.168.0.4 released by Host 40:16:9f:51:e3:23 ()
+[08-May-17 15:30:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[08-May-17 15:30:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[08-May-17 15:30:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[08-May-17 15:30:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[08-May-17 15:30:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[08-May-17 15:30:21] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[08-May-17 15:30:21] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 15:30:26] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:30:26] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:30:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:30:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:30:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:30:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:30:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:30:41] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:30:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:30:57] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:31:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:31:29] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:31:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:31:34] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:31:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:31:42] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:31:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:31:59] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:32:52] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:35:23] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:37:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:37:17] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:37:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:37:20] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:37:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:37:25] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:37:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:37:33] No Matching DHCP Range for DHCPDISCOVER for 30:b5:c2:03:59:22 (DESKTOP-6NTQPDS) from interface 172.29.85.40
+[08-May-17 15:37:54] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:40:25] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:42:37] IP Address 192.168.0.4 released by Host 40:16:9f:51:e3:23 ()
+[08-May-17 15:43:19] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[08-May-17 15:43:19] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[08-May-17 15:43:19] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[08-May-17 15:43:19] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[08-May-17 15:43:19] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[08-May-17 15:43:19] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[08-May-17 15:43:20] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.4 for 300 seconds
+[08-May-17 15:47:44] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:47:44] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:47:44] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:47:44] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:47:44] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:47:44] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:47:44] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:50:15] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:52:46] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.4 for 300 seconds
+[08-May-17 15:57:03] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[08-May-17 15:57:03] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[08-May-17 15:57:03] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[08-May-17 15:57:03] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[08-May-17 15:57:03] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[08-May-17 15:57:03] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[08-May-17 15:57:03] Host 52:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.5 for 300 seconds
+[08-May-17 15:59:34] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:02:05] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:04:36] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:07:07] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:08:07] Network changed, re-detecting Static Interfaces..
+[08-May-17 16:08:27] Lease Status URL: http://127.0.0.1:6789
+[08-May-17 16:08:27] Listening On: 192.168.0.3
+[08-May-17 16:08:27] Listening On: 192.168.1.10
+[08-May-17 16:08:27] Listening On: 192.168.2.20
+[08-May-17 16:08:27] Listening On: 192.168.8.10
+[08-May-17 16:08:27] Listening On: 192.168.10.10
+[08-May-17 16:08:27] Listening On: 192.168.100.66
+[08-May-17 16:08:27] Listening On: 192.168.202.20
+[08-May-17 16:08:27] Listening On: 172.29.85.40
+[08-May-17 16:09:38] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:23:27] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[08-May-17 16:23:27] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[08-May-17 16:23:27] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[08-May-17 16:23:27] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[08-May-17 16:23:27] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[08-May-17 16:23:27] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[08-May-17 16:23:27] Host 52:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.5 for 300 seconds
+[08-May-17 16:23:40] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.202.20
+[08-May-17 16:23:40] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.10.10
+[08-May-17 16:23:40] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.100.66
+[08-May-17 16:23:40] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.1.10
+[08-May-17 16:23:40] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.2.20
+[08-May-17 16:23:40] No Matching DHCP Range for DHCPDISCOVER for 52:16:9f:51:e3:23 (rcher_VR600) from interface 192.168.8.10
+[08-May-17 16:23:41] Host 52:16:9f:51:e3:23 (rcher_VR600) allotted 192.168.0.5 for 300 seconds
+[08-May-17 16:26:12] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:28:43] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:31:14] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:33:45] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:36:16] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+[08-May-17 16:38:47] Host 52:16:9f:51:e3:23 (rcher_VR600) renewed 192.168.0.5 for 300 seconds
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170509.log

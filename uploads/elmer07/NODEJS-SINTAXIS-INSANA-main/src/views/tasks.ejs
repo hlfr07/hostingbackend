@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <style>
+    .completed { text-decoration: line-through; }
+    .active { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Task Manager</h1>
+
+  <!-- Estado (Filtros) -->
+  <div>
+    <form action="/state" method="POST">
+      <button type="submit" name="filter" value="all" 
+              class="<%= state.filter === 'all' ? 'active' : '' %>">
+        All
+      </button>
+      <button type="submit" name="filter" value="active"
+              class="<%= state.filter === 'active' ? 'active' : '' %>">
+        Active
+      </button>
+      <button type="submit" name="filter" value="completed"
+              class="<%= state.filter === 'completed' ? 'active' : '' %>">
+        Completed
+      </button>
+    </form>
+  </div>
+
+  <!-- Nueva Tarea -->
+  <form action="/tasks" method="POST">
+    <input type="text" name="title" required>
+    <button type="submit">Add Task</button>
+  </form>
+
+  <!-- Lista de Tareas -->
+  <ul>
+    <% tasks.forEach(task => { %>
+      <% if (state.filter === 'all' || 
+            (state.filter === 'active' && !task.completed) ||
+            (state.filter === 'completed' && task.completed)) { %>
+        <li class="<%= task.completed ? 'completed' : '' %>">
+          <%= task.title %>
+        </li>
+      <% } %>
+    <% }); %>
+  </ul>
+</body>
+</html>

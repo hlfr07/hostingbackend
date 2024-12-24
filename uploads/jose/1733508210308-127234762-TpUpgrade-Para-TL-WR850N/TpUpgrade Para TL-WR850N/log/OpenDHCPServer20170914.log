@@ -1,0 +1,71 @@
+[14-Sep-17 13:24:58] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[14-Sep-17 13:24:58] Logging: Normal
+[14-Sep-17 13:24:58] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[14-Sep-17 13:24:58] DHCP Range: 192.168.0.20-192.168.0.254/255.255.255.0
+[14-Sep-17 13:24:58] Server Name: L540
+[14-Sep-17 13:24:58] Detecting Static Interfaces..
+[14-Sep-17 13:24:58] No Static Interface ready, Waiting...
+[14-Sep-17 13:24:58] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:24:58] Lease Status URL: http://127.0.0.1:6789
+[14-Sep-17 13:24:58] Listening On: 192.168.2.1
+[14-Sep-17 13:24:58] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:25:34] Lease Status URL: http://127.0.0.1:6789
+[14-Sep-17 13:25:34] Listening On: 192.168.2.1
+[14-Sep-17 13:25:34] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:25:37] Lease Status URL: http://127.0.0.1:6789
+[14-Sep-17 13:25:37] Listening On: 192.168.2.1
+[14-Sep-17 13:25:42] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:25:45] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:25:59] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:26:02] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:26:05] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:26:10] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:26:13] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:26:57] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:27:00] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:27:03] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:27:08] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:27:11] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:28:25] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:28:28] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:28:31] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:28:36] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:28:39] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:33:36] Logging: Normal
+[14-Sep-17 13:33:36] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[14-Sep-17 13:33:36] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[14-Sep-17 13:33:36] DHCP Range: 192.168.0.20-192.168.0.254/255.255.255.0
+[14-Sep-17 13:33:36] Server Name: L540
+[14-Sep-17 13:33:36] Detecting Static Interfaces..
+[14-Sep-17 13:33:36] Lease Status URL: http://127.0.0.1:6789
+[14-Sep-17 13:33:36] Listening On: 192.168.2.1
+[14-Sep-17 13:34:08] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:34:11] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:34:16] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:34:19] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:34:33] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:34:36] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:34:39] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:34:44] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:34:47] No Matching DHCP Range for DHCPDISCOVER for c0:25:e9:aa:3b:75 (TL-WR850N) from interface 192.168.2.1
+[14-Sep-17 13:35:07] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:27] No Static Interface ready, Waiting...
+[14-Sep-17 13:35:27] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:27] Lease Status URL: http://127.0.0.1:6789
+[14-Sep-17 13:35:27] Listening On: 192.168.2.1
+[14-Sep-17 13:35:54] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:59] No Static Interface ready, Waiting...
+[14-Sep-17 13:35:59] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:59] No Static Interface ready, Waiting...
+[14-Sep-17 13:35:59] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:59] No Static Interface ready, Waiting...
+[14-Sep-17 13:35:59] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:59] No Static Interface ready, Waiting...
+[14-Sep-17 13:35:59] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:59] No Static Interface ready, Waiting...
+[14-Sep-17 13:35:59] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:59] No Static Interface ready, Waiting...
+[14-Sep-17 13:35:59] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:59] No Static Interface ready, Waiting...
+[14-Sep-17 13:35:59] Network changed, re-detecting Static Interfaces..
+[14-Sep-17 13:35:59] No Static Interface ready, Waiting...

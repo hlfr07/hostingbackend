@@ -1,0 +1,101 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[08-Apr-17 09:21:47] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 09:22:07] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 09:22:07] Listening On: 192.168.0.3
+[08-Apr-17 09:22:07] Listening On: 192.168.1.10
+[08-Apr-17 09:22:07] Listening On: 192.168.2.20
+[08-Apr-17 09:22:07] Listening On: 192.168.10.10
+[08-Apr-17 09:22:07] Listening On: 192.168.100.66
+[08-Apr-17 09:22:07] Listening On: 192.168.202.20
+[08-Apr-17 09:22:07] Listening On: 172.29.85.40
+[08-Apr-17 09:22:07] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 09:22:21] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 09:22:21] Listening On: 192.168.0.3
+[08-Apr-17 09:22:21] Listening On: 192.168.1.10
+[08-Apr-17 09:22:21] Listening On: 192.168.2.20
+[08-Apr-17 09:22:21] Listening On: 192.168.10.10
+[08-Apr-17 09:22:21] Listening On: 192.168.100.66
+[08-Apr-17 09:22:21] Listening On: 192.168.202.20
+[08-Apr-17 09:22:21] Listening On: 172.29.85.40
+[08-Apr-17 09:22:43] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 09:23:03] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 09:23:03] Listening On: 192.168.0.3
+[08-Apr-17 09:23:03] Listening On: 192.168.1.10
+[08-Apr-17 09:23:03] Listening On: 192.168.2.20
+[08-Apr-17 09:23:03] Listening On: 192.168.10.10
+[08-Apr-17 09:23:03] Listening On: 192.168.100.66
+[08-Apr-17 09:23:03] Listening On: 192.168.202.20
+[08-Apr-17 09:23:03] Listening On: 172.29.85.40
+[08-Apr-17 10:02:05] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 10:02:25] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 10:02:25] Listening On: 192.168.0.3
+[08-Apr-17 10:02:25] Listening On: 192.168.1.10
+[08-Apr-17 10:02:25] Listening On: 192.168.2.20
+[08-Apr-17 10:02:25] Listening On: 192.168.10.10
+[08-Apr-17 10:02:25] Listening On: 192.168.100.66
+[08-Apr-17 10:02:25] Listening On: 192.168.202.20
+[08-Apr-17 10:02:25] Listening On: 172.29.85.40
+[08-Apr-17 13:53:47] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 13:54:07] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 13:54:07] Listening On: 192.168.0.3
+[08-Apr-17 13:54:07] Listening On: 192.168.1.10
+[08-Apr-17 13:54:07] Listening On: 192.168.2.20
+[08-Apr-17 13:54:07] Listening On: 192.168.10.10
+[08-Apr-17 13:54:07] Listening On: 192.168.100.66
+[08-Apr-17 13:54:07] Listening On: 192.168.202.20
+[08-Apr-17 13:54:07] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 13:54:29] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 13:54:29] Listening On: 192.168.0.3
+[08-Apr-17 13:54:29] Listening On: 192.168.1.10
+[08-Apr-17 13:54:29] Listening On: 192.168.2.20
+[08-Apr-17 13:54:29] Listening On: 192.168.10.10
+[08-Apr-17 13:54:29] Listening On: 192.168.100.66
+[08-Apr-17 13:54:29] Listening On: 192.168.202.20
+[08-Apr-17 13:54:29] Listening On: 172.29.85.40
+[08-Apr-17 13:54:29] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 13:54:51] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 13:54:51] Listening On: 192.168.0.3
+[08-Apr-17 13:54:51] Listening On: 192.168.1.10
+[08-Apr-17 13:54:51] Listening On: 192.168.2.20
+[08-Apr-17 13:54:51] Listening On: 192.168.10.10
+[08-Apr-17 13:54:51] Listening On: 192.168.100.66
+[08-Apr-17 13:54:51] Listening On: 192.168.202.20
+[08-Apr-17 13:54:51] Listening On: 172.29.85.40
+[08-Apr-17 13:54:51] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 13:55:13] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 13:55:13] Listening On: 192.168.0.3
+[08-Apr-17 13:55:13] Listening On: 192.168.1.10
+[08-Apr-17 13:55:13] Listening On: 192.168.2.20
+[08-Apr-17 13:55:13] Listening On: 192.168.10.10
+[08-Apr-17 13:55:13] Listening On: 192.168.100.66
+[08-Apr-17 13:55:13] Listening On: 192.168.202.20
+[08-Apr-17 13:55:13] Listening On: 172.29.85.40
+[08-Apr-17 13:55:13] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 13:55:35] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 13:55:35] Listening On: 192.168.0.3
+[08-Apr-17 13:55:35] Listening On: 192.168.1.10
+[08-Apr-17 13:55:35] Listening On: 192.168.2.20
+[08-Apr-17 13:55:35] Listening On: 192.168.10.10
+[08-Apr-17 13:55:35] Listening On: 192.168.100.66
+[08-Apr-17 13:55:35] Listening On: 192.168.202.20
+[08-Apr-17 13:55:35] Listening On: 172.29.85.40
+[08-Apr-17 16:56:57] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 16:57:17] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 16:57:17] Listening On: 192.168.0.3
+[08-Apr-17 16:57:17] Listening On: 192.168.1.10
+[08-Apr-17 16:57:17] Listening On: 192.168.2.20
+[08-Apr-17 16:57:17] Listening On: 192.168.10.10
+[08-Apr-17 16:57:17] Listening On: 192.168.100.66
+[08-Apr-17 16:57:17] Listening On: 192.168.202.20
+[08-Apr-17 16:57:17] Listening On: 172.29.85.40
+[08-Apr-17 18:46:39] Network changed, re-detecting Static Interfaces..
+[08-Apr-17 18:46:59] Lease Status URL: http://127.0.0.1:6789
+[08-Apr-17 18:46:59] Listening On: 192.168.0.3
+[08-Apr-17 18:46:59] Listening On: 192.168.1.10
+[08-Apr-17 18:46:59] Listening On: 192.168.2.20
+[08-Apr-17 18:46:59] Listening On: 192.168.10.10
+[08-Apr-17 18:46:59] Listening On: 192.168.100.66
+[08-Apr-17 18:46:59] Listening On: 192.168.202.20
+[08-Apr-17 18:46:59] Listening On: 172.29.85.40
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170409.log

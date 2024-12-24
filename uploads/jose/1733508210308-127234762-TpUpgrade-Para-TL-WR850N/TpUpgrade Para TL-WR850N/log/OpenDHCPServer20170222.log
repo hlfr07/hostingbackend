@@ -1,0 +1,82 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[22-Feb-17 00:03:37] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 00:03:37] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 00:04:37] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 00:04:37] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 01:03:37] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 01:03:37] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 01:04:37] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 01:04:37] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 02:03:37] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 02:04:37] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 02:04:37] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 03:03:38] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 03:03:38] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 03:04:38] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 03:04:38] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 04:03:38] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 04:03:38] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 04:04:38] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 04:04:38] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 05:03:38] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 05:03:38] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 05:04:38] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 05:04:38] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 06:03:38] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 06:04:38] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 06:04:38] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 07:03:39] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 07:03:39] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 07:04:39] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 07:04:39] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 08:03:39] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 08:03:39] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 08:04:39] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 08:04:39] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 08:39:06] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 09:03:39] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 09:04:39] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 09:04:39] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 09:39:09] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 09:39:09] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 09:58:44] DHCPREQUEST from Host 08:57:00:e6:00:3c (Jay-PC) without Discover, NAKed
+[22-Feb-17 10:03:39] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 10:04:39] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 10:04:39] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 10:39:40] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 10:39:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 10:59:27] DHCPREQUEST from Host 08:57:00:e6:00:3c (Jay-PC) without Discover, NAKed
+[22-Feb-17 11:03:39] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 11:03:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 11:04:40] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 11:04:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 11:39:40] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 11:39:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 12:03:40] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 12:03:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 12:04:40] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 12:04:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 12:39:41] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 12:39:41] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 13:03:40] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 13:03:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 13:04:40] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 13:04:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 13:39:41] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 13:39:41] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 14:03:40] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 14:03:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 14:04:40] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[22-Feb-17 14:04:40] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[22-Feb-17 14:39:41] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 14:39:41] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 15:39:41] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 15:39:41] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 16:39:42] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 16:39:42] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 17:39:42] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 17:39:42] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[22-Feb-17 18:39:42] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[22-Feb-17 18:39:42] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170223.log

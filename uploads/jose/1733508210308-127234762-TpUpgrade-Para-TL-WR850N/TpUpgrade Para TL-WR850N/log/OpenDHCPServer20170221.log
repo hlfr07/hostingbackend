@@ -1,0 +1,229 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[21-Feb-17 00:03:31] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 00:03:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 00:04:31] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 00:04:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 01:03:31] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 01:03:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 01:04:31] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 01:04:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 02:03:31] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 02:03:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 02:04:31] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 02:04:31] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 03:03:32] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 03:03:32] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 03:04:32] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 04:03:32] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 04:03:32] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 04:04:32] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 04:04:32] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 05:03:32] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 05:03:32] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 05:04:32] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 05:04:32] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 06:03:32] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 06:03:32] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 06:04:32] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 06:04:32] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 07:03:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 07:03:33] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 07:04:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 07:04:33] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 08:03:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 08:03:33] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 08:04:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 08:04:33] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 08:35:06] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 08:35:06] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 08:35:06] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 08:35:06] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 08:35:06] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 08:35:06] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 08:35:06] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 08:35:06] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 08:35:07] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 08:37:39] Host 18:d6:c7:77:9f:b1 (TL-WR840N) renewed 192.168.1.2 for 300 seconds
+[21-Feb-17 08:38:43] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 08:38:43] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 08:38:43] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 08:38:43] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 08:38:43] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 08:38:43] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 08:38:43] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 08:38:43] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 08:38:45] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 08:39:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 08:39:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 08:39:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 08:39:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 08:39:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 08:39:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 08:39:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 08:39:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 08:39:20] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 08:40:45] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 08:40:45] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 08:40:45] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 08:40:45] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 08:40:45] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 08:40:45] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 08:40:45] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 08:40:45] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 08:40:47] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 08:41:37] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 08:42:07] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 08:42:37] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 09:03:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 09:03:33] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 09:04:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 09:04:33] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 09:42:39] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 10:03:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 10:03:33] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 10:04:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 10:32:25] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 10:32:25] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 10:32:25] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 10:32:25] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 10:32:25] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 10:32:25] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 10:32:25] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 10:32:25] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 10:32:25] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 10:32:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 10:32:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 10:32:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 10:32:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 10:32:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 10:32:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 10:32:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 10:32:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 10:32:50] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 10:42:41] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 10:42:41] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 10:56:30] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 10:56:30] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 10:56:30] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 10:56:30] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 10:56:30] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 10:56:30] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 10:56:30] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 10:56:30] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 10:56:31] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 10:56:57] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 10:56:57] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 10:56:57] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 10:56:57] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 10:56:57] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 10:56:57] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 10:56:57] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 10:56:57] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 10:56:59] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 11:02:16] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 11:02:16] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 11:02:16] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 11:02:16] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 11:02:16] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 11:02:16] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 11:02:16] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 11:02:16] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 11:02:16] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 11:02:40] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 11:02:40] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 11:02:40] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 11:02:40] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 11:02:40] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 11:02:40] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 11:02:40] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 11:02:40] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 11:02:41] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 11:03:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 11:03:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 11:04:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 11:04:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 11:19:52] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 11:19:52] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 11:19:52] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 11:19:52] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 11:19:52] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 11:19:52] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 11:19:52] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 11:19:52] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 11:19:53] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 11:19:56] Host 18:d6:c7:77:9f:b1 (TL-WR840N) renewed 192.168.1.2 for 300 seconds
+[21-Feb-17 11:20:17] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.3
+[21-Feb-17 11:20:17] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.66
+[21-Feb-17 11:20:17] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.100
+[21-Feb-17 11:20:17] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.0.225
+[21-Feb-17 11:20:17] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.2.10
+[21-Feb-17 11:20:17] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.10.10
+[21-Feb-17 11:20:17] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.100.66
+[21-Feb-17 11:20:17] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:77:9f:b1 (TL-WR840N) from interface 192.168.202.20
+[21-Feb-17 11:20:19] Host 18:d6:c7:77:9f:b1 (TL-WR840N) allotted 192.168.1.2 for 300 seconds
+[21-Feb-17 11:22:50] Host 18:d6:c7:77:9f:b1 (TL-WR840N) renewed 192.168.1.2 for 300 seconds
+[21-Feb-17 11:42:43] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 11:42:43] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 12:03:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 12:04:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 12:04:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 12:42:46] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 12:42:46] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 13:03:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 13:03:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 13:04:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 13:04:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 13:42:48] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 13:42:48] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 14:03:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 14:03:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 14:04:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 14:04:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 14:42:50] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 14:42:50] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 15:03:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 15:04:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 15:04:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 15:42:52] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 15:42:52] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 16:03:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 16:03:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 16:04:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 16:04:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 16:42:54] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 16:42:54] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 17:03:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 17:04:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 17:04:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 17:42:56] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 17:42:56] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 18:03:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 18:03:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 18:04:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 18:04:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 18:42:58] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 18:42:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 19:03:36] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 19:03:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 19:04:36] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 19:04:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 19:43:00] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[21-Feb-17 19:43:00] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[21-Feb-17 20:03:36] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 20:03:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 20:04:36] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 20:04:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 21:03:36] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 21:03:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 21:04:36] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 21:04:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 22:03:36] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 22:03:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 22:04:36] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 22:04:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 23:03:37] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 23:03:37] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[21-Feb-17 23:04:37] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[21-Feb-17 23:04:37] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170222.log

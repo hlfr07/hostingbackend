@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel de Cajero</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 40px;
+    }
+    .welcome {
+      background-color: #e9ecef;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .logout {
+      color: white;
+      background-color: #dc3545;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .role-badge {
+      background-color: #17a2b8;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome">
+    <h1>Panel de Cajero</h1>
+    <p>Usuario: <strong><%= user.username %></strong></p>
+    <p>Rol: <span class="role-badge"><%= user.role %></span></p>
+  </div>
+
+  <div>
+    <h2>Funciones de Cajero</h2>
+    <p>Aquí irán las funciones específicas del cajero...</p>
+  </div>
+
+  <a href="/auth/logout" class="logout">Cerrar Sesión</a>
+</body>
+</html>

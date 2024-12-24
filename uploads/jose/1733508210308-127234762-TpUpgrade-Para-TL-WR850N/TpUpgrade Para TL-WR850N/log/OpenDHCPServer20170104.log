@@ -1,0 +1,23 @@
+[04-Jan-17 15:09:43] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[04-Jan-17 15:09:43] Logging: Normal
+[04-Jan-17 15:09:43] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[04-Jan-17 15:09:43] DHCP Range: 192.168.0.1-192.168.0.254/255.255.255.0
+[04-Jan-17 15:09:43] DHCP Range: 192.168.2.2-192.168.2.254/255.255.255.0
+[04-Jan-17 15:09:43] Server Name: wangyang
+[04-Jan-17 15:09:43] Detecting Static Interfaces..
+[04-Jan-17 15:09:43] Lease Status URL: http://127.0.0.1:6789
+[04-Jan-17 15:09:43] Listening On: 192.168.0.60
+[04-Jan-17 15:09:43] Listening On: 192.168.1.60
+[04-Jan-17 15:09:43] Listening On: 192.168.0.3
+[04-Jan-17 15:09:43] Listening On: 192.168.0.66
+[04-Jan-17 15:09:43] Listening On: 192.168.0.100
+[04-Jan-17 15:09:43] Listening On: 192.168.0.225
+[04-Jan-17 15:09:43] Listening On: 192.168.1.10
+[04-Jan-17 15:09:43] Listening On: 192.168.1.12
+[04-Jan-17 15:09:43] Listening On: 192.168.1.100
+[04-Jan-17 15:09:43] Listening On: 192.168.2.1
+[04-Jan-17 15:09:43] Listening On: 192.168.10.10
+[04-Jan-17 15:09:43] Listening On: 192.168.100.66
+[04-Jan-17 15:09:43] Listening On: 192.168.202.20
+[04-Jan-17 15:09:43] Listening On: 172.29.85.40
+[04-Jan-17 15:09:43] Listening On: 192.168.0.2

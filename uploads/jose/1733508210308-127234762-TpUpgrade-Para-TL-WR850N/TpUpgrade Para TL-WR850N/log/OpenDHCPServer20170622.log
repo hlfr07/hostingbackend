@@ -1,0 +1,55 @@
+[22-Jun-17 14:47:27] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[22-Jun-17 14:47:27] Logging: Normal
+[22-Jun-17 14:47:27] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[22-Jun-17 14:47:27] DHCP Range: 192.168.0.20-192.168.0.254/255.255.255.0
+[22-Jun-17 14:47:27] Server Name: wangyang
+[22-Jun-17 14:47:27] Detecting Static Interfaces..
+[22-Jun-17 14:47:27] Lease Status URL: http://127.0.0.1:6789
+[22-Jun-17 14:47:27] Listening On: 192.168.0.3
+[22-Jun-17 14:47:27] Listening On: 192.168.1.10
+[22-Jun-17 14:47:27] Listening On: 192.168.2.20
+[22-Jun-17 14:47:27] Listening On: 192.168.8.10
+[22-Jun-17 14:47:27] Listening On: 192.168.10.10
+[22-Jun-17 14:47:27] Listening On: 192.168.55.55
+[22-Jun-17 14:47:27] Listening On: 192.168.100.66
+[22-Jun-17 14:47:27] Listening On: 192.168.202.20
+[22-Jun-17 14:47:27] Listening On: 172.29.85.40
+[22-Jun-17 14:47:27] Listening On: 192.168.157.1
+[22-Jun-17 14:47:27] Listening On: 192.168.0.1
+[22-Jun-17 14:47:27] Listening On: 192.168.60.1
+[22-Jun-17 14:47:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[22-Jun-17 14:47:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[22-Jun-17 14:47:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[22-Jun-17 14:47:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[22-Jun-17 14:47:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[22-Jun-17 14:47:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[22-Jun-17 14:47:41] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.55.55
+[22-Jun-17 14:47:42] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.21 for 300 seconds
+[22-Jun-17 14:47:45] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.21 for 300 seconds
+[22-Jun-17 14:47:48] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.21 for 300 seconds
+[22-Jun-17 14:48:43] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.202.20
+[22-Jun-17 14:48:43] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.10.10
+[22-Jun-17 14:48:43] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.100.66
+[22-Jun-17 14:48:43] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.1.10
+[22-Jun-17 14:48:43] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.2.20
+[22-Jun-17 14:48:43] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.8.10
+[22-Jun-17 14:48:43] No Matching DHCP Range for DHCPDISCOVER for 40:16:9f:51:e3:23 (Archer_VR600) from interface 192.168.55.55
+[22-Jun-17 14:48:44] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.21 for 300 seconds
+[22-Jun-17 14:48:47] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.21 for 300 seconds
+[22-Jun-17 14:48:50] Host 40:16:9f:51:e3:23 (Archer_VR600) allotted 192.168.0.21 for 300 seconds
+[22-Jun-17 14:51:21] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 14:53:52] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 14:56:23] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 14:58:54] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:01:25] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:03:56] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:06:27] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:08:58] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:11:29] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:14:00] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:16:31] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:19:02] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:21:33] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:24:06] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+[22-Jun-17 15:26:37] Host 40:16:9f:51:e3:23 (Archer_VR600) renewed 192.168.0.21 for 300 seconds
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170624.log

@@ -1,0 +1,20 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[07-Mar-17 08:34:03] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[07-Mar-17 09:34:35] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 10:34:37] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 11:34:39] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 12:34:41] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 13:34:43] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 14:34:45] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 15:34:48] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 15:46:56] DHCPREQUEST from Host 08:57:00:e6:00:3c (Jay-PC) without Discover, NAKed
+[07-Mar-17 16:34:50] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 17:34:52] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 18:34:54] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 19:34:56] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 20:34:58] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 21:35:00] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 22:35:02] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[07-Mar-17 23:35:04] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170308.log

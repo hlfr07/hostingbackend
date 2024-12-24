@@ -1,0 +1,7 @@
+[02-Jan-17 22:02:33] Logging: Normal
+[02-Jan-17 22:02:33] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[02-Jan-17 22:02:33] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[02-Jan-17 22:02:33] DHCP Range: 192.168.0.1-192.168.0.254/255.255.255.0
+[02-Jan-17 22:02:33] Server Name: Charley-ACER-S5
+[02-Jan-17 22:02:33] Detecting Static Interfaces..
+[02-Jan-17 22:02:33] No Static Interface ready, Waiting...

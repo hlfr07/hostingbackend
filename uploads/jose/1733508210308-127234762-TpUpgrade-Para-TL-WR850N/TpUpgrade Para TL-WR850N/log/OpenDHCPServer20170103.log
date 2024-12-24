@@ -1,0 +1,132 @@
+[03-Jan-17 10:16:16] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[03-Jan-17 10:16:16] Logging: Normal
+[03-Jan-17 10:16:16] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[03-Jan-17 10:16:16] DHCP Range: 192.168.0.1-192.168.0.254/255.255.255.0
+[03-Jan-17 10:16:16] Server Name: wangyang
+[03-Jan-17 10:16:16] Detecting Static Interfaces..
+[03-Jan-17 10:16:16] Warning: 192.168.0.3 UDP Port 67 already in use
+[03-Jan-17 10:16:16] Lease Status URL: http://127.0.0.1:6789
+[03-Jan-17 10:16:16] Listening On: 192.168.0.60
+[03-Jan-17 10:16:16] Listening On: 192.168.1.60
+[03-Jan-17 10:16:16] Listening On: 192.168.0.66
+[03-Jan-17 10:16:16] Listening On: 192.168.0.100
+[03-Jan-17 10:16:16] Listening On: 192.168.0.225
+[03-Jan-17 10:16:16] Listening On: 192.168.1.10
+[03-Jan-17 10:16:16] Listening On: 192.168.1.12
+[03-Jan-17 10:16:16] Listening On: 192.168.1.100
+[03-Jan-17 10:16:16] Listening On: 192.168.2.10
+[03-Jan-17 10:16:16] Listening On: 192.168.10.10
+[03-Jan-17 10:16:16] Listening On: 192.168.100.66
+[03-Jan-17 10:16:16] Listening On: 192.168.202.20
+[03-Jan-17 10:16:16] Listening On: 172.29.85.40
+[03-Jan-17 10:16:16] Listening On: 192.168.0.2
+[03-Jan-17 10:16:16] Retrying failed Listening Interfaces..
+[03-Jan-17 10:16:37] Warning: 192.168.0.3 UDP Port 67 already in use
+[03-Jan-17 10:16:37] Lease Status URL: http://127.0.0.1:6789
+[03-Jan-17 10:16:37] Listening On: 192.168.0.60
+[03-Jan-17 10:16:37] Listening On: 192.168.1.60
+[03-Jan-17 10:16:37] Listening On: 192.168.0.66
+[03-Jan-17 10:16:37] Listening On: 192.168.0.100
+[03-Jan-17 10:16:37] Listening On: 192.168.0.225
+[03-Jan-17 10:16:37] Listening On: 192.168.1.10
+[03-Jan-17 10:16:37] Listening On: 192.168.1.12
+[03-Jan-17 10:16:37] Listening On: 192.168.1.100
+[03-Jan-17 10:16:37] Listening On: 192.168.2.10
+[03-Jan-17 10:16:37] Listening On: 192.168.10.10
+[03-Jan-17 10:16:37] Listening On: 192.168.100.66
+[03-Jan-17 10:16:37] Listening On: 192.168.202.20
+[03-Jan-17 10:16:37] Listening On: 172.29.85.40
+[03-Jan-17 10:16:37] Listening On: 192.168.0.2
+[03-Jan-17 17:17:55] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[03-Jan-17 17:17:55] Logging: Normal
+[03-Jan-17 17:17:55] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[03-Jan-17 17:17:55] DHCP Range: 192.168.0.1-192.168.0.254/255.255.255.0
+[03-Jan-17 17:17:55] DHCP Range: 192.168.2.2-192.168.2.254/255.255.255.0
+[03-Jan-17 17:17:55] Server Name: wangyang
+[03-Jan-17 17:17:55] Detecting Static Interfaces..
+[03-Jan-17 17:17:55] Lease Status URL: http://127.0.0.1:6789
+[03-Jan-17 17:17:55] Listening On: 192.168.0.60
+[03-Jan-17 17:17:55] Listening On: 192.168.1.60
+[03-Jan-17 17:17:55] Listening On: 192.168.0.3
+[03-Jan-17 17:17:55] Listening On: 192.168.0.66
+[03-Jan-17 17:17:55] Listening On: 192.168.0.100
+[03-Jan-17 17:17:55] Listening On: 192.168.0.225
+[03-Jan-17 17:17:55] Listening On: 192.168.1.10
+[03-Jan-17 17:17:55] Listening On: 192.168.1.12
+[03-Jan-17 17:17:55] Listening On: 192.168.1.100
+[03-Jan-17 17:17:55] Listening On: 192.168.2.10
+[03-Jan-17 17:17:55] Listening On: 192.168.10.10
+[03-Jan-17 17:17:55] Listening On: 192.168.100.66
+[03-Jan-17 17:17:55] Listening On: 192.168.202.20
+[03-Jan-17 17:17:55] Listening On: 172.29.85.40
+[03-Jan-17 17:17:55] Listening On: 192.168.0.2
+[03-Jan-17 17:18:10] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.10
+[03-Jan-17 17:18:10] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.12
+[03-Jan-17 17:18:10] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.100
+[03-Jan-17 17:18:10] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.10.10
+[03-Jan-17 17:18:10] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.100.66
+[03-Jan-17 17:18:10] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.202.20
+[03-Jan-17 17:18:10] DHCPREQUEST from Host 18:d6:c7:29:8d:0b (TL-WR841N) without Discover, NAKed
+[03-Jan-17 17:18:14] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.10
+[03-Jan-17 17:18:14] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.12
+[03-Jan-17 17:18:14] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.100
+[03-Jan-17 17:18:14] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.10.10
+[03-Jan-17 17:18:14] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.100.66
+[03-Jan-17 17:18:14] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.202.20
+[03-Jan-17 17:18:15] DHCPREQUEST from Host 18:d6:c7:29:8d:0b (TL-WR841N) without Discover, NAKed
+[03-Jan-17 17:18:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.10
+[03-Jan-17 17:18:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.12
+[03-Jan-17 17:18:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.100
+[03-Jan-17 17:18:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.10.10
+[03-Jan-17 17:18:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.100.66
+[03-Jan-17 17:18:19] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.202.20
+[03-Jan-17 17:18:20] DHCPREQUEST from Host 18:d6:c7:29:8d:0b (TL-WR841N) without Discover, NAKed
+[03-Jan-17 17:18:24] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.10
+[03-Jan-17 17:18:24] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.12
+[03-Jan-17 17:18:24] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.100
+[03-Jan-17 17:18:24] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.10.10
+[03-Jan-17 17:18:24] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.100.66
+[03-Jan-17 17:18:24] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.202.20
+[03-Jan-17 17:18:25] DHCPREQUEST from Host 18:d6:c7:29:8d:0b (TL-WR841N) without Discover, NAKed
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.10
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.12
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.100
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.10.10
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.100.66
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.202.20
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.10
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.12
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.100
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.10.10
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.100.66
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.202.20
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.10
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.12
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.1.100
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.10.10
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.100.66
+[03-Jan-17 17:18:37] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0b (TL-WR841N) from interface 192.168.202.20
+[03-Jan-17 17:18:38] DHCPREQUEST from Host 18:d6:c7:29:8d:0b (TL-WR841N) without Discover, NAKed
+[03-Jan-17 17:45:05] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[03-Jan-17 17:45:05] Logging: Normal
+[03-Jan-17 17:45:05] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[03-Jan-17 17:45:05] DHCP Range: 192.168.0.1-192.168.0.254/255.255.255.0
+[03-Jan-17 17:45:05] DHCP Range: 192.168.2.2-192.168.2.254/255.255.255.0
+[03-Jan-17 17:45:05] Server Name: wangyang
+[03-Jan-17 17:45:05] Detecting Static Interfaces..
+[03-Jan-17 17:45:05] Lease Status URL: http://127.0.0.1:6789
+[03-Jan-17 17:45:05] Listening On: 192.168.0.60
+[03-Jan-17 17:45:05] Listening On: 192.168.1.60
+[03-Jan-17 17:45:05] Listening On: 192.168.0.3
+[03-Jan-17 17:45:05] Listening On: 192.168.0.66
+[03-Jan-17 17:45:05] Listening On: 192.168.0.100
+[03-Jan-17 17:45:05] Listening On: 192.168.0.225
+[03-Jan-17 17:45:05] Listening On: 192.168.1.10
+[03-Jan-17 17:45:05] Listening On: 192.168.1.12
+[03-Jan-17 17:45:05] Listening On: 192.168.1.100
+[03-Jan-17 17:45:05] Listening On: 192.168.2.10
+[03-Jan-17 17:45:05] Listening On: 192.168.10.10
+[03-Jan-17 17:45:05] Listening On: 192.168.100.66
+[03-Jan-17 17:45:05] Listening On: 192.168.202.20
+[03-Jan-17 17:45:05] Listening On: 172.29.85.40
+[03-Jan-17 17:45:05] Listening On: 192.168.0.2

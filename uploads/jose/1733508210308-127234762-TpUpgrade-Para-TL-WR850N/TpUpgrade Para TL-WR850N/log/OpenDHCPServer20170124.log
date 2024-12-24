@@ -1,0 +1,5 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[24-Jan-17 20:16:56] No Matching DHCP Range for DHCPDISCOVER for 00:50:56:c0:00:08 (jiangji) from interface 172.29.85.40
+[24-Jan-17 20:17:54] No Matching DHCP Range for DHCPDISCOVER for 00:50:56:c0:00:08 (jiangji) from interface 172.29.85.40
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170125.log

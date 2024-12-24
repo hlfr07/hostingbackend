@@ -1,0 +1,11 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[05-Jun-17 08:37:07] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (W3138) from interface 172.29.85.40
+[05-Jun-17 08:37:10] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (W3138) from interface 172.29.85.40
+[05-Jun-17 08:37:18] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (W3138) from interface 172.29.85.40
+[05-Jun-17 08:37:34] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (W3138) from interface 172.29.85.40
+[05-Jun-17 14:29:05] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:af:09 (W5589) from interface 172.29.85.40
+[05-Jun-17 14:29:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:af:09 (W5589) from interface 172.29.85.40
+[05-Jun-17 14:29:36] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:af:09 (W5589) from interface 172.29.85.40
+[05-Jun-17 14:32:43] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:af:09 (W5589) from interface 172.29.85.40
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170606.log

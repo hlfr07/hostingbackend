@@ -1,0 +1,147 @@
+[23-Mar-17 09:28:17] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[23-Mar-17 09:28:17] Logging: Normal
+[23-Mar-17 09:28:17] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[23-Mar-17 09:28:17] DHCP Range: 192.168.1.2-192.168.1.254/255.255.255.0
+[23-Mar-17 09:28:17] Server Name: wangyang
+[23-Mar-17 09:28:17] Detecting Static Interfaces..
+[23-Mar-17 09:28:17] Lease Status URL: http://127.0.0.1:6789
+[23-Mar-17 09:28:17] Listening On: 192.168.0.60
+[23-Mar-17 09:28:17] Listening On: 192.168.1.60
+[23-Mar-17 09:28:17] Listening On: 192.168.0.3
+[23-Mar-17 09:28:17] Listening On: 192.168.1.10
+[23-Mar-17 09:28:17] Listening On: 192.168.1.12
+[23-Mar-17 09:28:17] Listening On: 192.168.1.100
+[23-Mar-17 09:28:17] Listening On: 192.168.2.10
+[23-Mar-17 09:28:17] Listening On: 192.168.10.10
+[23-Mar-17 09:28:17] Listening On: 192.168.100.66
+[23-Mar-17 09:28:17] Listening On: 192.168.202.20
+[23-Mar-17 09:28:17] Listening On: 172.29.85.40
+[23-Mar-17 09:28:17] Listening On: 192.168.0.2
+[23-Mar-17 09:31:56] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 09:31:56] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 09:31:56] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 09:31:56] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 09:31:56] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 09:31:57] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 09:34:28] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 09:37:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 09:37:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 09:37:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 09:37:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 09:37:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 09:37:37] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 09:38:31] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 09:38:31] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 09:38:31] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 09:38:31] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 09:38:31] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 09:38:32] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 09:41:03] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 09:44:46] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 09:44:46] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 09:44:46] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 09:44:46] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 09:44:46] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 09:44:48] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 09:47:10] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 09:47:10] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 09:47:10] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 09:47:10] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 09:47:10] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 09:47:11] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 09:49:42] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 09:51:54] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 10:15:33] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 10:15:34] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 10:18:05] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 10:22:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 10:22:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 10:22:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 10:22:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 10:22:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 10:22:58] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 10:25:29] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 10:28:00] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 10:35:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 10:35:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 10:35:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 10:35:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 10:35:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 10:35:58] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 10:37:18] Network changed, re-detecting Static Interfaces..
+[23-Mar-17 10:37:38] Lease Status URL: http://127.0.0.1:6789
+[23-Mar-17 10:37:38] Listening On: 192.168.0.60
+[23-Mar-17 10:37:38] Listening On: 192.168.1.60
+[23-Mar-17 10:37:38] Listening On: 192.168.0.3
+[23-Mar-17 10:37:38] Listening On: 192.168.1.10
+[23-Mar-17 10:37:38] Listening On: 192.168.1.100
+[23-Mar-17 10:37:38] Listening On: 192.168.2.10
+[23-Mar-17 10:37:38] Listening On: 192.168.10.10
+[23-Mar-17 10:37:38] Listening On: 192.168.100.66
+[23-Mar-17 10:37:38] Listening On: 192.168.202.20
+[23-Mar-17 10:37:38] Listening On: 172.29.85.40
+[23-Mar-17 10:37:38] Listening On: 192.168.0.2
+[23-Mar-17 10:38:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 10:38:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 10:38:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 10:38:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 10:38:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 10:38:53] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 10:39:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 10:39:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 10:39:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 10:39:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 10:39:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 10:39:28] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 10:39:51] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[23-Mar-17 10:39:51] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.10
+[23-Mar-17 10:39:51] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[23-Mar-17 10:39:51] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[23-Mar-17 10:39:51] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[23-Mar-17 10:39:53] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[23-Mar-17 10:42:24] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 10:44:55] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 10:47:26] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 10:49:57] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 10:51:56] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 10:52:28] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 10:54:59] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 10:57:30] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 11:00:01] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 11:02:32] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 11:05:03] Host 00:0a:eb:13:09:6a (TL-WR840N) renewed 192.168.1.7 for 300 seconds
+[23-Mar-17 11:51:58] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 12:52:00] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 13:52:02] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 14:52:04] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 15:52:06] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 15:52:06] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[23-Mar-17 16:52:38] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 17:21:58] Network changed, re-detecting Static Interfaces..
+[23-Mar-17 17:22:18] Lease Status URL: http://127.0.0.1:6789
+[23-Mar-17 17:22:18] Listening On: 192.168.0.60
+[23-Mar-17 17:22:18] Listening On: 192.168.1.60
+[23-Mar-17 17:22:18] Listening On: 192.168.0.3
+[23-Mar-17 17:22:18] Listening On: 192.168.2.10
+[23-Mar-17 17:22:18] Listening On: 192.168.10.10
+[23-Mar-17 17:22:18] Listening On: 192.168.100.66
+[23-Mar-17 17:22:18] Listening On: 192.168.202.20
+[23-Mar-17 17:22:18] Listening On: 172.29.85.40
+[23-Mar-17 17:22:18] Listening On: 192.168.0.2
+[23-Mar-17 17:52:40] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 18:52:43] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 19:52:45] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 20:52:47] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 21:52:49] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 22:52:51] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[23-Mar-17 23:52:53] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170324.log

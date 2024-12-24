@@ -1,0 +1,332 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[20-Jan-17 08:22:32] Network changed, re-detecting Static Interfaces..
+[20-Jan-17 08:22:52] Lease Status URL: http://127.0.0.1:6789
+[20-Jan-17 08:22:52] Listening On: 192.168.0.60
+[20-Jan-17 08:22:52] Listening On: 192.168.1.60
+[20-Jan-17 08:22:52] Listening On: 192.168.0.3
+[20-Jan-17 08:22:52] Listening On: 192.168.0.66
+[20-Jan-17 08:22:52] Listening On: 192.168.0.100
+[20-Jan-17 08:22:52] Listening On: 192.168.0.225
+[20-Jan-17 08:22:52] Listening On: 192.168.1.10
+[20-Jan-17 08:22:52] Listening On: 192.168.1.12
+[20-Jan-17 08:22:52] Listening On: 192.168.1.100
+[20-Jan-17 08:22:52] Listening On: 192.168.2.10
+[20-Jan-17 08:22:52] Listening On: 192.168.10.10
+[20-Jan-17 08:22:52] Listening On: 192.168.100.66
+[20-Jan-17 08:22:52] Listening On: 192.168.202.20
+[20-Jan-17 08:22:52] Listening On: 172.29.85.40
+[20-Jan-17 08:22:52] Listening On: 192.168.0.2
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.1.10
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.1.12
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.1.100
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.2.10
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.10.10
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.100.66
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.202.20
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.1.10
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.1.12
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.1.100
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.2.10
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.10.10
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.100.66
+[20-Jan-17 08:28:48] No Matching DHCP Range for DHCPDISCOVER for 18:d6:c7:29:8d:0a (robot) from interface 192.168.202.20
+[20-Jan-17 08:28:49] Host 18:d6:c7:29:8d:0a (robot) allotted 192.168.0.1 for 300 seconds
+[20-Jan-17 08:28:49] Host 18:d6:c7:29:8d:0a (robot) allotted 192.168.0.1 for 300 seconds
+[20-Jan-17 08:31:20] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:31:20] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:33:51] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:33:51] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:36:22] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:36:22] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:36:56] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[20-Jan-17 08:38:53] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:38:53] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:41:24] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:41:24] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:43:55] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:43:55] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:46:26] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:46:26] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:48:57] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:48:57] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:51:28] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:51:28] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:53:59] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:53:59] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:56:30] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:56:30] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:59:01] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 08:59:01] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:01:32] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:01:32] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:04:03] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:04:03] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:06:34] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:06:34] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:09:05] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:09:05] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:11:36] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:11:36] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:14:07] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:14:07] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:16:38] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:16:38] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:19:09] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:19:09] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:21:40] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:21:40] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:24:11] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:24:11] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:26:42] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:26:42] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:29:13] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:29:13] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:31:44] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:31:44] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:34:15] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:34:15] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:36:46] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:36:46] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:36:58] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[20-Jan-17 09:36:58] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[20-Jan-17 09:39:17] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:39:17] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:41:48] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:41:48] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:44:19] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:44:19] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:46:50] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:46:50] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:49:21] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:49:21] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:51:52] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:51:52] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:54:23] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:54:23] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:56:54] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:56:54] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:59:25] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 09:59:25] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:01:56] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:01:56] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:04:27] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:04:27] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:06:58] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:06:58] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:09:29] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:09:29] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:12:00] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:12:00] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:14:31] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:14:31] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:17:02] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:17:02] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:19:33] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:19:33] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:22:04] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:22:04] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:24:35] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:24:35] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:27:06] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:27:06] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:29:37] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:29:37] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:32:08] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:32:08] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:34:39] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:34:39] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:37:10] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:37:10] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:37:30] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[20-Jan-17 10:37:30] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[20-Jan-17 10:39:41] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:39:41] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:42:12] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:42:12] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:44:43] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:44:43] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:47:14] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:47:14] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:49:45] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:49:45] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:52:16] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:52:16] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:54:47] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:54:47] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:57:18] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:57:18] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:59:49] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 10:59:49] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:02:20] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:02:20] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:04:51] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:04:51] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:07:22] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:07:22] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:09:53] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:09:53] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:12:24] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:12:24] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:14:55] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:14:55] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:17:26] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:17:26] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:19:57] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:19:57] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:22:28] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:22:28] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:24:59] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:24:59] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:27:30] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:27:30] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:30:01] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:30:01] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:32:32] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:32:32] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:35:03] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:35:03] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:37:34] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:37:34] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:38:02] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[20-Jan-17 11:38:02] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[20-Jan-17 11:40:05] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:40:05] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:42:36] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:42:36] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:45:07] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:45:07] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:47:38] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:47:38] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:50:09] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:50:09] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:52:40] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:52:40] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:55:11] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:55:11] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:57:42] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 11:57:42] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:00:13] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:00:13] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:02:44] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:02:44] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:05:15] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:05:15] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:07:46] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:07:46] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:10:17] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:10:17] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:12:48] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:12:48] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:15:19] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:15:19] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:17:50] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:17:50] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:20:21] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:20:21] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:22:52] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:22:52] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:25:23] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:25:23] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:27:54] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:27:54] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:30:25] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:30:25] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:32:56] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:32:56] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:35:27] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:35:27] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:37:58] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:37:58] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:38:05] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[20-Jan-17 12:38:05] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[20-Jan-17 12:40:29] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:40:29] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:43:00] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:43:00] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:45:31] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:45:31] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:48:02] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:48:02] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:50:33] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:50:33] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:53:04] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:53:04] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:55:35] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:55:35] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:58:06] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 12:58:06] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:00:37] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:00:37] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:03:08] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:03:08] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:05:39] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:05:39] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:08:10] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:08:10] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:10:41] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:10:41] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:13:12] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:13:12] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:15:43] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:15:43] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:18:14] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:18:14] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:20:45] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:20:45] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:23:16] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:23:16] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:25:47] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:25:47] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:28:18] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:28:18] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:30:49] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:30:49] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:33:20] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:33:20] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:35:51] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:35:51] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:38:07] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[20-Jan-17 13:38:07] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[20-Jan-17 13:38:22] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:38:22] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:40:53] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:40:53] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:43:24] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:43:24] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:45:55] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:45:55] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:48:26] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:48:26] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:50:57] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:50:57] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:53:28] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:53:28] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:55:59] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:55:59] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:58:30] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 13:58:30] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:01:01] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:01:01] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:03:32] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:03:32] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:06:03] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:06:03] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:08:34] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:08:34] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:11:05] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:11:05] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:13:36] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:13:36] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:16:07] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:16:07] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:18:38] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:18:38] Host 18:d6:c7:29:8d:0a (robot) renewed 192.168.0.1 for 300 seconds
+[20-Jan-17 14:38:09] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[20-Jan-17 15:38:11] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[20-Jan-17 15:38:11] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[20-Jan-17 16:38:41] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[20-Jan-17 16:38:41] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[20-Jan-17 17:39:12] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[20-Jan-17 17:39:12] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170122.log

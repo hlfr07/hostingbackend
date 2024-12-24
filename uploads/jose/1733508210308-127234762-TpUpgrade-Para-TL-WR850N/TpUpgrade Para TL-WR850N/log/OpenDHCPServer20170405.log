@@ -1,0 +1,131 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[05-Apr-17 00:28:53] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 01:28:56] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 02:28:58] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 03:29:00] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 04:29:02] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 05:29:04] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 06:29:06] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 07:29:08] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 08:29:10] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 08:39:12] DHCPREQUEST from Host 00:50:56:c0:00:08 (jiangji) without Discover, NAKed
+[05-Apr-17 09:29:13] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 10:04:46] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:04:46] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:04:46] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:04:46] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:04:46] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:04:46] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:04:47] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.0.3
+[05-Apr-17 10:04:47] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.202.20
+[05-Apr-17 10:04:47] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.10.10
+[05-Apr-17 10:04:47] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.100.66
+[05-Apr-17 10:04:47] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.2.20
+[05-Apr-17 10:10:12] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
+[05-Apr-17 10:12:21] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:21] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:21] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:21] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:21] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:21] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:25] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:25] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:25] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:25] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:25] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:25] DHCPREQUEST from Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) without Discover, NAKed
+[05-Apr-17 10:12:26] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.0.3
+[05-Apr-17 10:12:26] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.202.20
+[05-Apr-17 10:12:26] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.10.10
+[05-Apr-17 10:12:26] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.100.66
+[05-Apr-17 10:12:26] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.2.20
+[05-Apr-17 10:12:26] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) allotted 192.168.1.12 for 300 seconds
+[05-Apr-17 10:12:30] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) allotted 192.168.1.12 for 300 seconds
+[05-Apr-17 10:16:49] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) allotted 192.168.1.12 for 300 seconds
+[05-Apr-17 10:16:49] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) allotted 192.168.1.12 for 300 seconds
+[05-Apr-17 10:16:49] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) allotted 192.168.1.12 for 300 seconds
+[05-Apr-17 10:16:49] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) allotted 192.168.1.12 for 300 seconds
+[05-Apr-17 10:16:49] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) allotted 192.168.1.12 for 300 seconds
+[05-Apr-17 10:16:49] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) allotted 192.168.1.12 for 300 seconds
+[05-Apr-17 10:19:14] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:21:39] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:24:04] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:26:29] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:28:53] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:31:18] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:33:43] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:36:07] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:38:32] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:40:58] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:43:24] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:45:49] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:48:13] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:50:37] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:53:04] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:55:29] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 10:57:54] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:00:18] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:02:45] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:05:09] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:07:34] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:09:59] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:10:15] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 11:12:23] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:14:47] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:17:12] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:19:37] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:22:01] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:24:26] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:26:52] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:26:55] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:27:03] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:27:18] Host c4:6a:b7:49:bd:83 (MI2-xiaomishouji) renewed 192.168.1.12 for 300 seconds
+[05-Apr-17 11:31:49] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.0.3
+[05-Apr-17 11:31:49] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.202.20
+[05-Apr-17 11:31:49] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.10.10
+[05-Apr-17 11:31:49] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.100.66
+[05-Apr-17 11:31:49] No Matching DHCP Range for DHCPDISCOVER for c4:6a:b7:49:bd:83 (MI2-xiaomishouji) from interface 192.168.2.20
+[05-Apr-17 12:10:17] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 13:10:19] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 14:10:21] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 15:10:24] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 16:10:26] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 16:37:30] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[05-Apr-17 16:37:30] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[05-Apr-17 16:37:30] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[05-Apr-17 16:37:30] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[05-Apr-17 16:37:30] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.20
+[05-Apr-17 16:37:31] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[05-Apr-17 16:40:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[05-Apr-17 16:40:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[05-Apr-17 16:40:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[05-Apr-17 16:40:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[05-Apr-17 16:40:52] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.20
+[05-Apr-17 16:40:53] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[05-Apr-17 16:41:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[05-Apr-17 16:41:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[05-Apr-17 16:41:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[05-Apr-17 16:41:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[05-Apr-17 16:41:57] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.20
+[05-Apr-17 16:41:57] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[05-Apr-17 16:42:39] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[05-Apr-17 16:42:39] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[05-Apr-17 16:42:39] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[05-Apr-17 16:42:39] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[05-Apr-17 16:42:39] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.20
+[05-Apr-17 16:42:41] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[05-Apr-17 17:10:28] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 17:24:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.0.3
+[05-Apr-17 17:24:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.202.20
+[05-Apr-17 17:24:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.10.10
+[05-Apr-17 17:24:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.100.66
+[05-Apr-17 17:24:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:09:6a (TL-WR840N) from interface 192.168.2.20
+[05-Apr-17 17:24:36] Host 00:0a:eb:13:09:6a (TL-WR840N) allotted 192.168.1.7 for 300 seconds
+[05-Apr-17 18:10:30] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 19:10:32] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 20:10:34] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 21:10:36] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 22:10:38] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[05-Apr-17 23:10:40] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170406.log

@@ -1,0 +1,116 @@
+[27-Mar-17 17:40:18] Open DHCP Server Version 1.64 Windows Build 1041 Starting...
+[27-Mar-17 17:40:18] Logging: Normal
+[27-Mar-17 17:40:18] Warning: No IP Address for DHCP Static Host 00:ff:a4:0e:ef:99 specified
+[27-Mar-17 17:40:18] DHCP Range: 192.168.1.2-192.168.1.254/255.255.255.0
+[27-Mar-17 17:40:18] Server Name: wangyang
+[27-Mar-17 17:40:18] Detecting Static Interfaces..
+[27-Mar-17 17:40:18] Lease Status URL: http://127.0.0.1:6789
+[27-Mar-17 17:40:18] Listening On: 192.168.0.60
+[27-Mar-17 17:40:18] Listening On: 192.168.1.60
+[27-Mar-17 17:40:18] Listening On: 192.168.0.3
+[27-Mar-17 17:40:18] Listening On: 192.168.1.10
+[27-Mar-17 17:40:18] Listening On: 192.168.2.10
+[27-Mar-17 17:40:18] Listening On: 192.168.10.10
+[27-Mar-17 17:40:18] Listening On: 192.168.100.66
+[27-Mar-17 17:40:18] Listening On: 192.168.202.20
+[27-Mar-17 17:40:18] Listening On: 172.29.85.40
+[27-Mar-17 17:40:18] Listening On: 192.168.0.2
+[27-Mar-17 17:40:26] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:40:26] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:40:26] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:40:26] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:40:26] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:40:26] Host 00:0a:eb:13:7b:01 (TL-WR841N) allotted 192.168.1.9 for 300 seconds
+[27-Mar-17 17:42:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:42:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:42:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:42:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:42:36] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:42:38] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:42:38] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:42:38] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:42:38] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:42:38] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:42:38] Host 00:0a:eb:13:7b:01 (TL-WR841N) allotted 192.168.1.9 for 300 seconds
+[27-Mar-17 17:45:08] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 17:49:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:49:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:49:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:49:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:49:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:49:03] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:49:03] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:49:03] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:49:03] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:49:03] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:49:03] Host 00:0a:eb:13:7b:01 (TL-WR841N) allotted 192.168.1.9 for 300 seconds
+[27-Mar-17 17:51:59] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:51:59] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:51:59] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:51:59] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:51:59] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:52:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:52:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:52:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:52:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:52:01] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:52:01] Host 00:0a:eb:13:7b:01 (TL-WR841N) allotted 192.168.1.9 for 300 seconds
+[27-Mar-17 17:52:26] IP Address 192.168.1.9 released by Host 00:0a:eb:13:7b:01 (TL-WR841N)
+[27-Mar-17 17:52:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:52:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:52:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:52:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:52:28] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:52:28] Host 00:0a:eb:13:7b:01 (TL-WR841N) allotted 192.168.1.9 for 300 seconds
+[27-Mar-17 17:53:05] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:53:05] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:53:05] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:53:05] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:53:05] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:53:05] Host 00:0a:eb:13:7b:01 (TL-WR841N) allotted 192.168.1.9 for 300 seconds
+[27-Mar-17 17:53:16] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 17:53:20] IP Address 192.168.1.9 released by Host 00:0a:eb:13:7b:01 (TL-WR841N)
+[27-Mar-17 17:53:45] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.0.3
+[27-Mar-17 17:53:45] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.2.10
+[27-Mar-17 17:53:45] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.202.20
+[27-Mar-17 17:53:45] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.10.10
+[27-Mar-17 17:53:45] No Matching DHCP Range for DHCPDISCOVER for 00:0a:eb:13:7b:01 (TL-WR841N) from interface 192.168.100.66
+[27-Mar-17 17:53:45] Host 00:0a:eb:13:7b:01 (TL-WR841N) allotted 192.168.1.9 for 300 seconds
+[27-Mar-17 17:53:56] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 17:55:54] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[27-Mar-17 17:56:26] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 17:58:56] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:01:26] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:03:56] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:06:26] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:08:56] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:11:26] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:13:56] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:16:26] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:18:57] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:21:27] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:23:57] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:26:27] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:28:57] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:31:27] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:33:49] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[27-Mar-17 18:33:49] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[27-Mar-17 18:33:57] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:36:27] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:38:57] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:41:28] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:43:58] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:46:28] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:48:58] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:51:28] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:53:58] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:55:56] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[27-Mar-17 18:56:28] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 18:58:58] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 19:01:28] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 19:03:59] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 19:06:29] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 19:08:59] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 19:11:29] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 19:13:59] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds
+[27-Mar-17 19:16:29] Host 00:0a:eb:13:7b:01 (TL-WR841N) renewed 192.168.1.9 for 300 seconds

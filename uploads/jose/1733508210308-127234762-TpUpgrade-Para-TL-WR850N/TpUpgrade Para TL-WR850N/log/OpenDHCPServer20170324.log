@@ -1,0 +1,60 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[24-Mar-17 00:52:55] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 01:52:57] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 02:52:59] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 03:53:01] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 04:53:03] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 05:53:05] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 06:53:07] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 07:53:09] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 08:33:03] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[24-Mar-17 08:33:06] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:5f:b1:0a (tplink4861) from interface 172.29.85.40
+[24-Mar-17 08:53:11] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 09:05:30] No Matching DHCP Range for DHCPDISCOVER for 10:fe:ed:01:4a:ba () from interface 172.29.85.40
+[24-Mar-17 09:05:30] No Matching DHCP Range for DHCPDISCOVER for 10:fe:ed:01:4a:ba () from interface 172.29.85.40
+[24-Mar-17 09:05:30] No Matching DHCP Range for DHCPDISCOVER for 10:fe:ed:01:4a:ba () from interface 172.29.85.40
+[24-Mar-17 09:05:30] No Matching DHCP Range for DHCPDISCOVER for 10:fe:ed:01:4a:ba () from interface 172.29.85.40
+[24-Mar-17 09:33:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 09:33:33] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 09:53:13] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 10:33:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 10:33:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 10:53:15] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 11:33:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 11:33:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 11:53:17] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 12:33:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 12:33:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 12:53:19] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 13:33:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 13:33:34] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 13:53:21] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 14:28:21] Network changed, re-detecting Static Interfaces..
+[24-Mar-17 14:28:41] Lease Status URL: http://127.0.0.1:6789
+[24-Mar-17 14:28:41] Listening On: 192.168.0.60
+[24-Mar-17 14:28:41] Listening On: 192.168.1.60
+[24-Mar-17 14:28:41] Listening On: 192.168.0.3
+[24-Mar-17 14:28:41] Listening On: 192.168.1.10
+[24-Mar-17 14:28:41] Listening On: 192.168.2.10
+[24-Mar-17 14:28:41] Listening On: 192.168.10.10
+[24-Mar-17 14:28:41] Listening On: 192.168.100.66
+[24-Mar-17 14:28:41] Listening On: 192.168.202.20
+[24-Mar-17 14:28:41] Listening On: 172.29.85.40
+[24-Mar-17 14:28:41] Listening On: 192.168.0.2
+[24-Mar-17 14:33:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 14:33:35] DHCPREQUEST from Host 94:de:80:5f:b1:0a (tplink4861) without Discover, NAKed
+[24-Mar-17 14:53:23] DHCPREQUEST from Host 94:de:80:56:5a:c1 (tplink32492) without Discover, NAKed
+[24-Mar-17 14:53:51] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[24-Mar-17 14:53:51] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[24-Mar-17 14:53:51] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[24-Mar-17 14:53:51] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[24-Mar-17 14:53:51] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[24-Mar-17 14:53:51] DHCPREQUEST from Host f8:ca:b8:4e:37:89 (proware007-PC) without Discover, NAKed
+[24-Mar-17 14:53:51] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.0.3
+[24-Mar-17 14:53:51] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.2.10
+[24-Mar-17 14:53:51] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.202.20
+[24-Mar-17 14:53:51] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.10.10
+[24-Mar-17 14:53:51] No Matching DHCP Range for DHCPDISCOVER for f8:ca:b8:4e:37:89 (proware007-PC) from interface 192.168.100.66
+[24-Mar-17 14:53:51] Host f8:ca:b8:4e:37:89 (proware007-PC) allotted 192.168.1.6 for 300 seconds
+[24-Mar-17 14:56:22] Host f8:ca:b8:4e:37:89 (proware007-PC) renewed 192.168.1.6 for 300 seconds

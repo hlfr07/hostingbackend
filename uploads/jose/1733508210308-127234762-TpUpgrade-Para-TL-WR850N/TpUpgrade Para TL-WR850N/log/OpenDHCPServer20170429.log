@@ -1,0 +1,12 @@
+Open DHCP Server Version 1.64 Windows Build 1041
+
+[29-Apr-17 13:56:03] Network changed, re-detecting Static Interfaces..
+[29-Apr-17 13:56:23] Lease Status URL: http://127.0.0.1:6789
+[29-Apr-17 13:56:23] Listening On: 192.168.0.3
+[29-Apr-17 13:56:23] Listening On: 192.168.1.10
+[29-Apr-17 13:56:23] Listening On: 192.168.2.20
+[29-Apr-17 13:56:23] Listening On: 192.168.8.10
+[29-Apr-17 13:56:23] Listening On: 192.168.10.10
+[29-Apr-17 13:56:23] Listening On: 192.168.100.66
+[29-Apr-17 13:56:23] Listening On: 192.168.202.20
+Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170430.log
