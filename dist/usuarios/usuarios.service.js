@@ -124,6 +124,32 @@ let UsuariosService = class UsuariosService {
         await this.dokerService.updatePasswordmysql(updatePasswordDto);
         await this.dokerService.updatePasswordpsql(updatePasswordDto);
         await this.dokerService.updateHtpasswd(createUsuarioDto.usuario, createUsuarioDto.usuario, createUsuarioDto.password);
+        const updateConfigDto = {
+            "config": {
+                "ingress": [
+                    {
+                        "service": "http://localhost:1000",
+                        "hostname": `${createUsuarioDto.usuario}.theinnovatesoft.xyz`,
+                        "originRequest": {}
+                    },
+                    {
+                        "service": "http://localhost:80",
+                        "hostname": `bd_${createUsuarioDto.usuario}.theinnovatesoft.xyz`,
+                        "originRequest": {}
+                    },
+                    {
+                        "service": "http_status:404"
+                    }
+                ],
+                "warp-routing": {
+                    "enabled": false
+                }
+            }
+        };
+        await this.tunelsService.updateConfig(tunel.tunnelId, updateConfigDto);
+        const token = await this.tunelsService.getToken(tunel.tunnelId);
+        await this.dokerService.startserviceCloudflare(createUsuarioDto.usuario, token);
+        await this.dokerService.startShellInABox(createUsuarioDto.usuario);
         return nuevoUsuario;
     }
     findAll() {

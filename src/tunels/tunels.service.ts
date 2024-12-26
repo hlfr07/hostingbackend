@@ -373,5 +373,28 @@ export class TunelsService {
     const existingDnsRecords = await this.getDns();
     return existingDnsRecords.find((record: any) => record.name.split('.')[0] === hostname);
   }
+
+  //ahora haremos un metodo para obtener token de autenticacion del tunel
+  async getToken(id: string) {
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID; // Obtener account_id desde las variables de entorno
+    const options = {
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Auth-Email': process.env.CLOUDFLARE_EMAIL, // Obtener el email desde las variables de entorno
+        'X-Auth-Key': process.env.CLOUDFLARE_API_KEY, // Obtener la API key desde las variables de entorno
+      },
+    };
+
+    try {
+      const response = await this.httpService
+        .get(`https://api.cloudflare.com/client/v4/accounts/${accountId}/cfd_tunnel/${id}/token`, options)
+        .toPromise();
+
+      return response.data.result; // Devuelve la respuesta de la API
+    } catch (err) {
+      console.error(err);
+      throw new HttpException('Error al obtener la lista de tuneles', HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+  }
   
 }

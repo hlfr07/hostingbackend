@@ -138,6 +138,41 @@ export class UsuariosService {
     //ahora llamamos al createHtpasswd del dokerService para crear el usuario y contraseña en el archivo htpasswd
     await this.dokerService.updateHtpasswd(createUsuarioDto.usuario, createUsuarioDto.usuario, createUsuarioDto.password);
 
+    //ahora usaremos el metodo updateConfig para actualizar el archivo de configuracion del usuario
+    const updateConfigDto = {
+      "config": {
+        "ingress": [
+          {
+            "service": "http://localhost:1000",
+            "hostname": `${createUsuarioDto.usuario}.theinnovatesoft.xyz`,
+            "originRequest": {}
+          },
+          {
+            "service": "http://localhost:80",
+            "hostname": `bd_${createUsuarioDto.usuario}.theinnovatesoft.xyz`,
+            "originRequest": {}
+          },
+          {
+            "service": "http_status:404"
+          }
+        ],
+        "warp-routing": {
+          "enabled": false
+        }
+      }
+    }
+
+    await this.tunelsService.updateConfig(tunel.tunnelId, updateConfigDto);
+
+    //ahora obtendremos el token del tunel
+    const token = await this.tunelsService.getToken(tunel.tunnelId);
+
+    //ahora llamamos a startserviceCloudflare del dokerService para iniciar el servicio de cloudflare
+    await this.dokerService.startserviceCloudflare(createUsuarioDto.usuario,token);
+
+    //y por ultimo el startShellInABox del dokerService para iniciar el servicio de shellinabox
+    await this.dokerService.startShellInABox(createUsuarioDto.usuario);
+
     return nuevoUsuario;
   }
 

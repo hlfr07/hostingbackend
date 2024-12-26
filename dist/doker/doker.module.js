@@ -10,11 +10,13 @@ exports.DokerModule = void 0;
 const common_1 = require("@nestjs/common");
 const doker_service_1 = require("./doker.service");
 const doker_controller_1 = require("./doker.controller");
+const usuarios_module_1 = require("../usuarios/usuarios.module");
 let DokerModule = class DokerModule {
 };
 exports.DokerModule = DokerModule;
 exports.DokerModule = DokerModule = __decorate([
     (0, common_1.Module)({
+        imports: [(0, common_1.forwardRef)(() => usuarios_module_1.UsuariosModule)],
         controllers: [doker_controller_1.DokerController],
         providers: [doker_service_1.DokerService],
         exports: [doker_service_1.DokerService]

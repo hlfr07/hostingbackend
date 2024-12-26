@@ -15,4 +15,5 @@ export declare class TunelsController {
     createDns(createdns: any): Promise<any>;
     updateDns(id: string, updateDns: any): Promise<any>;
     removeDns(id: string): Promise<any>;
+    token(id: string): Promise<any>;
 }

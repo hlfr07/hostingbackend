@@ -16,4 +16,5 @@ export declare class TunelsService {
     updateDns(id: string, updatedns: any): Promise<any>;
     deleteDns(id: string): Promise<any>;
     findDnsRecordByHostname(hostname: string): Promise<any>;
+    getToken(id: string): Promise<any>;
 }

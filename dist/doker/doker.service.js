@@ -18,7 +18,7 @@ let DokerService = class DokerService {
     }
     async createContainer(username) {
         const containerName = `${username}`;
-        const imageName = 'hector_image_original:v1.3';
+        const imageName = 'mouse07estable:v1.0';
         try {
             const container = await this.docker.createContainer({
                 Image: imageName,
@@ -48,7 +48,7 @@ let DokerService = class DokerService {
             });
             const execStream = await exec.start();
             const timeoutPromise = new Promise((resolve) => {
-                setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 5000);
+                setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 50000);
             });
             const result = await Promise.race([this.streamToString(execStream), timeoutPromise]);
             if (result.includes('ERR') || result.includes('error') || result.includes('failed')) {
@@ -140,9 +140,9 @@ let DokerService = class DokerService {
                 'sh',
                 '-c',
                 `
-        unzip -q "/uploads/${zipName}.zip" -d "/uploads" &&
-        basename "$(unzip -Z -1 "/uploads/${zipName}.zip" | head -n 1)" &&
-        rm -f "/uploads/${zipName}.zip"
+        unzip -q "/uploads/${zipName}" -d "/uploads" &&
+        basename "$(unzip -Z -1 "/uploads/${zipName}" | head -n 1)" &&
+        rm -f "/uploads/${zipName}"
         `,
             ];
             const exec = await container.exec({
@@ -151,11 +151,12 @@ let DokerService = class DokerService {
                 AttachStderr: true,
             });
             const execStream = await exec.start();
-            const output = await this.streamToString(execStream);
-            if (!output.trim()) {
+            const rawOutput = await this.streamToBuffer(execStream);
+            const output = rawOutput.toString('utf-8').replace(/[^\x20-\x7E]/g, '').trim();
+            if (!output) {
                 throw new Error('La extracción no generó ningún resultado. Verifica el archivo ZIP.');
             }
-            return output.trim();
+            return output;
         }
         catch (error) {
             throw new Error(`Error al extraer el ZIP en el contenedor ${containerName}: ${error.message}`);
@@ -408,6 +409,37 @@ let DokerService = class DokerService {
         catch (error) {
             throw new Error(`Error al detener el proceso de ShellInABox: ${error.message}`);
         }
+    }
+    async listFolder(containerName) {
+        try {
+            const container = this.docker.getContainer(containerName);
+            const listCmd = ['sh', '-c', 'ls -1 /uploads'];
+            const exec = await container.exec({
+                Cmd: listCmd,
+                AttachStdout: true,
+                AttachStderr: true,
+            });
+            const execStream = await exec.start();
+            const rawOutput = await this.streamToBuffer(execStream);
+            let output = rawOutput.toString('utf-8');
+            output = output.replace(/[^\x20-\x7E\n]/g, '');
+            const folders = output
+                .split('\n')
+                .map((line) => line.trim())
+                .filter((line) => line.length > 0);
+            return folders;
+        }
+        catch (error) {
+            throw new Error(`Error listando las carpetas en /uploads: ${error.message}`);
+        }
+    }
+    async streamToBuffer(stream) {
+        return new Promise((resolve, reject) => {
+            const chunks = [];
+            stream.on('data', (chunk) => chunks.push(chunk));
+            stream.on('end', () => resolve(Buffer.concat(chunks)));
+            stream.on('error', (err) => reject(err));
+        });
     }
 };
 exports.DokerService = DokerService;

@@ -19,7 +19,7 @@ export class DokerService {
 
   async createContainer(username: string): Promise<string> {
     const containerName = `${username}`; // Nombre único basado en el usuario
-    const imageName = 'hector_image_original:v1.3'; // Nombre de la imagen que creamos previamente
+    const imageName = 'mouse07estable:v1.0'; // Nombre de la imagen que creamos previamente
 
     try {
       const container = await this.docker.createContainer({
@@ -61,7 +61,7 @@ export class DokerService {
 
       // Creamos un promise de timeout (5 segundos) que permitirá devolver la respuesta inmediatamente
       const timeoutPromise = new Promise<string>((resolve) => {
-        setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 5000);
+        setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 50000);
       });
 
       // Usamos Promise.race para lanzar el comando o el timeout
@@ -218,37 +218,40 @@ export class DokerService {
   }
 
   //ahora haremos todo lo relacionado con zip_projects
-  async extraerzip(zipName: string, containerName): Promise<string> {
+  async extraerzip(zipName: string, containerName: string): Promise<string> {
     try {
       const container = this.docker.getContainer(containerName);
-
-      // Comando para extraer el archivo ZIP
+  
+      // Comando para extraer el archivo ZIP y obtener el nombre de la carpeta
       const extractCmd = [
         'sh',
         '-c',
         `
-        unzip -q "/uploads/${zipName}.zip" -d "/uploads" &&
-        basename "$(unzip -Z -1 "/uploads/${zipName}.zip" | head -n 1)" &&
-        rm -f "/uploads/${zipName}.zip"
+        unzip -q "/uploads/${zipName}" -d "/uploads" &&
+        basename "$(unzip -Z -1 "/uploads/${zipName}" | head -n 1)" &&
+        rm -f "/uploads/${zipName}"
         `,
       ];
-
+  
       // Ejecutar el comando en el contenedor
       const exec = await container.exec({
         Cmd: extractCmd,
         AttachStdout: true,
         AttachStderr: true,
       });
-
+  
       const execStream = await exec.start();
-      const output = await this.streamToString(execStream);
-
+      const rawOutput = await this.streamToBuffer(execStream);
+  
+      // Convertir el stream a texto y limpiar caracteres no deseados
+      const output = rawOutput.toString('utf-8').replace(/[^\x20-\x7E]/g, '').trim();
+  
       // Validar salida
-      if (!output.trim()) {
+      if (!output) {
         throw new Error('La extracción no generó ningún resultado. Verifica el archivo ZIP.');
       }
-
-      return output.trim();
+  
+      return output;
     } catch (error) {
       throw new Error(
         `Error al extraer el ZIP en el contenedor ${containerName}: ${error.message}`,
@@ -615,5 +618,52 @@ export class DokerService {
     }
   }
 
+  //ahora crearemos un metodo que nos devolvera en un array la lista de carpetas dentro de uploads
+  async listFolder(containerName: string): Promise<string[]> {
+    try {
+      // Obtener el contenedor por su nombre
+      const container = this.docker.getContainer(containerName);
+  
+      // Comando para listar las carpetas en /uploads
+      const listCmd = ['sh', '-c', 'ls -1 /uploads'];
+  
+      // Ejecutar el comando en el contenedor
+      const exec = await container.exec({
+        Cmd: listCmd,
+        AttachStdout: true,
+        AttachStderr: true,
+      });
+  
+      const execStream = await exec.start();
+  
+      // Convertir el stream a texto
+      const rawOutput = await this.streamToBuffer(execStream);
+      let output = rawOutput.toString('utf-8');
+  
+      // Eliminar caracteres no imprimibles
+      output = output.replace(/[^\x20-\x7E\n]/g, '');
+  
+      // Filtrar y formatear la salida
+      const folders = output
+        .split('\n') // Dividir por líneas
+        .map((line) => line.trim()) // Remover espacios innecesarios
+        .filter((line) => line.length > 0); // Eliminar líneas vacías
+  
+      return folders;
+    } catch (error) {
+      throw new Error(`Error listando las carpetas en /uploads: ${error.message}`);
+    }
+  }
+
+
+// Método auxiliar para convertir el stream a un buffer
+private async streamToBuffer(stream: NodeJS.ReadableStream): Promise<Buffer> {
+  return new Promise((resolve, reject) => {
+    const chunks: Buffer[] = [];
+    stream.on('data', (chunk) => chunks.push(chunk));
+    stream.on('end', () => resolve(Buffer.concat(chunks)));
+    stream.on('error', (err) => reject(err));
+  });
+}
 
 }

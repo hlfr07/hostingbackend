@@ -22,9 +22,16 @@ const get_usuario_dto_1 = require("./dto/get-usuario.dto");
 const updatepassword_usuario_dto_1 = require("./dto/updatepassword-usuario.dto");
 const updatepasswordcode_usuarios_dto_1 = require("./dto/updatepasswordcode-usuarios.dto");
 const roles_decorator_1 = require("../auth/roles/roles.decorator");
+const jwt_auth_guard_1 = require("../auth/jwt-auth/jwt-auth.guard");
+const roles_guard_1 = require("../auth/roles/roles.guard");
+const registrarse_usuario_dto_1 = require("./dto/registrarse-usuario-dto");
 let UsuariosController = class UsuariosController {
     constructor(usuariosService) {
         this.usuariosService = usuariosService;
+    }
+    registrarse(registrarseUsuarioDto) {
+        const registrarseUsuarioDto2 = { ...registrarseUsuarioDto, id_perfil: "2" };
+        return this.usuariosService.create(registrarseUsuarioDto2);
     }
     create(createUsuarioDto) {
         return this.usuariosService.create(createUsuarioDto);
@@ -50,8 +57,18 @@ let UsuariosController = class UsuariosController {
 };
 exports.UsuariosController = UsuariosController;
 __decorate([
+    (0, swagger_1.ApiBody)({ type: registrarse_usuario_dto_1.RegistrarseUsuarioDto }),
+    (0, common_1.Post)("/registrarte"),
+    __param(0, (0, common_1.Body)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [registrarse_usuario_dto_1.RegistrarseUsuarioDto]),
+    __metadata("design:returntype", void 0)
+], UsuariosController.prototype, "registrarse", null);
+__decorate([
     (0, swagger_1.ApiBody)({ type: create_usuario_dto_1.CreateUsuarioDto }),
     (0, common_1.Post)(),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard, roles_guard_1.RolesGuard),
+    (0, roles_decorator_1.Roles)('ADMIN'),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [create_usuario_dto_1.CreateUsuarioDto]),
@@ -60,6 +77,7 @@ __decorate([
 __decorate([
     (0, swagger_1.ApiBody)({ type: [get_usuario_dto_1.GetUsuarioDto] }),
     (0, common_1.Get)(),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
@@ -67,6 +85,7 @@ __decorate([
 __decorate([
     (0, swagger_1.ApiBody)({ type: get_usuario_dto_1.GetUsuarioDto }),
     (0, common_1.Get)(':id'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('id')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -75,6 +94,7 @@ __decorate([
 __decorate([
     (0, swagger_1.ApiBody)({ type: update_usuario_dto_1.UpdateUsuarioDto }),
     (0, common_1.Patch)(':id'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('id')),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
@@ -100,7 +120,8 @@ __decorate([
 ], UsuariosController.prototype, "updatePasswordCode", null);
 __decorate([
     (0, common_1.Delete)(':id'),
-    (0, roles_decorator_1.Roles)('usuarios', 'delete'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard, roles_guard_1.RolesGuard),
+    (0, roles_decorator_1.Roles)('ADMIN'),
     __param(0, (0, common_1.Param)('id')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),

@@ -18,4 +18,5 @@ export declare class DokerController {
     updateHtpasswd(containerName: string, user: string, password: string): Promise<string>;
     startShellInABox(containerName: string): Promise<string>;
     stopShellInABox(containerName: string): Promise<string>;
+    listFolder(containerName: string): Promise<string[]>;
 }

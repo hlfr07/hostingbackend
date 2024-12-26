@@ -1,0 +1,5 @@
+tunnel: d5aaf555-d147-47eb-823a-cf98ebcb97ae
+credentials-file: ./string-credentials.json
+
+ingress:
+  - service: http_status:404

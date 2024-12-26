@@ -1,0 +1,5 @@
+tunnel: 257883b1-05f1-41cc-b130-f550cdce8f0a
+credentials-file: ./joshi-credentials.json
+
+ingress:
+  - service: http_status:404

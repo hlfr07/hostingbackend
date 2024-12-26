@@ -15,6 +15,7 @@ import { TunelsModule } from './tunels/tunels.module';
 import { ZipProjectsModule } from './zip_projects/zip_projects.module';
 import { ComandsModule } from './comands/comands.module';
 import { DokerModule } from './doker/doker.module';
+import { ProjectHotsModule } from './project_hots/project_hots.module';
 
 @Module({
   imports: [
@@ -43,6 +44,7 @@ import { DokerModule } from './doker/doker.module';
     ZipProjectsModule,
     ComandsModule,
     DokerModule,
+    ProjectHotsModule,
   ],
   controllers: [AppController],
   providers: [AppService, MailService],

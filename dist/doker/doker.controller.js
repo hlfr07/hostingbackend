@@ -17,6 +17,9 @@ const common_1 = require("@nestjs/common");
 const doker_service_1 = require("./doker.service");
 const update_passwordmysql_dto_1 = require("./dto/update-passwordmysql.dto");
 const swagger_1 = require("@nestjs/swagger");
+const jwt_auth_guard_1 = require("../auth/jwt-auth/jwt-auth.guard");
+const roles_guard_1 = require("../auth/roles/roles.guard");
+const roles_decorator_1 = require("../auth/roles/roles.decorator");
 let DokerController = class DokerController {
     constructor(dokerService) {
         this.dokerService = dokerService;
@@ -71,10 +74,15 @@ let DokerController = class DokerController {
     stopShellInABox(containerName) {
         return this.dokerService.stopShellInABox(containerName);
     }
+    listFolder(containerName) {
+        return this.dokerService.listFolder(containerName);
+    }
 };
 exports.DokerController = DokerController;
 __decorate([
     (0, common_1.Post)('/createcontainer/:nombre'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard, roles_guard_1.RolesGuard),
+    (0, roles_decorator_1.Roles)('ADMIN'),
     __param(0, (0, common_1.Param)('nombre')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -82,6 +90,7 @@ __decorate([
 ], DokerController.prototype, "createDoker", null);
 __decorate([
     (0, common_1.Post)('/startcontainer/:nombre'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('nombre')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -89,6 +98,7 @@ __decorate([
 ], DokerController.prototype, "startDoker", null);
 __decorate([
     (0, common_1.Post)('/updatepasswordmysql'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [update_passwordmysql_dto_1.UpdatePasswordmysqlDto]),
@@ -96,6 +106,7 @@ __decorate([
 ], DokerController.prototype, "updatePasswordmysql", null);
 __decorate([
     (0, common_1.Post)('/updatepassworpsql'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [update_passwordmysql_dto_1.UpdatePasswordmysqlDto]),
@@ -103,6 +114,7 @@ __decorate([
 ], DokerController.prototype, "updateUserpsql", null);
 __decorate([
     (0, common_1.Post)('/stopcontainer/:nombre'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('nombre')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -110,6 +122,7 @@ __decorate([
 ], DokerController.prototype, "stopDoker", null);
 __decorate([
     (0, common_1.Post)('/extractzip/:zipName/:containerName'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('zipName')),
     __param(1, (0, common_1.Param)('containerName')),
     __metadata("design:type", Function),
@@ -118,6 +131,7 @@ __decorate([
 ], DokerController.prototype, "extractZip", null);
 __decorate([
     (0, common_1.Post)('/carpetadepencie/:carpeta/:containerName'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('carpeta')),
     __param(1, (0, common_1.Param)('containerName')),
     __metadata("design:type", Function),
@@ -126,6 +140,7 @@ __decorate([
 ], DokerController.prototype, "zipinstalldepencie", null);
 __decorate([
     (0, common_1.Post)('/startcarpeta/:carpeta/:containerName/:comand'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('carpeta')),
     __param(1, (0, common_1.Param)('containerName')),
     __param(2, (0, common_1.Param)('comand')),
@@ -135,6 +150,7 @@ __decorate([
 ], DokerController.prototype, "start", null);
 __decorate([
     (0, common_1.Post)('/stopcarpeta/:containerName/:port'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('containerName')),
     __param(1, (0, common_1.Param)('port')),
     __metadata("design:type", Function),
@@ -143,6 +159,7 @@ __decorate([
 ], DokerController.prototype, "stopZip", null);
 __decorate([
     (0, common_1.Delete)('/deletecarpeta/:carpeta/:containerName'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('carpeta')),
     __param(1, (0, common_1.Param)('containerName')),
     __metadata("design:type", Function),
@@ -151,6 +168,7 @@ __decorate([
 ], DokerController.prototype, "deleteZip", null);
 __decorate([
     (0, common_1.Post)('/startcloudflare/:containerName/:token'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('containerName')),
     __param(1, (0, common_1.Param)('token')),
     __metadata("design:type", Function),
@@ -159,6 +177,7 @@ __decorate([
 ], DokerController.prototype, "startCloudflare", null);
 __decorate([
     (0, common_1.Post)('/stopcloudflare/:containerName'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('containerName')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -166,6 +185,7 @@ __decorate([
 ], DokerController.prototype, "stopCloudflare", null);
 __decorate([
     (0, common_1.Patch)('/updateHtpasswd/:containerName/:user/:password'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('containerName')),
     __param(1, (0, common_1.Param)('user')),
     __param(2, (0, common_1.Param)('password')),
@@ -175,6 +195,7 @@ __decorate([
 ], DokerController.prototype, "updateHtpasswd", null);
 __decorate([
     (0, common_1.Post)('/startShellInABox/:containerName'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('containerName')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -182,11 +203,20 @@ __decorate([
 ], DokerController.prototype, "startShellInABox", null);
 __decorate([
     (0, common_1.Post)('/stopShellInABox/:containerName'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('containerName')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
 ], DokerController.prototype, "stopShellInABox", null);
+__decorate([
+    (0, common_1.Get)('listfolder/:containerName'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
+    __param(0, (0, common_1.Param)('containerName')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
+], DokerController.prototype, "listFolder", null);
 exports.DokerController = DokerController = __decorate([
     (0, swagger_1.ApiTags)('Doker'),
     (0, common_1.Controller)('doker'),

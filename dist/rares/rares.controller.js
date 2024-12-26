@@ -20,6 +20,7 @@ const platform_express_1 = require("@nestjs/platform-express");
 const multer = require("multer");
 const swagger_1 = require("@nestjs/swagger");
 const Docker = require("dockerode");
+const jwt_auth_guard_1 = require("../auth/jwt-auth/jwt-auth.guard");
 let RaresController = class RaresController {
     constructor(raresService) {
         this.raresService = raresService;
@@ -48,7 +49,7 @@ let RaresController = class RaresController {
             await container.putArchive(tarStream, {
                 path: '/uploads',
             });
-            return this.raresService.create(createRareDto, containerPath);
+            return this.raresService.create(createRareDto, filename);
         }
         catch (error) {
             throw new Error(`Error al cargar el archivo al contenedor del usuario ${usuario}: ${error.message}`);
@@ -69,6 +70,7 @@ exports.RaresController = RaresController;
 __decorate([
     (0, swagger_1.ApiBody)({ type: create_rare_dto_1.CreateRareDto }),
     (0, common_1.Post)(),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     (0, common_1.UseInterceptors)((0, platform_express_1.FileInterceptor)('file', {
         storage: multer.memoryStorage(),
         fileFilter: (req, file, cb) => {

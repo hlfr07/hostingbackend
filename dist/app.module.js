@@ -23,6 +23,7 @@ const tunels_module_1 = require("./tunels/tunels.module");
 const zip_projects_module_1 = require("./zip_projects/zip_projects.module");
 const comands_module_1 = require("./comands/comands.module");
 const doker_module_1 = require("./doker/doker.module");
+const project_hots_module_1 = require("./project_hots/project_hots.module");
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -52,6 +53,7 @@ exports.AppModule = AppModule = __decorate([
             zip_projects_module_1.ZipProjectsModule,
             comands_module_1.ComandsModule,
             doker_module_1.DokerModule,
+            project_hots_module_1.ProjectHotsModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService, mail_service_1.MailService],

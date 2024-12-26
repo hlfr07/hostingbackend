@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, UseInterceptors, UploadedFile, Res } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete, UseInterceptors, UploadedFile, Res, UseGuards } from '@nestjs/common';
 import { RaresService } from './rares.service';
 import { CreateRareDto } from './dto/create-rare.dto';
 import { UpdateRareDto } from './dto/update-rare.dto';
@@ -11,6 +11,7 @@ import { cwd } from 'process';
 import { ApiBody } from '@nestjs/swagger';
 import * as Docker from 'dockerode';
 import * as tar from 'tar';
+import { JwtAuthGuard } from 'src/auth/jwt-auth/jwt-auth.guard';
 
 @Controller('rares')
 export class RaresController {
@@ -29,7 +30,7 @@ export class RaresController {
   //     destination: (req, file, cb) => {
   //       // Extrae el nombre desde el cuerpo de la solicitud
   //       const { usuario } = req.body;
-        
+
   //       // Crea la ruta de la carpeta en función del usuario proporcionado
   //       const dirPath = path.join(cwd(), 'uploads', usuario);
 
@@ -59,76 +60,77 @@ export class RaresController {
 
 
   @ApiBody({ type: CreateRareDto })
-@Post()
-@UseInterceptors(FileInterceptor('file', {
-  storage: multer.memoryStorage(), // Usamos memoria temporal en lugar de disco
-  fileFilter: (req, file, cb) => {
-    // Aceptar solo archivos ZIP
-    if (file.mimetype === 'application/zip' || file.originalname.endsWith('.zip')) {
-      cb(null, true);
-    } else {
-      cb(new Error('Solo se permiten archivos ZIP.'), false);
+  @Post()
+  @UseGuards(JwtAuthGuard)
+  @UseInterceptors(FileInterceptor('file', {
+    storage: multer.memoryStorage(), // Usamos memoria temporal en lugar de disco
+    fileFilter: (req, file, cb) => {
+      // Aceptar solo archivos ZIP
+      if (file.mimetype === 'application/zip' || file.originalname.endsWith('.zip')) {
+        cb(null, true);
+      } else {
+        cb(new Error('Solo se permiten archivos ZIP.'), false);
+      }
+    },
+  }))
+  async create(@UploadedFile() file: Express.Multer.File, @Body() createRareDto: CreateRareDto) {
+    const { usuario } = createRareDto;
+
+    try {
+      const container = this.docker.getContainer(usuario);
+
+      // Verificar si el contenedor está en ejecución
+      const containerInfo = await container.inspect();
+      if (!containerInfo.State.Running) {
+        throw new Error(`El contenedor ${usuario} no está en ejecución.`);
+      }
+
+      // Generar un nombre único para el archivo
+      const uniqueSuffix = `${Date.now()}-${Math.round(Math.random() * 1E9)}`;
+      const sanitizedOriginalName = file.originalname.replace(/\s/g, '-').replace(/[^a-zA-Z0-9.-]/g, '');
+      const filename = `${uniqueSuffix}-${sanitizedOriginalName}`;
+
+      // Ruta destino dentro del contenedor
+      const containerPath = `/uploads/${filename}`;
+
+      // Crear el directorio si no existe (en el contenedor)
+      const mkdirCmd = ['mkdir', '-p', '/uploads'];
+      const mkdirExec = await container.exec({
+        Cmd: mkdirCmd,
+        AttachStdout: true,
+        AttachStderr: true,
+      });
+      await mkdirExec.start();
+
+      // Preparar el archivo para ser enviado como un stream al contenedor
+      const tarStream = this.createTarStream(file.buffer, filename);
+
+      // Subir el archivo al contenedor
+      await container.putArchive(tarStream, {
+        path: '/uploads',
+      });
+
+      // Registrar en el servicio o base de datos si es necesario
+      return this.raresService.create(createRareDto, filename);
+    } catch (error) {
+      throw new Error(`Error al cargar el archivo al contenedor del usuario ${usuario}: ${error.message}`);
     }
-  },
-}))
-async create(@UploadedFile() file: Express.Multer.File, @Body() createRareDto: CreateRareDto) {
-  const { usuario } = createRareDto;
-
-  try {
-    const container = this.docker.getContainer(usuario);
-
-    // Verificar si el contenedor está en ejecución
-    const containerInfo = await container.inspect();
-    if (!containerInfo.State.Running) {
-      throw new Error(`El contenedor ${usuario} no está en ejecución.`);
-    }
-
-    // Generar un nombre único para el archivo
-    const uniqueSuffix = `${Date.now()}-${Math.round(Math.random() * 1E9)}`;
-    const sanitizedOriginalName = file.originalname.replace(/\s/g, '-').replace(/[^a-zA-Z0-9.-]/g, '');
-    const filename = `${uniqueSuffix}-${sanitizedOriginalName}`;
-
-    // Ruta destino dentro del contenedor
-    const containerPath = `/uploads/${filename}`;
-
-    // Crear el directorio si no existe (en el contenedor)
-    const mkdirCmd = ['mkdir', '-p', '/uploads'];
-    const mkdirExec = await container.exec({
-      Cmd: mkdirCmd,
-      AttachStdout: true,
-      AttachStderr: true,
-    });
-    await mkdirExec.start();
-
-    // Preparar el archivo para ser enviado como un stream al contenedor
-    const tarStream = this.createTarStream(file.buffer, filename);
-
-    // Subir el archivo al contenedor
-    await container.putArchive(tarStream, {
-      path: '/uploads',
-    });
-
-    // Registrar en el servicio o base de datos si es necesario
-    return this.raresService.create(createRareDto, containerPath);
-  } catch (error) {
-    throw new Error(`Error al cargar el archivo al contenedor del usuario ${usuario}: ${error.message}`);
   }
-}
 
-/**
- * Crea un stream TAR para empaquetar el archivo en memoria.
- */
-private createTarStream(fileBuffer: Buffer, filename: string): tar.Pack {
-  const tar = require('tar-stream');
-  const pack = tar.pack();
+  /**
+   * Crea un stream TAR para empaquetar el archivo en memoria.
+   */
+  private createTarStream(fileBuffer: Buffer, filename: string): tar.Pack {
+    const tar = require('tar-stream');
+    const pack = tar.pack();
 
-  pack.entry({ name: filename }, fileBuffer, (err) => {
-    if (err) throw err;
-    pack.finalize();
-  });
+    pack.entry({ name: filename }, fileBuffer, (err) => {
+      if (err) throw err;
+      pack.finalize();
+    });
 
-  return pack;
-}
+    return pack;
+  }
 
   // @Get('download/:nombre/:filename')
   // downloadFile(@Param('nombre') nombre: string, @Param('filename') filename: string, @Res() res: Response) {

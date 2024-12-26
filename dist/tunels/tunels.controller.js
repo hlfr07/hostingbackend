@@ -17,6 +17,7 @@ const common_1 = require("@nestjs/common");
 const tunels_service_1 = require("./tunels.service");
 const update_tunel_dto_1 = require("./dto/update-tunel.dto");
 const swagger_1 = require("@nestjs/swagger");
+const jwt_auth_guard_1 = require("../auth/jwt-auth/jwt-auth.guard");
 let TunelsController = class TunelsController {
     constructor(tunelsService) {
         this.tunelsService = tunelsService;
@@ -55,10 +56,14 @@ let TunelsController = class TunelsController {
     removeDns(id) {
         return this.tunelsService.deleteDns(id);
     }
+    token(id) {
+        return this.tunelsService.getToken(id);
+    }
 };
 exports.TunelsController = TunelsController;
 __decorate([
     (0, common_1.Post)('/user/:user'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('user')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -66,12 +71,14 @@ __decorate([
 ], TunelsController.prototype, "create", null);
 __decorate([
     (0, common_1.Get)(),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
 ], TunelsController.prototype, "findAll", null);
 __decorate([
-    (0, common_1.Get)('info/:idtunels'),
+    (0, common_1.Get)('/info/:idtunels'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('idtunels')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -79,6 +86,7 @@ __decorate([
 ], TunelsController.prototype, "findOne", null);
 __decorate([
     (0, common_1.Patch)('/updateuser/:idtunels/:userupadte'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('idtunels')),
     __param(1, (0, common_1.Param)('userupadte')),
     __metadata("design:type", Function),
@@ -86,7 +94,8 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], TunelsController.prototype, "update", null);
 __decorate([
-    (0, common_1.Delete)(':idtunels'),
+    (0, common_1.Delete)('/:idtunels'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('idtunels')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -94,6 +103,7 @@ __decorate([
 ], TunelsController.prototype, "remove", null);
 __decorate([
     (0, common_1.Get)('/config/:idtunels'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('idtunels')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
@@ -102,6 +112,7 @@ __decorate([
 __decorate([
     (0, swagger_1.ApiBody)({ type: update_tunel_dto_1.UpdateTunelDto }),
     (0, common_1.Patch)('/config/:idtunels'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('idtunels')),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
@@ -110,12 +121,14 @@ __decorate([
 ], TunelsController.prototype, "updateConfig", null);
 __decorate([
     (0, common_1.Get)('/dns'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
 ], TunelsController.prototype, "dns", null);
 __decorate([
     (0, common_1.Post)('/dns'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
@@ -123,6 +136,7 @@ __decorate([
 ], TunelsController.prototype, "createDns", null);
 __decorate([
     (0, common_1.Patch)('/dns/:id'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('id')),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
@@ -131,11 +145,20 @@ __decorate([
 ], TunelsController.prototype, "updateDns", null);
 __decorate([
     (0, common_1.Delete)('/dns/:id'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
     __param(0, (0, common_1.Param)('id')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
 ], TunelsController.prototype, "removeDns", null);
+__decorate([
+    (0, common_1.Get)('/token/:id'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
+    __param(0, (0, common_1.Param)('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
+], TunelsController.prototype, "token", null);
 exports.TunelsController = TunelsController = __decorate([
     (0, swagger_1.ApiTags)('Tunels'),
     (0, common_1.Controller)('tunels'),

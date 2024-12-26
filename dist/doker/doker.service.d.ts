@@ -9,7 +9,7 @@ export declare class DokerService {
     updatePasswordmysql(UpdatePasswordmysqlDto: UpdatePasswordmysqlDto): Promise<string>;
     updatePasswordpsql(UpdatePasswordpsqlDto: UpdatePasswordpsqlDto): Promise<string>;
     stopDocker(nombre: string): Promise<string>;
-    extraerzip(zipName: string, containerName: any): Promise<string>;
+    extraerzip(zipName: string, containerName: string): Promise<string>;
     zipinstalldepencie(carpeta: string, containerName: string): Promise<string>;
     zipstart(carpeta: string, containerName: string, comando: any): Promise<string>;
     stopZip(containerName: string, port: number): Promise<string>;
@@ -19,4 +19,6 @@ export declare class DokerService {
     updateHtpasswd(containerName: string, user: string, password: string): Promise<string>;
     startShellInABox(containerName: string): Promise<string>;
     stopShellInABox(containerName: string): Promise<string>;
+    listFolder(containerName: string): Promise<string[]>;
+    private streamToBuffer;
 }

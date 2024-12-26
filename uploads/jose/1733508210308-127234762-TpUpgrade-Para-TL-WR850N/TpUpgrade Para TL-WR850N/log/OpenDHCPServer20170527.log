@@ -1,5 +1,0 @@
-Open DHCP Server Version 1.64 Windows Build 1041
-
-[27-May-17 08:32:05] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
-[27-May-17 08:32:35] No Matching DHCP Range for DHCPDISCOVER for 94:de:80:56:5a:c1 (tplink32492) from interface 172.29.85.40
-Logging Continued on file G:\task\option66\charley\TpUpgrade\log\OpenDHCPServer20170528.log
