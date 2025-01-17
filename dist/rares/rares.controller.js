@@ -89,6 +89,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], RaresController.prototype, "create", null);
 exports.RaresController = RaresController = __decorate([
+    (0, swagger_1.ApiTags)('rares'),
     (0, common_1.Controller)('rares'),
     __metadata("design:paramtypes", [rares_service_1.RaresService])
 ], RaresController);

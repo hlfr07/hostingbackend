@@ -23,4 +23,7 @@ export declare class UsuariosController {
     remove(id: string): Promise<{
         message: string;
     }>;
+    updateEtapa(idusuario: string, etapa: string, idproyecto: string): "Los parametros deben ser numericos" | Promise<{
+        message: string;
+    }>;
 }

@@ -1,0 +1,5 @@
+tunnel: 4fed3fcd-0120-46db-a804-455ffd44c5d0
+credentials-file: ./sangama12-credentials.json
+
+ingress:
+  - service: http_status:404

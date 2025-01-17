@@ -1,10 +1,12 @@
-import { Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { CreateDokerDto } from './dto/create-doker.dto';
 import { UpdateDokerDto } from './dto/update-doker.dto';
 import * as Docker from 'dockerode';
 import { UpdatePasswordmysqlDto } from './dto/update-passwordmysql.dto';
 import { UpdateUsermysqlDto } from './dto/update-usermysql.dto';
 import { UpdatePasswordpsqlDto } from './dto/update-passwordpsql.dto';
+import { ComandProjecthostDto } from './dto/comandprojecthost.dto';
+import { t } from 'tar';
 
 @Injectable()
 export class DokerService {
@@ -27,6 +29,11 @@ export class DokerService {
         name: containerName,
         Tty: true, // Habilitar TTY para terminal interactiva
         Cmd: ['bash'], // Iniciar con bash
+        HosConfig: {
+          StorageOpt: {
+            'size': '10G', // Tamaño del disco
+          },
+        },
       });
 
       await container.start(); // Iniciar el contenedor
@@ -221,37 +228,39 @@ export class DokerService {
   async extraerzip(zipName: string, containerName: string): Promise<string> {
     try {
       const container = this.docker.getContainer(containerName);
-  
-      // Comando para extraer el archivo ZIP y obtener el nombre de la carpeta
+
+      // Remover la extensión del archivo ZIP para usarlo como nombre de la carpeta
+      const folderName = zipName.replace(/\.zip$/i, '');
       const extractCmd = [
         'sh',
         '-c',
         `
-        unzip -q "/uploads/${zipName}" -d "/uploads" &&
-        basename "$(unzip -Z -1 "/uploads/${zipName}" | head -n 1)" &&
-        rm -f "/uploads/${zipName}"
-        `,
+      mkdir -p "/uploads/${folderName}" &&
+      unzip -q "/uploads/${zipName}" -d "/uploads/${folderName}" &&
+      basename "$(unzip -Z -1 "/uploads/${zipName}" | head -n 1)" &&
+      rm -f "/uploads/${zipName}"
+      `,
       ];
-  
+
       // Ejecutar el comando en el contenedor
       const exec = await container.exec({
         Cmd: extractCmd,
         AttachStdout: true,
         AttachStderr: true,
       });
-  
+
       const execStream = await exec.start();
       const rawOutput = await this.streamToBuffer(execStream);
-  
+
       // Convertir el stream a texto y limpiar caracteres no deseados
       const output = rawOutput.toString('utf-8').replace(/[^\x20-\x7E]/g, '').trim();
-  
+
       // Validar salida
       if (!output) {
         throw new Error('La extracción no generó ningún resultado. Verifica el archivo ZIP.');
       }
-  
-      return output;
+
+      return `${folderName}/${output}`;
     } catch (error) {
       throw new Error(
         `Error al extraer el ZIP en el contenedor ${containerName}: ${error.message}`,
@@ -260,15 +269,16 @@ export class DokerService {
   }
 
   //ahora haremos todo lo relacionado con zip_projects
-  async zipinstalldepencie(carpeta: string, containerName: string): Promise<string> {
+  async zipinstalldepencie(comandProjecthostDto: ComandProjecthostDto): Promise<{ message: string }> {
+
     try {
-      const container = this.docker.getContainer(containerName);
+      const container = this.docker.getContainer(comandProjecthostDto.containerName);
 
       // Comando para entrar a la carpeta y ejecutar npm install
       const installCmd = [
         'sh',
         '-c',
-        `cd /uploads/'${carpeta}' && npm install`,
+        `cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
       ];
 
       console.log(installCmd);
@@ -283,23 +293,25 @@ export class DokerService {
       const execStream = await exec.start();
       const output = await this.streamToString(execStream);
 
+      console.log(output);
+
       // Verificar salida
-      if (output.includes('ERR') || output.includes('error')) {
-        throw new Error(`Error al instalar dependencias en /uploads/${carpeta}: ${output}`);
+      if (output.includes('ERR') || output.includes('error') || output.includes('not found') || output.includes('npm help')) {
+        throw new Error(`Error al instalar dependencias en /uploads/${comandProjecthostDto.carpeta}: ${output}`);
       }
 
-      return `Dependencias instaladas correctamente en /uploads/${carpeta}. Logs:\n${output}`;
+      return { message: 'Perfil actualizado correctamente' };
     } catch (error) {
       throw new Error(
-        `Error al ejecutar npm install en el contenedor ${containerName}: ${error.message}`,
+        `Error al ejecutar npm install en el contenedor ${comandProjecthostDto.carpeta}: ${error.message}`,
       );
     }
   }
 
-  async zipstart(carpeta: string, containerName: string, comando): Promise<string> {
+  async zipstart(comandProjecthostDto: ComandProjecthostDto): Promise<{ message: string }> {
     try {
       // Obtener el contenedor por su nombre
-      const container = this.docker.getContainer(containerName);
+      const container = this.docker.getContainer(comandProjecthostDto.containerName);
 
       // Comprobar si el contenedor está detenido, y si es así, iniciarlo
       const containerInfo = await container.inspect();
@@ -310,7 +322,7 @@ export class DokerService {
       const startCmd = [
         'sh',
         '-c',
-        `cd /uploads/'${carpeta}' && ${comando}`,
+        `cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
       ];
 
       // Ejecutar el comando en el contenedor
@@ -333,18 +345,18 @@ export class DokerService {
       const result = await Promise.race([this.streamToString(execStream), timeoutPromise]);
 
       // Si el comando genera errores, lo manejamos
-      if (result.includes('ERR') || result.includes('error') || result.includes('port already in use')) {
-        throw new Error(`Error al ejecutar el comando "${comando}" en /uploads/${carpeta}: ${result}`);
+      if (result.includes('ERR') || result.includes('error') || result.includes('port already in use') || result.includes('not found') || result.includes('npm help')) {
+        throw new Error(`Error al ejecutar el comando "${comandProjecthostDto.comando}" en /uploads/${comandProjecthostDto.carpeta}: ${result}`);
       }
 
       // Devolver el mensaje, si todo salió bien
-      return result;
+      return { message: 'Proyecto iniciado correctamente' };
     } catch (error) {
       throw new Error(`Error iniciando el proyecto: ${error.message}`);
     }
   }
 
-  async stopZip(containerName: string, port: number): Promise<string> {
+  async stopZip(containerName: string, port: number): Promise<{ message: string }> {
     try {
       // Obtener el contenedor por su nombre
       const container = this.docker.getContainer(containerName);
@@ -352,14 +364,14 @@ export class DokerService {
       // Comprobar si el contenedor está detenido
       const containerInfo = await container.inspect();
       if (containerInfo.State.Status !== 'running') {
-        return `El contenedor ${containerName} no está en ejecución.`;
+        throw new HttpException('El contenedor no está en ejecución', HttpStatus.BAD_REQUEST);
       }
 
       // Comando para matar el proceso que usa el puerto
       const killCommand = [
         'sh',
         '-c',
-        `kill -9 $(lsof -t -i:${port})`,
+        `kill $(lsof -t -i:${port} | grep -v $(pgrep cloudflared))`,
       ];
 
       // Ejecutar el comando en el contenedor
@@ -375,16 +387,16 @@ export class DokerService {
 
       // Verificar la salida
       if (output.includes('No such process') || output.includes('not found')) {
-        return `No se encontró ningún proceso ejecutándose en el puerto ${port} dentro del contenedor ${containerName}.`;
+        throw new HttpException('No se encontró ningún proceso en el puerto especificado', HttpStatus.NOT_FOUND);
       }
 
-      return `El proceso que utilizaba el puerto ${port} en el contenedor ${containerName} fue detenido exitosamente.`;
+      return { message: 'Proceso detenido correctamente' };
     } catch (error) {
       throw new Error(`Error al detener el proceso en el puerto ${port} dentro del contenedor ${containerName}: ${error.message}`);
     }
   }
 
-  async deleteFolder(carpeta: string, containerName: string): Promise<string> {
+  async deleteFolder(carpeta: string, containerName: string): Promise<{ message: string }> {
     try {
       // Obtener el contenedor por su nombre
       const container = this.docker.getContainer(containerName);
@@ -411,17 +423,17 @@ export class DokerService {
 
       // Verificar si hubo algún error
       if (output.includes('No such file or directory')) {
-        return `La carpeta "/uploads/${carpeta}" no existe o ya fue eliminada.`;
+        throw new HttpException('La carpeta especificada no existe', HttpStatus.NOT_FOUND);
       }
 
-      return `Carpeta "/uploads/${carpeta}" eliminada correctamente.`;
+      return { message: `Carpeta "/uploads/${carpeta}" eliminada correctamente.` };
     } catch (error) {
       throw new Error(`Error eliminando la carpeta "/uploads/${carpeta}": ${error.message}`);
     }
   }
 
 
-  async startserviceCloudflare(containerName: string, token: string): Promise<string> {
+  async startserviceCloudflare(containerName: string, token: string): Promise<{ message: string }> {
     try {
       // Obtener el contenedor por su nombre
       const container = this.docker.getContainer(containerName);
@@ -465,13 +477,13 @@ export class DokerService {
         throw new Error(`Error al iniciar el servicio Cloudflare: ${commandOutput}`);
       }
 
-      return 'El servicio Cloudflare se está ejecutando correctamente.';
+      return { message: 'Servicio Cloudflare iniciado correctamente.' };
     } catch (error) {
       throw new Error(`Error al iniciar el servicio Cloudflare en el contenedor ${containerName}: ${error.message}`);
     }
   }
 
-  async stopServiceCloudflare(containerName: string): Promise<string> {
+  async stopServiceCloudflare(containerName: string): Promise<{ message: string }> {
     try {
       // Obtener el contenedor por su nombre
       const container = this.docker.getContainer(containerName);
@@ -492,10 +504,10 @@ export class DokerService {
 
       // Verificar si el comando se ejecutó correctamente
       if (output.includes('No such process')) {
-        return 'No se encontró ningún servicio de Cloudflare en ejecución.';
+        throw new HttpException('No se encontró ningún proceso de Cloudflare en ejecución', HttpStatus.NOT_FOUND);
       }
 
-      return 'Servicio de Cloudflare detenido correctamente.';
+      return { message: 'Servicio Cloudflare detenido correctamente.' };
     } catch (error) {
       throw new Error(`Error deteniendo el servicio de Cloudflare: ${error.message}`);
     }
@@ -623,32 +635,32 @@ export class DokerService {
     try {
       // Obtener el contenedor por su nombre
       const container = this.docker.getContainer(containerName);
-  
+
       // Comando para listar las carpetas en /uploads
       const listCmd = ['sh', '-c', 'ls -1 /uploads'];
-  
+
       // Ejecutar el comando en el contenedor
       const exec = await container.exec({
         Cmd: listCmd,
         AttachStdout: true,
         AttachStderr: true,
       });
-  
+
       const execStream = await exec.start();
-  
+
       // Convertir el stream a texto
       const rawOutput = await this.streamToBuffer(execStream);
       let output = rawOutput.toString('utf-8');
-  
+
       // Eliminar caracteres no imprimibles
       output = output.replace(/[^\x20-\x7E\n]/g, '');
-  
+
       // Filtrar y formatear la salida
       const folders = output
         .split('\n') // Dividir por líneas
         .map((line) => line.trim()) // Remover espacios innecesarios
         .filter((line) => line.length > 0); // Eliminar líneas vacías
-  
+
       return folders;
     } catch (error) {
       throw new Error(`Error listando las carpetas en /uploads: ${error.message}`);
@@ -656,14 +668,14 @@ export class DokerService {
   }
 
 
-// Método auxiliar para convertir el stream a un buffer
-private async streamToBuffer(stream: NodeJS.ReadableStream): Promise<Buffer> {
-  return new Promise((resolve, reject) => {
-    const chunks: Buffer[] = [];
-    stream.on('data', (chunk) => chunks.push(chunk));
-    stream.on('end', () => resolve(Buffer.concat(chunks)));
-    stream.on('error', (err) => reject(err));
-  });
-}
+  // Método auxiliar para convertir el stream a un buffer
+  private async streamToBuffer(stream: NodeJS.ReadableStream): Promise<Buffer> {
+    return new Promise((resolve, reject) => {
+      const chunks: Buffer[] = [];
+      stream.on('data', (chunk) => chunks.push(chunk));
+      stream.on('end', () => resolve(Buffer.concat(chunks)));
+      stream.on('error', (err) => reject(err));
+    });
+  }
 
 }

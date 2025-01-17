@@ -5,5 +5,6 @@ export declare class ProjectHot {
     namecarpeta: string;
     url: string;
     port: number;
+    webstatus: boolean;
     estado: boolean;
 }

@@ -168,7 +168,7 @@ export class UsuariosService {
     const token = await this.tunelsService.getToken(tunel.tunnelId);
 
     //ahora llamamos a startserviceCloudflare del dokerService para iniciar el servicio de cloudflare
-    await this.dokerService.startserviceCloudflare(createUsuarioDto.usuario,token);
+    await this.dokerService.startserviceCloudflare(createUsuarioDto.usuario,token.token);
 
     //y por ultimo el startShellInABox del dokerService para iniciar el servicio de shellinabox
     await this.dokerService.startShellInABox(createUsuarioDto.usuario);
@@ -405,5 +405,30 @@ export class UsuariosService {
     });
   }
 
+  async updateEtapa(id: number, etapa: number, id_proyecto: number) {
+    //buscamos el usuario por el id
+    const usuarioEncontrado = await this.usuarioRepository.findOneBy({
+      id: id,
+      estado: true
+    });
+
+    if (!usuarioEncontrado) {
+      throw new HttpException('Usuario no encontrado', HttpStatus.NOT_FOUND);
+    }
+
+    //verificamos que la etapa sea un entero entre 0 y 4 
+    if (etapa < 0 || etapa > 4) {
+      throw new HttpException('Etapa no valida', HttpStatus.BAD_REQUEST);
+    }
+
+    //actualizamos la etapa del usuario
+    await this.usuarioRepository.update(id, {
+      etapa: etapa,
+      id_proyecto: id_proyecto.toString()
+    });
+
+    return { message: 'Etapa actualizada correctamente' };
+  }
+  
 
 }

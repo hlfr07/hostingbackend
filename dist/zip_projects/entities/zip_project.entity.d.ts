@@ -3,5 +3,6 @@ export declare class ZipProject {
     id: number;
     zip: string;
     usuario: Usuario;
+    etapa: number;
     estado: boolean;
 }

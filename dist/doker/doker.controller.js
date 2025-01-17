@@ -20,6 +20,7 @@ const swagger_1 = require("@nestjs/swagger");
 const jwt_auth_guard_1 = require("../auth/jwt-auth/jwt-auth.guard");
 const roles_guard_1 = require("../auth/roles/roles.guard");
 const roles_decorator_1 = require("../auth/roles/roles.decorator");
+const comandprojecthost_dto_1 = require("./dto/comandprojecthost.dto");
 let DokerController = class DokerController {
     constructor(dokerService) {
         this.dokerService = dokerService;
@@ -43,14 +44,11 @@ let DokerController = class DokerController {
         console.log(zipName, containerName);
         return this.dokerService.extraerzip(zipName, containerName);
     }
-    zipinstalldepencie(carpeta, containerName) {
-        const decodedCarpeta = decodeURIComponent(carpeta);
-        return this.dokerService.zipinstalldepencie(decodedCarpeta, containerName);
+    zipinstalldepencie(comandProjecthostDto) {
+        return this.dokerService.zipinstalldepencie(comandProjecthostDto);
     }
-    start(carpeta, containerName, comand) {
-        const decodedComand = decodeURIComponent(comand);
-        const decodedCarpeta = decodeURIComponent(carpeta);
-        return this.dokerService.zipstart(decodedCarpeta, containerName, decodedComand);
+    start(comandProjecthostDto) {
+        return this.dokerService.zipstart(comandProjecthostDto);
     }
     stopZip(containerName, port) {
         return this.dokerService.stopZip(containerName, port);
@@ -130,22 +128,21 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], DokerController.prototype, "extractZip", null);
 __decorate([
-    (0, common_1.Post)('/carpetadepencie/:carpeta/:containerName'),
+    (0, common_1.Post)('/carpetadepencie'),
+    (0, swagger_1.ApiBody)({ type: comandprojecthost_dto_1.ComandProjecthostDto }),
     (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
-    __param(0, (0, common_1.Param)('carpeta')),
-    __param(1, (0, common_1.Param)('containerName')),
+    __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String]),
+    __metadata("design:paramtypes", [comandprojecthost_dto_1.ComandProjecthostDto]),
     __metadata("design:returntype", void 0)
 ], DokerController.prototype, "zipinstalldepencie", null);
 __decorate([
-    (0, common_1.Post)('/startcarpeta/:carpeta/:containerName/:comand'),
+    (0, common_1.Post)('/startcarpeta'),
+    (0, swagger_1.ApiBody)({ type: comandprojecthost_dto_1.ComandProjecthostDto }),
     (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
-    __param(0, (0, common_1.Param)('carpeta')),
-    __param(1, (0, common_1.Param)('containerName')),
-    __param(2, (0, common_1.Param)('comand')),
+    __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String, String]),
+    __metadata("design:paramtypes", [comandprojecthost_dto_1.ComandProjecthostDto]),
     __metadata("design:returntype", void 0)
 ], DokerController.prototype, "start", null);
 __decorate([

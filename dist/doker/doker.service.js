@@ -25,6 +25,11 @@ let DokerService = class DokerService {
                 name: containerName,
                 Tty: true,
                 Cmd: ['bash'],
+                HosConfig: {
+                    StorageOpt: {
+                        'size': '10G',
+                    },
+                },
             });
             await container.start();
             return `Contenedor ${containerName} creado y en ejecución.`;
@@ -136,14 +141,16 @@ let DokerService = class DokerService {
     async extraerzip(zipName, containerName) {
         try {
             const container = this.docker.getContainer(containerName);
+            const folderName = zipName.replace(/\.zip$/i, '');
             const extractCmd = [
                 'sh',
                 '-c',
                 `
-        unzip -q "/uploads/${zipName}" -d "/uploads" &&
-        basename "$(unzip -Z -1 "/uploads/${zipName}" | head -n 1)" &&
-        rm -f "/uploads/${zipName}"
-        `,
+      mkdir -p "/uploads/${folderName}" &&
+      unzip -q "/uploads/${zipName}" -d "/uploads/${folderName}" &&
+      basename "$(unzip -Z -1 "/uploads/${zipName}" | head -n 1)" &&
+      rm -f "/uploads/${zipName}"
+      `,
             ];
             const exec = await container.exec({
                 Cmd: extractCmd,
@@ -156,19 +163,19 @@ let DokerService = class DokerService {
             if (!output) {
                 throw new Error('La extracción no generó ningún resultado. Verifica el archivo ZIP.');
             }
-            return output;
+            return `${folderName}/${output}`;
         }
         catch (error) {
             throw new Error(`Error al extraer el ZIP en el contenedor ${containerName}: ${error.message}`);
         }
     }
-    async zipinstalldepencie(carpeta, containerName) {
+    async zipinstalldepencie(comandProjecthostDto) {
         try {
-            const container = this.docker.getContainer(containerName);
+            const container = this.docker.getContainer(comandProjecthostDto.containerName);
             const installCmd = [
                 'sh',
                 '-c',
-                `cd /uploads/'${carpeta}' && npm install`,
+                `cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
             ];
             console.log(installCmd);
             const exec = await container.exec({
@@ -178,18 +185,19 @@ let DokerService = class DokerService {
             });
             const execStream = await exec.start();
             const output = await this.streamToString(execStream);
-            if (output.includes('ERR') || output.includes('error')) {
-                throw new Error(`Error al instalar dependencias en /uploads/${carpeta}: ${output}`);
+            console.log(output);
+            if (output.includes('ERR') || output.includes('error') || output.includes('not found') || output.includes('npm help')) {
+                throw new Error(`Error al instalar dependencias en /uploads/${comandProjecthostDto.carpeta}: ${output}`);
             }
-            return `Dependencias instaladas correctamente en /uploads/${carpeta}. Logs:\n${output}`;
+            return { message: 'Perfil actualizado correctamente' };
         }
         catch (error) {
-            throw new Error(`Error al ejecutar npm install en el contenedor ${containerName}: ${error.message}`);
+            throw new Error(`Error al ejecutar npm install en el contenedor ${comandProjecthostDto.carpeta}: ${error.message}`);
         }
     }
-    async zipstart(carpeta, containerName, comando) {
+    async zipstart(comandProjecthostDto) {
         try {
-            const container = this.docker.getContainer(containerName);
+            const container = this.docker.getContainer(comandProjecthostDto.containerName);
             const containerInfo = await container.inspect();
             if (containerInfo.State.Status === 'exited' || containerInfo.State.Status === 'created') {
                 await container.start();
@@ -197,7 +205,7 @@ let DokerService = class DokerService {
             const startCmd = [
                 'sh',
                 '-c',
-                `cd /uploads/'${carpeta}' && ${comando}`,
+                `cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
             ];
             const exec = await container.exec({
                 Cmd: startCmd,
@@ -210,10 +218,10 @@ let DokerService = class DokerService {
                 setTimeout(() => resolve('Proyecto iniciado... (por favor verifica si el puerto está ocupado)'), 10000);
             });
             const result = await Promise.race([this.streamToString(execStream), timeoutPromise]);
-            if (result.includes('ERR') || result.includes('error') || result.includes('port already in use')) {
-                throw new Error(`Error al ejecutar el comando "${comando}" en /uploads/${carpeta}: ${result}`);
+            if (result.includes('ERR') || result.includes('error') || result.includes('port already in use') || result.includes('not found') || result.includes('npm help')) {
+                throw new Error(`Error al ejecutar el comando "${comandProjecthostDto.comando}" en /uploads/${comandProjecthostDto.carpeta}: ${result}`);
             }
-            return result;
+            return { message: 'Proyecto iniciado correctamente' };
         }
         catch (error) {
             throw new Error(`Error iniciando el proyecto: ${error.message}`);
@@ -224,12 +232,12 @@ let DokerService = class DokerService {
             const container = this.docker.getContainer(containerName);
             const containerInfo = await container.inspect();
             if (containerInfo.State.Status !== 'running') {
-                return `El contenedor ${containerName} no está en ejecución.`;
+                throw new common_1.HttpException('El contenedor no está en ejecución', common_1.HttpStatus.BAD_REQUEST);
             }
             const killCommand = [
                 'sh',
                 '-c',
-                `kill -9 $(lsof -t -i:${port})`,
+                `kill $(lsof -t -i:${port} | grep -v $(pgrep cloudflared))`,
             ];
             const exec = await container.exec({
                 Cmd: killCommand,
@@ -240,9 +248,9 @@ let DokerService = class DokerService {
             const execStream = await exec.start();
             const output = await this.streamToString(execStream);
             if (output.includes('No such process') || output.includes('not found')) {
-                return `No se encontró ningún proceso ejecutándose en el puerto ${port} dentro del contenedor ${containerName}.`;
+                throw new common_1.HttpException('No se encontró ningún proceso en el puerto especificado', common_1.HttpStatus.NOT_FOUND);
             }
-            return `El proceso que utilizaba el puerto ${port} en el contenedor ${containerName} fue detenido exitosamente.`;
+            return { message: 'Proceso detenido correctamente' };
         }
         catch (error) {
             throw new Error(`Error al detener el proceso en el puerto ${port} dentro del contenedor ${containerName}: ${error.message}`);
@@ -265,9 +273,9 @@ let DokerService = class DokerService {
             const execStream = await exec.start();
             const output = await this.streamToString(execStream);
             if (output.includes('No such file or directory')) {
-                return `La carpeta "/uploads/${carpeta}" no existe o ya fue eliminada.`;
+                throw new common_1.HttpException('La carpeta especificada no existe', common_1.HttpStatus.NOT_FOUND);
             }
-            return `Carpeta "/uploads/${carpeta}" eliminada correctamente.`;
+            return { message: `Carpeta "/uploads/${carpeta}" eliminada correctamente.` };
         }
         catch (error) {
             throw new Error(`Error eliminando la carpeta "/uploads/${carpeta}": ${error.message}`);
@@ -302,7 +310,7 @@ let DokerService = class DokerService {
             if (commandOutput.includes('ERR') || commandOutput.includes('error')) {
                 throw new Error(`Error al iniciar el servicio Cloudflare: ${commandOutput}`);
             }
-            return 'El servicio Cloudflare se está ejecutando correctamente.';
+            return { message: 'Servicio Cloudflare iniciado correctamente.' };
         }
         catch (error) {
             throw new Error(`Error al iniciar el servicio Cloudflare en el contenedor ${containerName}: ${error.message}`);
@@ -321,9 +329,9 @@ let DokerService = class DokerService {
             const execStream = await exec.start();
             const output = await this.streamToString(execStream);
             if (output.includes('No such process')) {
-                return 'No se encontró ningún servicio de Cloudflare en ejecución.';
+                throw new common_1.HttpException('No se encontró ningún proceso de Cloudflare en ejecución', common_1.HttpStatus.NOT_FOUND);
             }
-            return 'Servicio de Cloudflare detenido correctamente.';
+            return { message: 'Servicio Cloudflare detenido correctamente.' };
         }
         catch (error) {
             throw new Error(`Error deteniendo el servicio de Cloudflare: ${error.message}`);

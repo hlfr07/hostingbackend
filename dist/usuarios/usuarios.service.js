@@ -148,7 +148,7 @@ let UsuariosService = class UsuariosService {
         };
         await this.tunelsService.updateConfig(tunel.tunnelId, updateConfigDto);
         const token = await this.tunelsService.getToken(tunel.tunnelId);
-        await this.dokerService.startserviceCloudflare(createUsuarioDto.usuario, token);
+        await this.dokerService.startserviceCloudflare(createUsuarioDto.usuario, token.token);
         await this.dokerService.startShellInABox(createUsuarioDto.usuario);
         return nuevoUsuario;
     }
@@ -319,6 +319,23 @@ let UsuariosService = class UsuariosService {
             },
             select: ["id", "usuario", "nombre", "email", "password"]
         });
+    }
+    async updateEtapa(id, etapa, id_proyecto) {
+        const usuarioEncontrado = await this.usuarioRepository.findOneBy({
+            id: id,
+            estado: true
+        });
+        if (!usuarioEncontrado) {
+            throw new common_1.HttpException('Usuario no encontrado', common_1.HttpStatus.NOT_FOUND);
+        }
+        if (etapa < 0 || etapa > 4) {
+            throw new common_1.HttpException('Etapa no valida', common_1.HttpStatus.BAD_REQUEST);
+        }
+        await this.usuarioRepository.update(id, {
+            etapa: etapa,
+            id_proyecto: id_proyecto.toString()
+        });
+        return { message: 'Etapa actualizada correctamente' };
     }
 };
 exports.UsuariosService = UsuariosService;

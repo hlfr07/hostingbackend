@@ -25,4 +25,10 @@ export class Usuario {
     resetCode: string;
     @Column({ type: 'timestamp', nullable: true })
     resetCodeExpiration: Date;
+    //crearemos un campo para etapa
+    @Column({ default: 0 })
+    etapa: number;
+    //crearemos un campo para id de proyecto
+    @Column({ nullable: true })
+    id_proyecto: string;
 }

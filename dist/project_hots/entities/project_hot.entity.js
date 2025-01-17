@@ -25,7 +25,7 @@ __decorate([
     __metadata("design:type", zip_project_entity_1.ZipProject)
 ], ProjectHot.prototype, "zipProject", void 0);
 __decorate([
-    (0, typeorm_1.Column)(),
+    (0, typeorm_1.Column)({ type: 'text' }),
     __metadata("design:type", String)
 ], ProjectHot.prototype, "namecarpeta", void 0);
 __decorate([
@@ -36,6 +36,10 @@ __decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", Number)
 ], ProjectHot.prototype, "port", void 0);
+__decorate([
+    (0, typeorm_1.Column)({ default: false }),
+    __metadata("design:type", Boolean)
+], ProjectHot.prototype, "webstatus", void 0);
 __decorate([
     (0, typeorm_1.Column)({ default: true }),
     __metadata("design:type", Boolean)

@@ -6,19 +6,22 @@ export class ProjectHot {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @ManyToOne(() => ZipProject, (zipProject) => zipProject.id,{eager: true})
+    @ManyToOne(() => ZipProject, (zipProject) => zipProject.id, { eager: true })
     @JoinColumn({ name: "zip_id" })
     zipProject: ZipProject;
-    
-    @Column()
+
+    @Column({ type: 'text' })
     namecarpeta: string;
-    
+
     @Column()
     url: string;
-    
+
     @Column()
     port: number;
-    
+
+    @Column({ default: false })
+    webstatus: boolean;
+
     @Column({ default: true })
     estado: boolean;
 }

@@ -54,6 +54,12 @@ let UsuariosController = class UsuariosController {
     remove(id) {
         return this.usuariosService.remove(+id);
     }
+    updateEtapa(idusuario, etapa, idproyecto) {
+        if (isNaN(+idusuario) || isNaN(+etapa) || isNaN(+idproyecto)) {
+            return "Los parametros deben ser numericos";
+        }
+        return this.usuariosService.updateEtapa(+idusuario, +etapa, +idproyecto);
+    }
 };
 exports.UsuariosController = UsuariosController;
 __decorate([
@@ -127,6 +133,16 @@ __decorate([
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
 ], UsuariosController.prototype, "remove", null);
+__decorate([
+    (0, common_1.Patch)('/etapas/:idusuario/:etapa/:idproyecto'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
+    __param(0, (0, common_1.Param)('idusuario')),
+    __param(1, (0, common_1.Param)('etapa')),
+    __param(2, (0, common_1.Param)('idproyecto')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String, String, String]),
+    __metadata("design:returntype", void 0)
+], UsuariosController.prototype, "updateEtapa", null);
 exports.UsuariosController = UsuariosController = __decorate([
     (0, swagger_1.ApiTags)('Usuarios'),
     (0, common_1.Controller)('usuarios'),

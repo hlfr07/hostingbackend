@@ -32,6 +32,12 @@ let ProjectHotsController = class ProjectHotsController {
     findOne(id) {
         return this.projectHotsService.findOne(+id);
     }
+    findOneByUser(id, page, limit) {
+        return this.projectHotsService.findOneByUser(+id, +page, +limit);
+    }
+    findOneByZip(id) {
+        return this.projectHotsService.findOneByZipProject(+id);
+    }
     remove(id) {
         return this.projectHotsService.remove(+id);
     }
@@ -63,6 +69,26 @@ __decorate([
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
 ], ProjectHotsController.prototype, "findOne", null);
+__decorate([
+    (0, swagger_1.ApiBody)({ type: get_project_hot_dto_1.GetProjectHotDto }),
+    (0, common_1.Get)('user/:id/:page/:limit'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
+    __param(0, (0, common_1.Param)('id')),
+    __param(1, (0, common_1.Param)('page')),
+    __param(2, (0, common_1.Param)('limit')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String, String, String]),
+    __metadata("design:returntype", void 0)
+], ProjectHotsController.prototype, "findOneByUser", null);
+__decorate([
+    (0, swagger_1.ApiBody)({ type: get_project_hot_dto_1.GetProjectHotDto }),
+    (0, common_1.Get)('zip/:id'),
+    (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),
+    __param(0, (0, common_1.Param)('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
+], ProjectHotsController.prototype, "findOneByZip", null);
 __decorate([
     (0, common_1.Delete)(':id'),
     (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),

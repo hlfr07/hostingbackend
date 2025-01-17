@@ -10,4 +10,6 @@ export declare class Usuario {
     estado: boolean;
     resetCode: string;
     resetCodeExpiration: Date;
+    etapa: number;
+    id_proyecto: string;
 }

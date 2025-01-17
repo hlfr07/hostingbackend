@@ -1,0 +1,5 @@
+tunnel: c894a92b-e58b-4f63-add5-af145a1cd956
+credentials-file: ./miguel07-credentials.json
+
+ingress:
+  - service: http_status:404

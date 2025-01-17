@@ -317,7 +317,10 @@ let TunelsService = class TunelsService {
             const response = await this.httpService
                 .get(`https://api.cloudflare.com/client/v4/accounts/${accountId}/cfd_tunnel/${id}/token`, options)
                 .toPromise();
-            return response.data.result;
+            const data = {
+                token: response.data.result,
+            };
+            return data;
         }
         catch (err) {
             console.error(err);

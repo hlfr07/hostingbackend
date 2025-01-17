@@ -36,57 +36,57 @@ export class ZipProjectsService {
     return `This action removes a #${id} zipProject`;
   }
 
-  async zipProjecTDocker(nombre: string, containerName: string): Promise<string> {
-    try {
-      // Ruta del archivo ZIP en la máquina anfitriona
-      const localZipPath = path.join(process.cwd(), 'uploads', containerName, `${nombre}.zip`);
+  // async zipProjecTDocker(nombre: string, containerName: string): Promise<string> {
+  //   try {
+  //     // Ruta del archivo ZIP en la máquina anfitriona
+  //     const localZipPath = path.join(process.cwd(), 'uploads', containerName, `${nombre}.zip`);
 
-      // Verificar si el archivo existe en el sistema local
-      if (!fs.existsSync(localZipPath)) {
-        throw new Error(`El archivo ${localZipPath} no existe.`);
-      }
+  //     // Verificar si el archivo existe en el sistema local
+  //     if (!fs.existsSync(localZipPath)) {
+  //       throw new Error(`El archivo ${localZipPath} no existe.`);
+  //     }
 
-      // Crear un archivo TAR con el archivo ZIP dentro
-      const tarPath = path.join(process.cwd(), 'uploads', containerName, `${nombre}.tar`);
-      await tar.create(
-        {
-          gzip: false,
-          file: tarPath,
-          cwd: path.dirname(localZipPath), // Directorio base
-        },
-        [path.basename(localZipPath)] // Solo el archivo ZIP
-      );
+  //     // Crear un archivo TAR con el archivo ZIP dentro
+  //     const tarPath = path.join(process.cwd(), 'uploads', containerName, `${nombre}.tar`);
+  //     await tar.create(
+  //       {
+  //         gzip: false,
+  //         file: tarPath,
+  //         cwd: path.dirname(localZipPath), // Directorio base
+  //       },
+  //       [path.basename(localZipPath)] // Solo el archivo ZIP
+  //     );
 
-      // Obtener el contenedor Docker
-      const container = this.docker.getContainer(containerName);
+  //     // Obtener el contenedor Docker
+  //     const container = this.docker.getContainer(containerName);
 
-      // Verificar si el contenedor está en ejecución
-      const containerInfo = await container.inspect();
-      if (!containerInfo.State.Running) {
-        throw new Error(`El contenedor ${containerName} no está en ejecución.`);
-      }
+  //     // Verificar si el contenedor está en ejecución
+  //     const containerInfo = await container.inspect();
+  //     if (!containerInfo.State.Running) {
+  //       throw new Error(`El contenedor ${containerName} no está en ejecución.`);
+  //     }
 
-      // Ruta destino dentro del contenedor
-      const containerDir = '/uploads';
+  //     // Ruta destino dentro del contenedor
+  //     const containerDir = '/uploads';
 
-      // Crear la carpeta destino si no existe
-      const mkdirExec = await container.exec({
-        Cmd: ['mkdir', '-p', containerDir],
-        AttachStdout: true,
-        AttachStderr: true,
-      });
-      await mkdirExec.start();
+  //     // Crear la carpeta destino si no existe
+  //     const mkdirExec = await container.exec({
+  //       Cmd: ['mkdir', '-p', containerDir],
+  //       AttachStdout: true,
+  //       AttachStderr: true,
+  //     });
+  //     await mkdirExec.start();
 
-      // Copiar el archivo TAR al contenedor
-      const tarStream = fs.createReadStream(tarPath);
-      await container.putArchive(tarStream, { path: containerDir });
+  //     // Copiar el archivo TAR al contenedor
+  //     const tarStream = fs.createReadStream(tarPath);
+  //     await container.putArchive(tarStream, { path: containerDir });
 
-      // Limpiar el archivo TAR generado
-      fs.unlinkSync(tarPath);
+  //     // Limpiar el archivo TAR generado
+  //     fs.unlinkSync(tarPath);
 
-      return `El archivo ${nombre} se copió correctamente al contenedor ${containerName} en ${containerDir}.`;
-    } catch (error) {
-      throw new Error(`Error al copiar el archivo ZIP: ${error.message}`);
-    }
-  }
+  //     return `El archivo ${nombre} se copió correctamente al contenedor ${containerName} en ${containerDir}.`;
+  //   } catch (error) {
+  //     throw new Error(`Error al copiar el archivo ZIP: ${error.message}`);
+  //   }
+  // }
 }

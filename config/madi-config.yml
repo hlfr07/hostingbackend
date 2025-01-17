@@ -1,0 +1,5 @@
+tunnel: 2d904c93-eaa7-4cfa-97e1-3f9aa9ab5c6d
+credentials-file: ./madi-credentials.json
+
+ingress:
+  - service: http_status:404

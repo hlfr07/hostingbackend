@@ -20,6 +20,7 @@ const typeorm_2 = require("typeorm");
 const zip_project_entity_1 = require("../zip_projects/entities/zip_project.entity");
 const doker_service_1 = require("../doker/doker.service");
 const tunels_service_1 = require("../tunels/tunels.service");
+const axios_1 = require("axios");
 let ProjectHotsService = class ProjectHotsService {
     constructor(projecthotRepository, zipprojectRepository, dokerService, serviceTunnel) {
         this.projecthotRepository = projecthotRepository;
@@ -86,6 +87,77 @@ let ProjectHotsService = class ProjectHotsService {
         }
         return projectHotExist;
     }
+    async findOneByUser(id, page, limit) {
+        const skip = (page - 1) * limit;
+        const [projectHotExist, totalCount] = await this.projecthotRepository.findAndCount({
+            where: {
+                zipProject: {
+                    usuario: {
+                        id: id,
+                    },
+                },
+                estado: true,
+            },
+            take: limit,
+            skip: skip,
+        });
+        if (!projectHotExist || projectHotExist.length === 0) {
+            throw new common_1.HttpException('ProjectHot no encontrado', common_1.HttpStatus.NOT_FOUND);
+        }
+        for (const project of projectHotExist) {
+            const url = project.url;
+            const urlCompleta = `https://${url}`;
+            try {
+                const response = await axios_1.default.get(urlCompleta, { timeout: 5000 });
+                if (response.status >= 200 && response.status < 400) {
+                    project.webstatus = true;
+                }
+                else {
+                    project.webstatus = false;
+                }
+            }
+            catch (error) {
+                project.webstatus = false;
+            }
+        }
+        return {
+            data: projectHotExist,
+            total: totalCount,
+            currentPage: page,
+            totalPages: 12,
+        };
+    }
+    async findOneByZipProject(id) {
+        console.log("entro");
+        const projectHotExist = await this.projecthotRepository.find({
+            where: {
+                zipProject: {
+                    id: id,
+                },
+            },
+        });
+        if (!projectHotExist || projectHotExist.length === 0) {
+            throw new common_1.HttpException('ProjectHot no encontrado', common_1.HttpStatus.NOT_FOUND);
+        }
+        for (const project of projectHotExist) {
+            const url = project.url;
+            const urlCompleta = `https://${url}`;
+            try {
+                const response = await axios_1.default.get(urlCompleta, { timeout: 5000 });
+                if (response.status >= 200 && response.status < 400) {
+                    project.webstatus = true;
+                }
+                else {
+                    project.webstatus = false;
+                }
+            }
+            catch (error) {
+                project.webstatus = false;
+            }
+        }
+        console.log("ua esta");
+        return projectHotExist;
+    }
     async update(id, updateProjectHotDto) {
         return `This action updates a #${id} projectHot`;
     }
@@ -99,6 +171,19 @@ let ProjectHotsService = class ProjectHotsService {
         if (!projectHotExist.estado) {
             throw new common_1.HttpException('ProjectHot no encontrado', common_1.HttpStatus.NOT_FOUND);
         }
+        await this.dokerService.deleteFolder(projectHotExist.namecarpeta, projectHotExist.zipProject.usuario.usuario);
+        const tunel = await this.serviceTunnel.getConfig(projectHotExist.zipProject.usuario.id_tunel);
+        const ingress = tunel.config.ingress;
+        const index = ingress.findIndex((item) => item.hostname === projectHotExist.url);
+        if (index !== -1) {
+            ingress.splice(index, 1);
+        }
+        tunel.config.ingress = ingress;
+        const tunelConfig = {
+            config: tunel.config,
+        };
+        console.log(tunelConfig.config.ingress);
+        await this.serviceTunnel.updateConfig(projectHotExist.zipProject.usuario.id_tunel, tunelConfig);
         await this.projecthotRepository.update(id, { estado: false });
         return { message: 'ProjectHot eliminado correctamente' };
     }

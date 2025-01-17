@@ -31,4 +31,7 @@ export declare class UsuariosService {
         message: string;
     }>;
     buscarParaLogin(usuario: string): Promise<Usuario>;
+    updateEtapa(id: number, etapa: number, id_proyecto: number): Promise<{
+        message: string;
+    }>;
 }

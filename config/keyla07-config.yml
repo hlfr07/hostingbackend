@@ -1,0 +1,5 @@
+tunnel: 0e3e7a39-74a1-4c67-bd17-64cce8d0b7d8
+credentials-file: ./keyla07-credentials.json
+
+ingress:
+  - service: http_status:404

@@ -1,0 +1,5 @@
+tunnel: 7dcaa0dd-820c-4744-a96b-e6b5339b0446
+credentials-file: ./esteban07-credentials.json
+
+ingress:
+  - service: http_status:404

@@ -4,10 +4,11 @@ import { CreateDokerDto } from './dto/create-doker.dto';
 import { UpdateDokerDto } from './dto/update-doker.dto';
 import { UpdatePasswordmysqlDto } from './dto/update-passwordmysql.dto';
 import { UpdateUsermysqlDto } from './dto/update-usermysql.dto';
-import { ApiTags } from '@nestjs/swagger';
+import { ApiBody, ApiTags } from '@nestjs/swagger';
 import { JwtAuthGuard } from 'src/auth/jwt-auth/jwt-auth.guard';
 import { RolesGuard } from '../auth/roles/roles.guard';
 import { Roles } from 'src/auth/roles/roles.decorator';
+import { ComandProjecthostDto } from './dto/comandprojecthost.dto';
 
 @ApiTags('Doker')
 @Controller('doker')
@@ -57,21 +58,18 @@ export class DokerController {
     return this.dokerService.extraerzip(zipName, containerName);
   }
 
-  @Post('/carpetadepencie/:carpeta/:containerName')
+  @Post('/carpetadepencie')
+  @ApiBody({ type: ComandProjecthostDto })
   @UseGuards(JwtAuthGuard)
-  zipinstalldepencie(@Param('carpeta') carpeta: string, @Param('containerName') containerName: string) {
-     // Decodificar el carpeta para manejar correctamente los espacios y caracteres especiales 
-    const decodedCarpeta = decodeURIComponent(carpeta);
-    return this.dokerService.zipinstalldepencie(decodedCarpeta, containerName);
+  zipinstalldepencie(@Body() comandProjecthostDto: ComandProjecthostDto) {
+    return this.dokerService.zipinstalldepencie(comandProjecthostDto);
   }
 
-  @Post('/startcarpeta/:carpeta/:containerName/:comand')
+  @Post('/startcarpeta')
+  @ApiBody({ type: ComandProjecthostDto })
   @UseGuards(JwtAuthGuard)
-  start(@Param('carpeta') carpeta: string, @Param('containerName') containerName: string, @Param('comand') comand: string) {
-    // Decodificar el comando para manejar correctamente los espacios y caracteres especiales
-    const decodedComand = decodeURIComponent(comand);
-    const decodedCarpeta = decodeURIComponent(carpeta);
-    return this.dokerService.zipstart(decodedCarpeta, containerName, decodedComand);
+  start(@Body() comandProjecthostDto: ComandProjecthostDto) {
+    return this.dokerService.zipstart(comandProjecthostDto);
   }
 
   @Post('/stopcarpeta/:containerName/:port')

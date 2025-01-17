@@ -1,0 +1,5 @@
+tunnel: bafb2b26-7adb-44b1-ab50-e703f82ac818
+credentials-file: ./keysy-credentials.json
+
+ingress:
+  - service: http_status:404

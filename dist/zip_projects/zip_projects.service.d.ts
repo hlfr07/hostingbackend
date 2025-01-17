@@ -8,5 +8,4 @@ export declare class ZipProjectsService {
     findOne(id: number): string;
     update(id: number, updateZipProjectDto: UpdateZipProjectDto): string;
     remove(id: number): string;
-    zipProjecTDocker(nombre: string, containerName: string): Promise<string>;
 }

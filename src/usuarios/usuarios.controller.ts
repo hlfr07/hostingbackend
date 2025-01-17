@@ -73,4 +73,14 @@ export class UsuariosController {
     return this.usuariosService.remove(+id);
   }
 
+  @Patch('/etapas/:idusuario/:etapa/:idproyecto')
+  @UseGuards(JwtAuthGuard)
+  updateEtapa(@Param('idusuario') idusuario: string, @Param('etapa') etapa: string, @Param('idproyecto') idproyecto: string) {
+    //vamosa corroborar que los parametros sean numeros
+    if (isNaN(+idusuario) || isNaN(+etapa) || isNaN(+idproyecto)) {
+      return "Los parametros deben ser numericos";
+    }
+    return this.usuariosService.updateEtapa(+idusuario, +etapa, +idproyecto);
+  }
+
 }

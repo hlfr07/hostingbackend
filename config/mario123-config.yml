@@ -1,0 +1,5 @@
+tunnel: b00d3ff6-8e4c-44b8-8139-79864d120c97
+credentials-file: ./mario123-credentials.json
+
+ingress:
+  - service: http_status:404

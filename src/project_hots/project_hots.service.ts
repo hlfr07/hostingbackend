@@ -9,6 +9,7 @@ import { ZipProject } from 'src/zip_projects/entities/zip_project.entity';
 import { ReplOptions } from 'repl';
 import { DokerService } from 'src/doker/doker.service';
 import { TunelsService } from 'src/tunels/tunels.service';
+import axios from 'axios';
 
 @Injectable()
 export class ProjectHotsService {
@@ -106,6 +107,128 @@ export class ProjectHotsService {
     return projectHotExist;
   }
 
+  //ahora un metodo get por id_usuario
+  // async findOneByUser(id: number) {
+  //   const projectHotExist = await this.projecthotRepository.find({
+  //     where: {
+  //       zipProject: {
+  //         usuario: {
+  //           id: id,
+  //         },
+  //       },
+  //     },
+  //   });
+
+  //   if (!projectHotExist || projectHotExist.length === 0) {
+  //     throw new HttpException('ProjectHot no encontrado', HttpStatus.NOT_FOUND);
+  //   }
+
+  //   // Iterar y verificar cada URL
+  //   for (const project of projectHotExist) {
+  //     const url = project.url;
+  //     const urlCompleta = `https://${url}`;
+
+  //     try {
+  //       const response = await axios.get(urlCompleta, { timeout: 5000 }); // Timeout opcional
+  //       // console.log(response);
+  //       if (response.status >= 200 && response.status < 400) {
+  //         project.webstatus = true; // URL accesible
+  //       } else {
+  //         project.webstatus = false; // webstatus no esperado
+  //       }
+  //     } catch (error) {
+  //       project.webstatus = false; // Error en la solicitud
+  //     }
+  //   }
+
+  //   return projectHotExist;
+  // }
+  async findOneByUser(id: number, page: number, limit: number) {
+    // Calcular cuántos registros saltar basándonos en el número de página y el límite
+    const skip = (page - 1) * limit;
+  
+    // Consultar la base de datos con paginación
+    const [projectHotExist, totalCount] = await this.projecthotRepository.findAndCount({
+      where: {
+        zipProject: {
+          usuario: {
+            id: id,
+          },
+        },
+        estado: true,
+      },
+      take: limit, // Cantidad de registros por página
+      skip: skip,  // Saltar registros según la página
+    });
+  
+    if (!projectHotExist || projectHotExist.length === 0) {
+      throw new HttpException('ProjectHot no encontrado', HttpStatus.NOT_FOUND);
+    }
+  
+    // Iterar y verificar cada URL
+    for (const project of projectHotExist) {
+      const url = project.url;
+      const urlCompleta = `https://${url}`;
+  
+      try {
+        const response = await axios.get(urlCompleta, { timeout: 5000 }); // Timeout opcional
+        if (response.status >= 200 && response.status < 400) {
+          project.webstatus = true; // URL accesible
+        } else {
+          project.webstatus = false; // webstatus no esperado
+        }
+      } catch (error) {
+        project.webstatus = false; // Error en la solicitud
+      }
+    }
+  
+    // Retornar los registros junto con información de la paginación
+    return {
+      data: projectHotExist,
+      total: totalCount,
+      currentPage: page,
+      totalPages: 12,
+    };
+  }
+  
+
+  //ahora los mimso que el anterior pero por id de zip_project
+  async findOneByZipProject(id: number) {
+    console.log("entro");
+    const projectHotExist = await this.projecthotRepository.find({
+      where: {
+        zipProject: {
+          id: id,
+        },
+      },
+    });
+
+    if (!projectHotExist || projectHotExist.length === 0) {
+      throw new HttpException('ProjectHot no encontrado', HttpStatus.NOT_FOUND);
+    }
+
+    // Iterar y verificar cada URL
+    for (const project of projectHotExist) {
+      const url = project.url;
+      const urlCompleta = `https://${url}`;
+
+      try {
+        const response = await axios.get(urlCompleta, { timeout: 5000 }); // Timeout opcional
+        // console.log(response);
+        if (response.status >= 200 && response.status < 400) {
+          project.webstatus = true; // URL accesible
+        } else {
+          project.webstatus = false; // webstatus no esperado
+        }
+      } catch (error) {
+        project.webstatus = false; // Error en la solicitud
+      }
+    }
+
+    console.log("ua esta");
+    return projectHotExist;
+  }
+
   async update(id: number, updateProjectHotDto: UpdateProjectHotDto) {
     return `This action updates a #${id} projectHot`;
   }
@@ -122,6 +245,26 @@ export class ProjectHotsService {
     if (!projectHotExist.estado) {
       throw new HttpException('ProjectHot no encontrado', HttpStatus.NOT_FOUND);
     }
+
+    //llamamos al servicio de doker para eliminar la carpeta
+    await this.dokerService.deleteFolder(projectHotExist.namecarpeta, projectHotExist.zipProject.usuario.usuario);
+
+    //llamamos al servicio de tunel para eliminar la configuracion
+    const tunel = await this.serviceTunnel.getConfig(projectHotExist.zipProject.usuario.id_tunel);
+    const ingress = tunel.config.ingress;
+    const index = ingress.findIndex((item) => item.hostname === projectHotExist.url);
+    if (index !== -1) {
+      ingress.splice(index, 1);
+    }
+    tunel.config.ingress = ingress;
+    const tunelConfig = {
+      config: tunel.config,
+    };
+
+    console.log(tunelConfig.config.ingress);
+    await this.serviceTunnel.updateConfig(projectHotExist.zipProject.usuario.id_tunel, tunelConfig);
+
+    //actualizamos el estado del projectHot
 
     await this.projecthotRepository.update(id, { estado: false });
 

@@ -389,8 +389,11 @@ export class TunelsService {
       const response = await this.httpService
         .get(`https://api.cloudflare.com/client/v4/accounts/${accountId}/cfd_tunnel/${id}/token`, options)
         .toPromise();
+        const data = {
+          token: response.data.result,
+        }
 
-      return response.data.result; // Devuelve la respuesta de la API
+      return data; // Devuelve la respuesta de la API
     } catch (err) {
       console.error(err);
       throw new HttpException('Error al obtener la lista de tuneles', HttpStatus.INTERNAL_SERVER_ERROR);

@@ -8,11 +8,11 @@ import * as path from 'path';
 import * as fs from 'fs';
 import { Response } from 'express';
 import { cwd } from 'process';
-import { ApiBody } from '@nestjs/swagger';
+import { ApiBody, ApiTags } from '@nestjs/swagger';
 import * as Docker from 'dockerode';
 import * as tar from 'tar';
 import { JwtAuthGuard } from 'src/auth/jwt-auth/jwt-auth.guard';
-
+@ApiTags('rares')
 @Controller('rares')
 export class RaresController {
 

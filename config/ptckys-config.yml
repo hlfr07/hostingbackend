@@ -1,0 +1,5 @@
+tunnel: 19c12d3b-3247-411b-bb4c-10c778356d28
+credentials-file: ./ptckys-credentials.json
+
+ingress:
+  - service: http_status:404

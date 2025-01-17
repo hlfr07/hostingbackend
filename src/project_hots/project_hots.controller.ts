@@ -32,6 +32,20 @@ export class ProjectHotsController {
     return this.projectHotsService.findOne(+id);
   }
 
+  @ApiBody({ type: GetProjectHotDto })
+  @Get('user/:id/:page/:limit')
+  @UseGuards(JwtAuthGuard)
+  findOneByUser(@Param('id') id: string, @Param('page') page: string, @Param('limit') limit: string) {
+    return this.projectHotsService.findOneByUser(+id, +page, +limit);
+  }
+
+  @ApiBody({ type: GetProjectHotDto })
+  @Get('zip/:id')
+  @UseGuards(JwtAuthGuard)
+  findOneByZip(@Param('id') id: string) {
+    return this.projectHotsService.findOneByZipProject(+id);
+  }
+
   // @Patch(':id')
   // update(@Param('id') id: string, @Body() updateProjectHotDto: UpdateProjectHotDto) {
   //   return this.projectHotsService.update(+id, updateProjectHotDto);

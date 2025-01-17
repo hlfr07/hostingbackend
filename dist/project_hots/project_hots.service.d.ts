@@ -14,6 +14,13 @@ export declare class ProjectHotsService {
     create(createProjectHotDto: CreateProjectHotDto): Promise<ProjectHot>;
     findAll(): Promise<ProjectHot[]>;
     findOne(id: number): Promise<ProjectHot>;
+    findOneByUser(id: number, page: number, limit: number): Promise<{
+        data: ProjectHot[];
+        total: number;
+        currentPage: number;
+        totalPages: number;
+    }>;
+    findOneByZipProject(id: number): Promise<ProjectHot[]>;
     update(id: number, updateProjectHotDto: UpdateProjectHotDto): Promise<string>;
     remove(id: number): Promise<{
         message: string;
