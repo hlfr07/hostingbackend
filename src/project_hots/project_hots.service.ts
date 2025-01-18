@@ -187,7 +187,7 @@ export class ProjectHotsService {
       data: projectHotExist,
       total: totalCount,
       currentPage: page,
-      totalPages: 12,
+      totalPages: Math.ceil(totalCount / limit),
     };
   }
   

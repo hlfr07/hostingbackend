@@ -173,9 +173,9 @@ let DokerService = class DokerService {
         try {
             const container = this.docker.getContainer(comandProjecthostDto.containerName);
             const installCmd = [
-                'sh',
+                'bash',
                 '-c',
-                `cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
+                `source /root/.nvm/nvm.sh && cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
             ];
             console.log(installCmd);
             const exec = await container.exec({
@@ -203,10 +203,11 @@ let DokerService = class DokerService {
                 await container.start();
             }
             const startCmd = [
-                'sh',
+                'bash',
                 '-c',
-                `cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
+                `source /root/.nvm/nvm.sh && cd /uploads/${comandProjecthostDto.carpeta} && ${comandProjecthostDto.comando}`,
             ];
+            console.log(startCmd);
             const exec = await container.exec({
                 Cmd: startCmd,
                 AttachStdout: true,

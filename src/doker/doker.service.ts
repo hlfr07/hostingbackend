@@ -276,9 +276,9 @@ export class DokerService {
 
       // Comando para entrar a la carpeta y ejecutar npm install
       const installCmd = [
-        'sh',
+        'bash',  // Usamos bash porque necesitamos ejecutar source
         '-c',
-        `cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
+        `source /root/.nvm/nvm.sh && cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
       ];
 
       console.log(installCmd);
@@ -320,10 +320,12 @@ export class DokerService {
       }
 
       const startCmd = [
-        'sh',
+        'bash',
         '-c',
-        `cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
+        `source /root/.nvm/nvm.sh && cd /uploads/${comandProjecthostDto.carpeta} && ${comandProjecthostDto.comando}`,
       ];
+
+      console.log(startCmd);
 
       // Ejecutar el comando en el contenedor
       const exec = await container.exec({
