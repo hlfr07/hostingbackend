@@ -1,0 +1,5 @@
+tunnel: 363d90fd-1b2f-4206-9e85-efd9513c444f
+credentials-file: ./image-credentials.json
+
+ingress:
+  - service: http_status:404

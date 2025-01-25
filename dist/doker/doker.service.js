@@ -18,7 +18,7 @@ let DokerService = class DokerService {
     }
     async createContainer(username) {
         const containerName = `${username}`;
-        const imageName = 'mouse07estable:v1.0';
+        const imageName = 'hostingimage:v1.0';
         try {
             const container = await this.docker.createContainer({
                 Image: imageName,
@@ -53,7 +53,7 @@ let DokerService = class DokerService {
             });
             const execStream = await exec.start();
             const timeoutPromise = new Promise((resolve) => {
-                setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 50000);
+                setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 20000);
             });
             const result = await Promise.race([this.streamToString(execStream), timeoutPromise]);
             if (result.includes('ERR') || result.includes('error') || result.includes('failed')) {

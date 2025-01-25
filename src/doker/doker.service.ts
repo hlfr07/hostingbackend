@@ -21,7 +21,7 @@ export class DokerService {
 
   async createContainer(username: string): Promise<string> {
     const containerName = `${username}`; // Nombre único basado en el usuario
-    const imageName = 'mouse07estable:v1.0'; // Nombre de la imagen que creamos previamente
+    const imageName = 'hostingimage:v1.0'; // Nombre de la imagen que creamos previamente
 
     try {
       const container = await this.docker.createContainer({
@@ -68,7 +68,7 @@ export class DokerService {
 
       // Creamos un promise de timeout (5 segundos) que permitirá devolver la respuesta inmediatamente
       const timeoutPromise = new Promise<string>((resolve) => {
-        setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 50000);
+        setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 20000);
       });
 
       // Usamos Promise.race para lanzar el comando o el timeout

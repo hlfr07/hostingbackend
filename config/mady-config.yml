@@ -1,0 +1,5 @@
+tunnel: 8c0ea095-2ad9-473a-b1cf-ae909df5c1be
+credentials-file: ./mady-credentials.json
+
+ingress:
+  - service: http_status:404

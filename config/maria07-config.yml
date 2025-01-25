@@ -1,0 +1,5 @@
+tunnel: d05bcc85-94d6-4ecb-afa0-2acc0559aae6
+credentials-file: ./maria07-credentials.json
+
+ingress:
+  - service: http_status:404

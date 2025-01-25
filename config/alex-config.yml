@@ -1,0 +1,5 @@
+tunnel: d9f5c218-9e90-4c51-8300-694f13b504af
+credentials-file: ./alex-credentials.json
+
+ingress:
+  - service: http_status:404
