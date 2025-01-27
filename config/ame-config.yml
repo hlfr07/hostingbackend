@@ -1,0 +1,5 @@
+tunnel: 8dc9c557-e065-4ca8-9c36-9505198cc45c
+credentials-file: ./ame-credentials.json
+
+ingress:
+  - service: http_status:404

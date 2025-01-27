@@ -52,14 +52,46 @@ let DokerService = class DokerService {
                 Tty: true,
             });
             const execStream = await exec.start();
-            const timeoutPromise = new Promise((resolve) => {
-                setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 20000);
-            });
-            const result = await Promise.race([this.streamToString(execStream), timeoutPromise]);
-            if (result.includes('ERR') || result.includes('error') || result.includes('failed')) {
-                throw new Error(`Error al iniciar el contenedor ${nombre}: ${result}`);
+            const checkServicesStatus = async () => {
+                try {
+                    const mysqlStatus = await container.exec({
+                        Cmd: ['service', 'mysql', 'status'],
+                        AttachStdout: true,
+                        AttachStderr: true,
+                        Tty: true,
+                    });
+                    const postgresStatus = await container.exec({
+                        Cmd: ['service', 'postgresql', 'status'],
+                        AttachStdout: true,
+                        AttachStderr: true,
+                        Tty: true,
+                    });
+                    const mysqlStream = await mysqlStatus.start();
+                    const postgresStream = await postgresStatus.start();
+                    const mysqlResult = await this.streamToString(mysqlStream);
+                    const postgresResult = await this.streamToString(postgresStream);
+                    console.log(mysqlResult);
+                    console.log(postgresResult);
+                    if (mysqlResult.includes("is running") && postgresResult.includes("online")) {
+                        return true;
+                    }
+                    return false;
+                }
+                catch (error) {
+                    console.error("Error al verificar el estado de los servicios:", error);
+                    return false;
+                }
+            };
+            let servicesRunning = false;
+            while (!servicesRunning) {
+                servicesRunning = await checkServicesStatus();
+                console.log(servicesRunning);
+                if (!servicesRunning) {
+                    console.log("Esperando a que ambos servicios estén en ejecución...");
+                    await new Promise(resolve => setTimeout(resolve, 5000));
+                }
             }
-            return result;
+            return "Contenedor iniciado correctamente. Los servicios están en ejecución.";
         }
         catch (error) {
             throw new Error(`Error iniciando el contenedor ${nombre}: ${error.message}`);

@@ -44,17 +44,60 @@ export class DokerService {
     }
   }
 
+  // async startDocker(nombre: string): Promise<string> {
+  //   try {
+  //     // Obtener el contenedor por su nombre
+  //     const container = this.docker.getContainer(nombre);
+
+  //     // Comprobar si el contenedor está detenido, y si es así, iniciarlo
+  //     const containerInfo = await container.inspect();
+  //     if (containerInfo.State.Status === 'exited' || containerInfo.State.Status === 'created') {
+  //       await container.start();
+  //     }
+
+  //     // Ejecutar el script /entrypoint.sh dentro del contenedor
+  //     const exec = await container.exec({
+  //       Cmd: ['/bin/bash', '/entrypoint.sh'],
+  //       AttachStdout: true,
+  //       AttachStderr: true,
+  //       Tty: true,
+  //     });
+
+  //     // Iniciar la ejecución del comando
+  //     const execStream = await exec.start();
+
+  //     // Creamos un promise de timeout (5 segundos) que permitirá devolver la respuesta inmediatamente
+  //     const timeoutPromise = new Promise<string>((resolve) => {
+  //       setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 20000);
+  //     });
+
+  //     // Usamos Promise.race para lanzar el comando o el timeout
+  //     const result = await Promise.race([this.streamToString(execStream), timeoutPromise]);
+
+  //     // Verificamos si el resultado contiene algún error conocido
+  //     if (result.includes('ERR') || result.includes('error') || result.includes('failed')) {
+  //       throw new Error(`Error al iniciar el contenedor ${nombre}: ${result}`);
+  //     }
+
+  //     return result; // Retornar el resultado si no hay errores
+  //   } catch (error) {
+  //     throw new Error(`Error iniciando el contenedor ${nombre}: ${error.message}`);
+  //   }
+  // }
+
+  // Método auxiliar para convertir el stream de logs en un string
+  
   async startDocker(nombre: string): Promise<string> {
     try {
       // Obtener el contenedor por su nombre
       const container = this.docker.getContainer(nombre);
-
+  
       // Comprobar si el contenedor está detenido, y si es así, iniciarlo
       const containerInfo = await container.inspect();
       if (containerInfo.State.Status === 'exited' || containerInfo.State.Status === 'created') {
         await container.start();
       }
-
+  
       // Ejecutar el script /entrypoint.sh dentro del contenedor
       const exec = await container.exec({
         Cmd: ['/bin/bash', '/entrypoint.sh'],
@@ -62,30 +105,67 @@ export class DokerService {
         AttachStderr: true,
         Tty: true,
       });
-
+  
       // Iniciar la ejecución del comando
       const execStream = await exec.start();
+  
+      // Función para verificar si ambos servicios están en ejecución
+      const checkServicesStatus = async (): Promise<boolean> => {
+        try {
+          const mysqlStatus = await container.exec({
+            Cmd: ['service', 'mysql', 'status'],
+            AttachStdout: true,
+            AttachStderr: true,
+            Tty: true,
+          });
+          const postgresStatus = await container.exec({
+            Cmd: ['service', 'postgresql', 'status'],
+            AttachStdout: true,
+            AttachStderr: true,
+            Tty: true,
+          });
+  
+          const mysqlStream = await mysqlStatus.start();
+          const postgresStream = await postgresStatus.start();
+  
+          const mysqlResult = await this.streamToString(mysqlStream);
+          const postgresResult = await this.streamToString(postgresStream);
 
-      // Creamos un promise de timeout (5 segundos) que permitirá devolver la respuesta inmediatamente
-      const timeoutPromise = new Promise<string>((resolve) => {
-        setTimeout(() => resolve('Contenedor iniciado correctamente. Los servicios están en ejecución.'), 20000);
-      });
+          console.log(mysqlResult);
 
-      // Usamos Promise.race para lanzar el comando o el timeout
-      const result = await Promise.race([this.streamToString(execStream), timeoutPromise]);
+          console.log(postgresResult)
 
-      // Verificamos si el resultado contiene algún error conocido
-      if (result.includes('ERR') || result.includes('error') || result.includes('failed')) {
-        throw new Error(`Error al iniciar el contenedor ${nombre}: ${result}`);
+          if(mysqlResult.includes("is running") && postgresResult.includes("online")){
+            return true;
+          }
+  
+          // Verificar si ambos servicios están en ejecución
+          return false;
+        } catch (error) {
+          console.error("Error al verificar el estado de los servicios:", error);
+          return false;
+        }
+      };
+  
+      // Esperar a que ambos servicios estén en ejecución
+      let servicesRunning = false;
+      while (!servicesRunning) {
+        servicesRunning = await checkServicesStatus();
+        console.log(servicesRunning);
+        if (!servicesRunning) {
+          console.log("Esperando a que ambos servicios estén en ejecución...");
+          await new Promise(resolve => setTimeout(resolve, 5000));  // Espera 5 segundos antes de volver a comprobar
+        }
       }
-
-      return result; // Retornar el resultado si no hay errores
+  
+      // Si ambos servicios están corriendo, proceder
+      return "Contenedor iniciado correctamente. Los servicios están en ejecución.";
+  
     } catch (error) {
       throw new Error(`Error iniciando el contenedor ${nombre}: ${error.message}`);
     }
   }
 
-  // Método auxiliar para convertir el stream de logs en un string
   private async streamToString(stream: NodeJS.ReadableStream): Promise<string> {
     const chunks: Buffer[] = [];
     return new Promise((resolve, reject) => {
