@@ -70,8 +70,6 @@ let DokerService = class DokerService {
                     const postgresStream = await postgresStatus.start();
                     const mysqlResult = await this.streamToString(mysqlStream);
                     const postgresResult = await this.streamToString(postgresStream);
-                    console.log(mysqlResult);
-                    console.log(postgresResult);
                     if (mysqlResult.includes("is running") && postgresResult.includes("online")) {
                         return true;
                     }
@@ -85,10 +83,9 @@ let DokerService = class DokerService {
             let servicesRunning = false;
             while (!servicesRunning) {
                 servicesRunning = await checkServicesStatus();
-                console.log(servicesRunning);
                 if (!servicesRunning) {
                     console.log("Esperando a que ambos servicios estén en ejecución...");
-                    await new Promise(resolve => setTimeout(resolve, 5000));
+                    await new Promise(resolve => setTimeout(resolve, 2000));
                 }
             }
             return "Contenedor iniciado correctamente. Los servicios están en ejecución.";
@@ -140,7 +137,6 @@ let DokerService = class DokerService {
                 '-c',
                 `PGPASSWORD="Postgresaql@2024*" psql -U postgres -c "ALTER USER \\"${username}\\" WITH PASSWORD '${newPassword}';"`
             ];
-            console.log(updatePasswordCmd);
             const exec = await container.exec({
                 Cmd: updatePasswordCmd,
                 AttachStdout: true,
@@ -209,7 +205,6 @@ let DokerService = class DokerService {
                 '-c',
                 `source /root/.nvm/nvm.sh && cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
             ];
-            console.log(installCmd);
             const exec = await container.exec({
                 Cmd: installCmd,
                 AttachStdout: true,
@@ -217,7 +212,6 @@ let DokerService = class DokerService {
             });
             const execStream = await exec.start();
             const output = await this.streamToString(execStream);
-            console.log(output);
             if (output.includes('ERR') || output.includes('error') || output.includes('not found') || output.includes('npm help')) {
                 throw new Error(`Error al instalar dependencias en /uploads/${comandProjecthostDto.carpeta}: ${output}`);
             }
@@ -239,7 +233,6 @@ let DokerService = class DokerService {
                 '-c',
                 `source /root/.nvm/nvm.sh && cd /uploads/${comandProjecthostDto.carpeta} && ${comandProjecthostDto.comando}`,
             ];
-            console.log(startCmd);
             const exec = await container.exec({
                 Cmd: startCmd,
                 AttachStdout: true,

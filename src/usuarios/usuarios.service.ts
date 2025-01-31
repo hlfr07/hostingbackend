@@ -105,18 +105,6 @@ export class UsuariosService {
       throw new HttpException('Error al crear el tunel', HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    //ahora pasamos a crear el usuario pero con el password encriptado
-    const nuevoUsuario = this.usuarioRepository.create({
-      nombre: createUsuarioDto.nombre,
-      email: createUsuarioDto.email,
-      usuario: createUsuarioDto.usuario,
-      password: await bcryptjs.hash(createUsuarioDto.password, 10),
-      perfil: perfilEncontrado,
-      id_tunel: tunel.tunnelId
-    });
-
-    await this.usuarioRepository.save(nuevoUsuario);
-
     //ahora llamamos al createContainer del dokerService para crear el contenedor del usuario
     await this.dokerService.createContainer(createUsuarioDto.usuario);
 
@@ -172,6 +160,18 @@ export class UsuariosService {
 
     //y por ultimo el startShellInABox del dokerService para iniciar el servicio de shellinabox
     await this.dokerService.startShellInABox(createUsuarioDto.usuario);
+
+    //ahora pasamos a crear el usuario pero con el password encriptado
+    const nuevoUsuario = this.usuarioRepository.create({
+      nombre: createUsuarioDto.nombre,
+      email: createUsuarioDto.email,
+      usuario: createUsuarioDto.usuario,
+      password: await bcryptjs.hash(createUsuarioDto.password, 10),
+      perfil: perfilEncontrado,
+      id_tunel: tunel.tunnelId
+    });
+
+    await this.usuarioRepository.save(nuevoUsuario);
 
     return nuevoUsuario;
   }

@@ -1,0 +1,5 @@
+tunnel: ff6f0f68-87d1-45f6-9099-c0d59a283f89
+credentials-file: ./nes-credentials.json
+
+ingress:
+  - service: http_status:404

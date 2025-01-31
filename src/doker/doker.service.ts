@@ -131,9 +131,9 @@ export class DokerService {
           const mysqlResult = await this.streamToString(mysqlStream);
           const postgresResult = await this.streamToString(postgresStream);
 
-          console.log(mysqlResult);
+          //console.log(mysqlResult);
 
-          console.log(postgresResult)
+          //console.log(postgresResult)
 
           if(mysqlResult.includes("is running") && postgresResult.includes("online")){
             return true;
@@ -151,10 +151,10 @@ export class DokerService {
       let servicesRunning = false;
       while (!servicesRunning) {
         servicesRunning = await checkServicesStatus();
-        console.log(servicesRunning);
+        //console.log(servicesRunning);
         if (!servicesRunning) {
           console.log("Esperando a que ambos servicios estén en ejecución...");
-          await new Promise(resolve => setTimeout(resolve, 5000));  // Espera 5 segundos antes de volver a comprobar
+          await new Promise(resolve => setTimeout(resolve, 2000));  // Espera 5 segundos antes de volver a comprobar
         }
       }
   
@@ -263,7 +263,7 @@ export class DokerService {
         `PGPASSWORD="Postgresaql@2024*" psql -U postgres -c "ALTER USER \\"${username}\\" WITH PASSWORD '${newPassword}';"`
       ]
 
-      console.log(updatePasswordCmd);
+      //console.log(updatePasswordCmd);
       // Ejecutar el comando en el contenedor
       const exec = await container.exec({
         Cmd: updatePasswordCmd,
@@ -361,7 +361,7 @@ export class DokerService {
         `source /root/.nvm/nvm.sh && cd /uploads/'${comandProjecthostDto.carpeta}' && ${comandProjecthostDto.comando}`,
       ];
 
-      console.log(installCmd);
+      //console.log(installCmd);
 
       // Ejecutar el comando en el contenedor
       const exec = await container.exec({
@@ -373,7 +373,7 @@ export class DokerService {
       const execStream = await exec.start();
       const output = await this.streamToString(execStream);
 
-      console.log(output);
+      //console.log(output);
 
       // Verificar salida
       if (output.includes('ERR') || output.includes('error') || output.includes('not found') || output.includes('npm help')) {
@@ -405,7 +405,7 @@ export class DokerService {
         `source /root/.nvm/nvm.sh && cd /uploads/${comandProjecthostDto.carpeta} && ${comandProjecthostDto.comando}`,
       ];
 
-      console.log(startCmd);
+      //console.log(startCmd);
 
       // Ejecutar el comando en el contenedor
       const exec = await container.exec({

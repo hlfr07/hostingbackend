@@ -105,15 +105,6 @@ let UsuariosService = class UsuariosService {
         if (!tunel || tunel === null || tunel === undefined) {
             throw new common_1.HttpException('Error al crear el tunel', common_1.HttpStatus.INTERNAL_SERVER_ERROR);
         }
-        const nuevoUsuario = this.usuarioRepository.create({
-            nombre: createUsuarioDto.nombre,
-            email: createUsuarioDto.email,
-            usuario: createUsuarioDto.usuario,
-            password: await bcryptjs.hash(createUsuarioDto.password, 10),
-            perfil: perfilEncontrado,
-            id_tunel: tunel.tunnelId
-        });
-        await this.usuarioRepository.save(nuevoUsuario);
         await this.dokerService.createContainer(createUsuarioDto.usuario);
         await this.dokerService.startDocker(createUsuarioDto.usuario);
         const updatePasswordDto = {
@@ -150,6 +141,15 @@ let UsuariosService = class UsuariosService {
         const token = await this.tunelsService.getToken(tunel.tunnelId);
         await this.dokerService.startserviceCloudflare(createUsuarioDto.usuario, token.token);
         await this.dokerService.startShellInABox(createUsuarioDto.usuario);
+        const nuevoUsuario = this.usuarioRepository.create({
+            nombre: createUsuarioDto.nombre,
+            email: createUsuarioDto.email,
+            usuario: createUsuarioDto.usuario,
+            password: await bcryptjs.hash(createUsuarioDto.password, 10),
+            perfil: perfilEncontrado,
+            id_tunel: tunel.tunnelId
+        });
+        await this.usuarioRepository.save(nuevoUsuario);
         return nuevoUsuario;
     }
     findAll() {
